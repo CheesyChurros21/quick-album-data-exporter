@@ -1,0 +1,52 @@
+{
+  "albumTitle": "Retro Future Girls",
+  "circleName": "ShibayanRecords",
+  "albumPhoto": "https://en.touhouwiki.net/images/f/fd/STAL-1302.jpg",
+  "subjectiveJordan": 7.5,
+  "subjectiveNick": 7.5,
+  "songAmount": 8,
+  "jordanObjectiveRating": "7.3750",
+  "nickObjectiveRating": "7.9500",
+  "ratings": [
+    {
+      "songNumber": 1,
+      "jordanRating": 7.5,
+      "nickRating": 8.1
+    },
+    {
+      "songNumber": 2,
+      "jordanRating": 9,
+      "nickRating": 10
+    },
+    {
+      "songNumber": 3,
+      "jordanRating": 6.5,
+      "nickRating": 6.4
+    },
+    {
+      "songNumber": 4,
+      "jordanRating": 7,
+      "nickRating": 7.3
+    },
+    {
+      "songNumber": 5,
+      "jordanRating": 6.5,
+      "nickRating": 7.8
+    },
+    {
+      "songNumber": 6,
+      "jordanRating": 7.5,
+      "nickRating": 7.2
+    },
+    {
+      "songNumber": 7,
+      "jordanRating": 9,
+      "nickRating": 9.3
+    },
+    {
+      "songNumber": 8,
+      "jordanRating": 6,
+      "nickRating": 7.5
+    }
+  ]
+}
