@@ -166,7 +166,7 @@
             let nickTotal = 0;
 
             const ratings = [];
-            
+
             if (songAmount > 0) {
                 for (let i = 0; i < jordanRatings.length; i = i + 1) {
                     a = 
@@ -198,6 +198,13 @@
                 };
 
                 document.getElementById("albumDisplay").textContent = JSON.stringify(albumData, null, 2);
+                
+                const blob = new Blob([JSON.stringify(albumData, null, 2)], { type: "application/json" });
+                const link = document.createElement("a");
+                link.href = URL.createObjectURL(blob);
+                link.download = `${albumTitle.replace(/\\s+/g, '_')}.json`;
+                link.click();
+
             } 
         })
     </script>
