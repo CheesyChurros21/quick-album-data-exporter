@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Quick Album Database Inputter
+        </title>
+    </head>
+
+    <body>
+        <form>
+            <label for="albumTitle">Album Title - </label>
+            <input type="text" id="albumTitle" name="albumTitle" >
+            <br>
+
+            <label for="circleName">Circle Name - </label>
+            <input type="text" id="circleName" name="circleName" >
+            <br>
+
+            <label for="albumPhoto">Album Photo - </label>
+            <input type="text" id="albumPhoto" name="albumPhoto" >
+            <br>
+
+            <label for="subjectiveJordan">Subjective Jordan Album Ranking - </label>
+            <input type="number" id="subjectiveJordan" name="subjectiveJordan" min="1" max="20" step="0.5">
+            <br>
+
+            <label for="subjectiveNick">Subjective Nick Album Ranking - </label>
+            <input type="number" id="subjectiveNick" name="subjectiveNick" min="1" max="20" step="0.5">
+            <br>
+
+            <label for="songAmount">Song Amount - </label>
+            <input type="number" id="songAmount" name="songAmount" min="1" max="100" step="any" value="0">
+            <br>
+
+            <div id="ratingContainer"></div>
+            <br>
+        </form>
+
+        <div id="averageDisplay">
+            Jordan's Average: N/A | Nick's Average: N/A
+        </div>
+        <br>
+
+        <div>
+            <button id="submitAlbum" type="button">Submit Album Data</button>
+            <pre id="albumDisplay"></pre>
+        </div>
+    </body>
+
+    <script>
+        const songAmount = document.getElementById("songAmount");
+        const ratingContainer = document.getElementById("ratingContainer");
+
+        let previousAmount = 0;
+
+        songAmount.addEventListener("input", () => {
+            let amount = parseInt(songAmount.value);
+
+            //console.log("previous amount " + previousAmount);
+            //console.log("amount " + amount);
+
+            if (previousAmount > amount) {
+                for (let i = previousAmount-1; i >= amount; i = i - 1) {
+                    ratingContainer.removeChild(ratingContainer.children[i]);
+                }
+            }
+
+            else if (!isNaN(amount) && amount > 0) {
+                for (let i = previousAmount; i < amount; i = i + 1) {
+                    const label = document.createElement("label");
+                    label.textContent = `Rating For Song ${i + 1} - `;
+
+                    const input = document.createElement("input");
+                    input.name = `rating${i + 1}`;
+
+                    if (document.getElementsByName(input.name).length == 0) {
+                        let ratingDiv = document.createElement("div");
+                        ratingDiv.style.display = "flex";
+                        ratingDiv.style.gap = "12px";
+                        // Jordan's rating
+                        const jordanLabel = document.createElement("label");
+                        jordanLabel.textContent = `Jordan Rating For Song ${i + 1} - `;
+                        const jordanInput = document.createElement("input");
+                        jordanInput.type = "number";
+                        jordanInput.name = `jordanRating${i + 1}`;
+                        jordanInput.min = "0";
+                        jordanInput.max = "12";
+                        jordanInput.step = "any";
+
+                        ratingDiv.appendChild(jordanLabel);
+                        ratingDiv.appendChild(jordanInput);
+
+                        // Nick's rating
+                        const nickLabel = document.createElement("label");
+                        nickLabel.textContent = `Nick Rating For Song ${i + 1} - `;
+                        const nickInput = document.createElement("input");
+                        nickInput.type = "number";
+                        nickInput.name = `nickRating${i + 1}`;
+                        nickInput.min = "0";
+                        nickInput.max = "12";
+                        nickInput.step = "any";
+
+                        ratingDiv.appendChild(nickLabel);
+                        ratingDiv.appendChild(nickInput);
+                        ratingDiv.appendChild(document.createElement("br"));
+
+                        ratingContainer.appendChild(ratingDiv);
+                    }
+                }
+            }
+
+            previousAmount = amount;
+
+            //console.log(ratingContainer);
+        })
+
+        function calculateAverage() {
+            const jordanRatings = document.querySelectorAll("input[name^='jordanRating']");
+            const nickRatings = document.querySelectorAll("input[name^='nickRating']");
+
+            let jordanTotal = 0;
+            let nickTotal = 0;
+
+            let songAmount = parseInt(document.getElementById("songAmount").value);
+
+            if (songAmount > 0) {
+                jordanTotal = 0;
+                nickTotal = 0;
+                for (let i = 0; i < jordanRatings.length; i = i + 1) {
+                    jordanTotal = jordanTotal + (parseFloat(jordanRatings[i].value) || 0);
+                    nickTotal = nickTotal + (parseFloat(nickRatings[i].value) || 0);
+                }
+
+                let jordanObjectiveRating = songAmount > 0 ? (jordanTotal / songAmount).toFixed(4) : "N/A";
+                let nickObjectiveRating = songAmount > 0 ? (nickTotal / songAmount).toFixed(4) : "N/A";
+
+                console.log(jordanObjectiveRating);
+                console.log(nickObjectiveRating);
+
+                document.getElementById("averageDisplay").textContent = `Jordan's Average: ${jordanObjectiveRating} | Nick's Average: ${nickObjectiveRating}`;
+            }   
+        }
+
+        
+        document.body.addEventListener("input", (e) => {
+            console.log("here");
+            if (e.target.name?.startsWith("jordanRating") || e.target.name?.startsWith("nickRating")) {
+                calculateAverage();
+            }
+        });
+
+
+        document.getElementById("submitAlbum").addEventListener("click", () => {
+            const albumTitle = document.getElementById("albumTitle").value;    
+            const circleName = document.getElementById("circleName").value;
+            const albumPhoto = document.getElementById("albumPhoto").value;
+            const subjectiveJordan = parseFloat(document.getElementById("subjectiveJordan").value) || 0;
+            const subjectiveNick = parseFloat(document.getElementById("subjectiveNick").value) || 0;
+            const songAmount = parseInt(document.getElementById("songAmount").value);
+
+            const jordanRatings = document.querySelectorAll("input[name^='jordanRating']");
+            const nickRatings = document.querySelectorAll("input[name^='nickRating']");
+
+            let jordanTotal = 0;
+            let nickTotal = 0;
+
+            const ratings = [];
+            
+            if (songAmount > 0) {
+                for (let i = 0; i < jordanRatings.length; i = i + 1) {
+                    a = 
+                    jordanTotal = jordanTotal + (parseFloat(jordanRatings[i].value) || 0);
+                    nickTotal = nickTotal + (parseFloat(nickRatings[i].value) || 0);
+
+                    ratings.push({
+                        songNumber: i + 1,
+                        jordanRating: (parseFloat(jordanRatings[i].value) || 0),
+                        nickRating: (parseFloat(nickRatings[i].value) || 0)
+                    });
+
+                }
+
+                let jordanObjectiveRating = songAmount > 0 ? (jordanTotal / songAmount).toFixed(4) : "N/A";
+                let nickObjectiveRating = songAmount > 0 ? (nickTotal / songAmount).toFixed(4) : "N/A";
+
+
+                const albumData = {
+                    albumTitle,
+                    circleName,
+                    albumPhoto,
+                    subjectiveJordan,
+                    subjectiveNick,
+                    songAmount,
+                    jordanObjectiveRating,
+                    nickObjectiveRating,
+                    ratings
+                };
+
+                document.getElementById("albumDisplay").textContent = JSON.stringify(albumData, null, 2);
+            } 
+        })
+    </script>
+</html>
