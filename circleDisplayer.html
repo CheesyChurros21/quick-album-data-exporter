@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel='stylesheet' href='albumDisplayer.css'>
+
+        <title>
+            Album Displayer
+        </title>
+
+        <header class='websiteTitle'>
+            Album Database Browser
+        </header>
+    </head>
+
+    <body>
+        <div id="albumContainer" class="albumGrid">
+
+        </div>
+        
+    </body>
+
+
+    <script>
+    
+        let circleAlbums = [];
+       
+        let selectedCircle = new URLSearchParams(window.location.search).get("circleDropdown");
+        let albumContainer = document.getElementById("albumContainer");
+
+        fetch('all_albums.json')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            circleAlbums = data.filter(entry => entry.circleName == selectedCircle);
+            console.log(circleAlbums);
+
+            for (let i = 0; i < circleAlbums.length; i = i + 1) {
+                let album = document.createElement("div");
+                album.style.textAlign = "center"; 
+
+                album.innerHTML = `
+                    <img src="${circleAlbums[i].albumPhoto}"<br><br>
+                    <strong>${circleAlbums[i].albumTitle}</strong><br>
+                    Subjective Jordan Rating - ${circleAlbums[i].subjectiveJordan}/10<br>
+                    Subjective Nick Rating - ${circleAlbums[i].subjectiveNick}/10<br><br>
+                    Objective Jordan Rating - ${circleAlbums[i].objectiveJordan}/10<br>
+                    Objective Nick Rating - ${circleAlbums[i].objectiveNick}/10<br><br>
+                    Number Of Songs - ${circleAlbums[i].songAmount}<br>
+                `;
+                
+                albumContainer.appendChild(album);
+
+                let toggleSongRatings = document.createElement("button");
+                toggleSongRatings.textContent = "Show Song Ratings";
+                toggleSongRatings.onclick = () => {
+                    ratingTable.style.display = ratingTable.style.display === "none" ? "block" : "none";
+                }
+
+                album.appendChild(document.createElement("br"));
+                album.appendChild(toggleSongRatings);
+
+                const ratingTable = document.createElement("table");
+                ratingTable.style.display = "none"; // hidden by default
+                
+                ratingTable.style.borderCollapse = "collapse";
+                ratingTable.innerHTML = `
+                <tr>
+                    <th>Song #</th>
+                    <th>Jordan Rating</th>
+                    <th>Nick Rating</th>
+                </tr>
+                `;
+
+                for (let ii = 0; ii < circleAlbums[i].ratings.length; ii = ii + 1) {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                    <td>${circleAlbums[i].ratings[ii].songNumber}</td>
+                    <td>${circleAlbums[i].ratings[ii].jordanRating}</td>
+                    <td>${circleAlbums[i].ratings[ii].nickRating}</td>
+                `;
+                    ratingTable.appendChild(row);
+                }
+
+                album.appendChild(ratingTable);
+            }
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+    </script>
+</html>

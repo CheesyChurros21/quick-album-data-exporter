@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Album Displayer
+        </title>
+    </head>
+
+    <body>
+
+    <head>
+        <link rel='stylesheet' href='website.css'>
+    </head>
+
+    <header class='websiteTitle'>
+        Album Database Browser
+    </header>
+
+
+    <br>
+
+    <main><section class='mediumText center'>
+
+
+    <form action="sortChoice.php" method="post" onsubmit="return checkEmptySearchSortSubmit()">
+        <label for="searchType">Search Type</label>
+
+        <select id="searchType" name="searchType">
+
+            <option value="No Input Detected" style="display: none;">Select An Option</option>
+            <option value="orderNumber">Date Added</option>
+            <option value="circleName">Circle Name</option>
+            <option value="albumTitle">Album Title</option>
+            <option value="songAmount">Song Amount</option>
+            <option value="subjectiveJordan">Jordan Rating (Subjective)</option>
+            <option value="objectiveJordan">Jordan Rating (Objective)</option>
+            <option value="subjectiveNick">Nick Rating (Subjective)</option>
+            <option value="objectiveNick">Nick Rating (Objective)</option>
+
+        </select>
+
+        <br>
+        
+        <label for="sortType"> Sort Type: </label>
+
+        <select id="sortType" name="sortType">
+
+            <option value="No Input Detected" style="display: none;">Select An Option</option>
+            <option value="Ascending Order">Ascending Order</option>
+            <option value="Descending Order">Descending Order</option>
+
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    <br><br><br><br><br><br>
+
+
+    <form action="circleSearch.php" method="post" onsubmit="return checkEmptyCircleSubmit()">
+        <label for="circleSearch">Circle Search</label>
+    
+        <select id="circleSearch" name="circleSearch">
+
+            <option value="No Input Detected" style="display: none;">Select An Option</option>
+
+
+for ($i = 0; $i < count($circleList); $i = $i + 1) {
+    echo('<option value="' . $circleList[$i] . '">' . $circleList[$i] . '</option>');
+}
+
+        </select>
+    
+        <br><br>
+    
+        <input type="submit" value="Submit">
+    
+    </form>
+    <br><br><br><br><br><br>
+
+
+    </section></main>
+
+
+    </body>
+
+
+    <script>
+    
+        let circleNames = [];
+
+        fetch('all_albums.json')
+        .then(response => response.json())
+        .then(data => {
+            circleNames = data.map(entry => entry.circleName);
+            circleNames.sort((a, b) => a.localeCompare(b, "en", {"sensitivity" : "base"}))
+            console.log(circleNames);
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+
+
+        function checkEmptySearchSortSubmit() {
+            if (document.getElementById("searchType").value == "No Input Detected" && document.getElementById("sortType").value == "No Input Detected") {
+                alert("No Option Submitted For Both Search Type and Sort Type. \nMake Sure to Select An Option.")
+                return false
+            }
+
+            else if (document.getElementById("searchType").value == "No Input Detected") {
+                alert("No Option Submitted For Search Type. \nMake Sure to Select An Option.")
+                return false
+            }
+
+            else if (document.getElementById("sortType").value == "No Input Detected") {
+                alert("No Option Submitted For Sort Type. \nMake Sure to Select An Option.")
+                return false
+            }
+        }
+
+        function checkEmptyCircleSubmit() {
+            if (document.getElementById("circleSearch").value == "No Input Detected") {
+                alert("No Option Submitted For Circle Search. \nMake Sure to Select An Option.")
+                return false
+            }
+        }
+    </script>
+</html>

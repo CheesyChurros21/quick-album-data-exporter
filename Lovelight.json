@@ -1,0 +1,67 @@
+{
+  "albumTitle": "Lovelight",
+  "circleName": "Alstroemeria Records",
+  "albumPhoto": "https://en.touhouwiki.net/images/c/c7/ARCD0018.jpg",
+  "subjectiveJordan": 2,
+  "subjectiveNick": 5,
+  "songAmount": 11,
+  "objectiveJordan": "1.7273",
+  "objectiveNick": "1.5909",
+  "ratings": [
+    {
+      "songNumber": 1,
+      "jordanRating": 4,
+      "nickRating": 5.5
+    },
+    {
+      "songNumber": 2,
+      "jordanRating": 12,
+      "nickRating": 9
+    },
+    {
+      "songNumber": 3,
+      "jordanRating": 3,
+      "nickRating": 3
+    },
+    {
+      "songNumber": 4,
+      "jordanRating": 0,
+      "nickRating": 0
+    },
+    {
+      "songNumber": 5,
+      "jordanRating": 0,
+      "nickRating": 0
+    },
+    {
+      "songNumber": 6,
+      "jordanRating": 0,
+      "nickRating": 0
+    },
+    {
+      "songNumber": 7,
+      "jordanRating": 0,
+      "nickRating": 0
+    },
+    {
+      "songNumber": 8,
+      "jordanRating": 0,
+      "nickRating": 0
+    },
+    {
+      "songNumber": 9,
+      "jordanRating": 0,
+      "nickRating": 0
+    },
+    {
+      "songNumber": 10,
+      "jordanRating": 0,
+      "nickRating": 0
+    },
+    {
+      "songNumber": 11,
+      "jordanRating": 0,
+      "nickRating": 0
+    }
+  ]
+}
