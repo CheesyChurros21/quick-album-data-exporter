@@ -1,0 +1,100 @@
+header.websiteTitle {
+
+    font-size: 60px;
+    text-align: center;
+
+}
+
+body {
+
+    background-color: blanchedalmond !important;
+}
+
+body * {
+    margin-bottom: 4px;
+}
+
+.mediumText {
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+#bottomRight {
+
+    position:fixed;
+    right:0;
+    bottom:0;
+
+}
+
+th {
+
+    background-color: lightcoral;
+
+}
+
+tr:nth-child(even) {
+
+    background-color:whitesmoke;
+
+}
+
+tr:nth-child(odd) {
+
+    background-color:cornsilk;
+    
+}
+
+
+td {
+
+    text-align: center;
+    border-color: lemonchiffon;
+    border-width: 3px;
+    padding: 12px;
+
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border: 4px solid darkorange;
+}
+
+
+table tr > * {
+    width: 1%; /* Let browser divide space equally */
+}
+
+
+.albumGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 24px;
+}
+
+.albumGrid div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.albumGrid > div img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
