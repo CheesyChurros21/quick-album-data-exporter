@@ -2,6 +2,7 @@
   "albumTitle": "Radical Destruction",
   "circleName": "Amateras Records",
   "albumPhoto": "https://en.touhouwiki.net/images/3/38/AMRC-0015.jpg",
+  "dateCompleted": "2021-01-24T18:03",
   "subjectiveJordan": 8,
   "subjectiveNick": 8.5,
   "songAmount": 10,
@@ -10,51 +11,61 @@
   "ratings": [
     {
       "songNumber": 1,
+      "songName": "Fighter Girl",
       "jordanRating": 8,
       "nickRating": 8.5
     },
     {
       "songNumber": 2,
+      "songName": "Secret Melody",
       "jordanRating": 7,
       "nickRating": 7.8
     },
     {
       "songNumber": 3,
+      "songName": "Luv For U",
       "jordanRating": 8.5,
       "nickRating": 8
     },
     {
       "songNumber": 4,
+      "songName": "Soft Weather",
       "jordanRating": 6.5,
       "nickRating": 7
     },
     {
       "songNumber": 5,
+      "songName": "Tear Rain",
       "jordanRating": 9.5,
       "nickRating": 10
     },
     {
       "songNumber": 6,
+      "songName": "Impact Factor",
       "jordanRating": 7,
       "nickRating": 7.5
     },
     {
       "songNumber": 7,
+      "songName": "Knowledge Chronicle",
       "jordanRating": 7.5,
       "nickRating": 8.1
     },
     {
       "songNumber": 8,
+      "songName": "Important Lie",
       "jordanRating": 6,
       "nickRating": 8.8
     },
     {
       "songNumber": 9,
+      "songName": "Izayoi Heart",
       "jordanRating": 7,
       "nickRating": 7.2
     },
     {
       "songNumber": 10,
+      "songName": "Another Frontier",
       "jordanRating": 7.5,
       "nickRating": 7.6
     }

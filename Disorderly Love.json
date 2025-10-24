@@ -1,0 +1,73 @@
+{
+  "albumTitle": "Disorderly Love",
+  "circleName": "Amateras Records",
+  "albumPhoto": "https://en.touhouwiki.net/images/thumb/2/2b/AMRC-0058.jpg/1200px-AMRC-0058.jpg",
+  "dateCompleted": "2021-03-03T01:40",
+  "subjectiveJordan": 5,
+  "subjectiveNick": 3.7,
+  "songAmount": 10,
+  "objectiveJordan": "5.9700",
+  "objectiveNick": "5.5500",
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "Lost Time",
+      "jordanRating": 4,
+      "nickRating": 5
+    },
+    {
+      "songNumber": 2,
+      "songName": "Never Call My Name",
+      "jordanRating": 6,
+      "nickRating": 6.5
+    },
+    {
+      "songNumber": 3,
+      "songName": "Disorderly Love",
+      "jordanRating": 7,
+      "nickRating": 6
+    },
+    {
+      "songNumber": 4,
+      "songName": "Psychopathic Moonlight",
+      "jordanRating": 5,
+      "nickRating": 3.5
+    },
+    {
+      "songNumber": 5,
+      "songName": "Axis",
+      "jordanRating": 7.2,
+      "nickRating": 7.6
+    },
+    {
+      "songNumber": 6,
+      "songName": "Withered Leaves",
+      "jordanRating": 4,
+      "nickRating": 3
+    },
+    {
+      "songNumber": 7,
+      "songName": "Without You",
+      "jordanRating": 5,
+      "nickRating": 4
+    },
+    {
+      "songNumber": 8,
+      "songName": "POISONBODY (Tracy Remix)",
+      "jordanRating": 5,
+      "nickRating": 3.2
+    },
+    {
+      "songNumber": 9,
+      "songName": "Love Connection Epilogue",
+      "jordanRating": 8.5,
+      "nickRating": 8.2
+    },
+    {
+      "songNumber": 10,
+      "songName": "Special Smile [Eurobeat Remix]",
+      "jordanRating": 8,
+      "nickRating": 8.5
+    }
+  ]
+}

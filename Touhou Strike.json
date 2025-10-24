@@ -1,0 +1,85 @@
+{
+  "albumTitle": "Touhou Strike",
+  "circleName": "COOL&CREATE",
+  "albumPhoto": "https://en.touhouwiki.net/images/9/9f/CCCD-0007.jpg",
+  "dateCompleted": "2021-04-30T07:48",
+  "subjectiveJordan": 8.25,
+  "subjectiveNick": 8.54,
+  "songAmount": 12,
+  "objectiveJordan": "8.4010",
+  "objectiveNick": "8.2375",
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "BORDER OF STRIKE!",
+      "jordanRating": 8,
+      "nickRating": 8
+    },
+    {
+      "songNumber": 2,
+      "songName": "Wriggle Buggle",
+      "jordanRating": 8.25,
+      "nickRating": 8.25
+    },
+    {
+      "songNumber": 3,
+      "songName": "Flower Heaven -Flowers of the Sky-",
+      "jordanRating": 8.1875,
+      "nickRating": 8.1
+    },
+    {
+      "songNumber": 4,
+      "songName": "Dash Ensemble",
+      "jordanRating": 8.5,
+      "nickRating": 8.4
+    },
+    {
+      "songNumber": 5,
+      "songName": "LaserMari is Not Difficult!",
+      "jordanRating": 7.5,
+      "nickRating": 7.4
+    },
+    {
+      "songNumber": 6,
+      "songName": "Tohno Youkai Frontline",
+      "jordanRating": 8.125,
+      "nickRating": 8.1
+    },
+    {
+      "songNumber": 7,
+      "songName": "drizzly rain",
+      "jordanRating": 8.5,
+      "nickRating": 8.2
+    },
+    {
+      "songNumber": 8,
+      "songName": "Paradise [C.C.LIVE]",
+      "jordanRating": 9,
+      "nickRating": 8.5
+    },
+    {
+      "songNumber": 9,
+      "songName": "Help me, ERINNNNNN!!",
+      "jordanRating": 9,
+      "nickRating": 8.7
+    },
+    {
+      "songNumber": 10,
+      "songName": "Sakura Sakura -Sakura Sakura-",
+      "jordanRating": 8,
+      "nickRating": 7.8
+    },
+    {
+      "songNumber": 11,
+      "songName": "Last Brutal Sister, Flandre S.",
+      "jordanRating": 9.25,
+      "nickRating": 8.8
+    },
+    {
+      "songNumber": 12,
+      "songName": "There Never was a Dead Princess to Begin With",
+      "jordanRating": 8.5,
+      "nickRating": 8.6
+    }
+  ]
+}

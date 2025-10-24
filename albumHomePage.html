@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel='stylesheet' href='albumDisplayer.css'>
+
+        <title>
+            Album Displayer
+        </title>
+
+        <header class='websiteTitle'>
+            Album Database Browser
+        </header>
+    </head>
+    <br>
+    <br>
+    <br>
+    <body style="text-align: center;">
+
+        <form action="circleDisplayer.html" method="get" onsubmit="return checkEmptyCircleSubmit()">
+            <label for="circleNames">Circle Names - </label>
+            <select id="circleDropdown" name="circleDropdown">
+                <option value="No Input Detected" style="display: none">Select An Option</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
+
+    <script>
+    
+        let circleNames = [];
+        let circleDropdown = document.getElementById("circleDropdown");
+
+        fetch('all_albums.json')
+        .then(response => response.json())
+        .then(data => {
+            circleNames = data.map(entry => entry.circleName);
+            
+            const uniqueMap = new Map();
+            circleNames.forEach(name => {
+                const lower = name.toLowerCase();
+                if (!uniqueMap.has(lower)) {
+                    uniqueMap.set(lower, name);
+                }
+            })
+
+            circleNames = Array.from(uniqueMap.values());
+
+            circleNames.sort((a, b) => a.localeCompare(b, "en", {"sensitivity" : "base"}))
+            console.log(circleNames);
+
+            for (let i = 0; i < circleNames.length; i = i + 1) {
+                let circle = document.createElement("option");
+                circle.value = circleNames[i];
+                circle.textContent = circleNames[i];
+                circleDropdown.appendChild(circle);
+            }
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+
+
+        function checkEmptySearchSortSubmit() {
+            if (document.getElementById("searchType").value == "No Input Detected" && document.getElementById("sortType").value == "No Input Detected") {
+                alert("No Option Submitted For Both Search Type and Sort Type. \nMake Sure to Select An Option.")
+                return false
+            }
+
+            else if (document.getElementById("searchType").value == "No Input Detected") {
+                alert("No Option Submitted For Search Type. \nMake Sure to Select An Option.")
+                return false
+            }
+
+            else if (document.getElementById("sortType").value == "No Input Detected") {
+                alert("No Option Submitted For Sort Type. \nMake Sure to Select An Option.")
+                return false
+            }
+        }
+
+        function checkEmptyCircleSubmit() {
+            if (document.getElementById("circleDropdown").value == "No Input Detected") {
+                alert("No Option Submitted For Circle Search. \nMake Sure to Select An Option.")
+                return false
+            }
+        }
+    </script>
+</html>

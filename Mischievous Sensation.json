@@ -1,0 +1,55 @@
+{
+  "albumTitle": "Mischievous Sensation",
+  "circleName": "ShinRa-Bansho",
+  "albumPhoto": "https://en.touhouwiki.net/images/c/c2/SBCD-0008.jpg",
+  "dateCompleted": "2021-04-28T04:47",
+  "subjectiveJordan": 8.6,
+  "subjectiveNick": 8.7,
+  "songAmount": 7,
+  "objectiveJordan": "8.5179",
+  "objectiveNick": "8.6414",
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "The Song of a Grand Number",
+      "jordanRating": 8.25,
+      "nickRating": 8.3
+    },
+    {
+      "songNumber": 2,
+      "songName": "Titan",
+      "jordanRating": 8.5,
+      "nickRating": 8.45
+    },
+    {
+      "songNumber": 3,
+      "songName": "The Inverted Resistance",
+      "jordanRating": 8.25,
+      "nickRating": 8.6
+    },
+    {
+      "songNumber": 4,
+      "songName": "During a Night of Lapis Lazuli",
+      "jordanRating": 8.25,
+      "nickRating": 8.7
+    },
+    {
+      "songNumber": 5,
+      "songName": "Mischievous Sensation",
+      "jordanRating": 8.625,
+      "nickRating": 8.8
+    },
+    {
+      "songNumber": 6,
+      "songName": "Allahakaki Dance Hal",
+      "jordanRating": 8.75,
+      "nickRating": 8.75
+    },
+    {
+      "songNumber": 7,
+      "songName": "A Story About When I Became a Butterfly",
+      "jordanRating": 9,
+      "nickRating": 8.89
+    }
+  ]
+}

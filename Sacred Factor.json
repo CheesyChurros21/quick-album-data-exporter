@@ -1,0 +1,91 @@
+{
+  "albumTitle": "Sacred Factor",
+  "circleName": "EastNewSound",
+  "albumPhoto": "https://en.touhouwiki.net/images/0/01/ENS-0006.jpg",
+  "dateCompleted": "2021-04-30T06:13",
+  "subjectiveJordan": 8.5938,
+  "subjectiveNick": 8.45,
+  "songAmount": 13,
+  "objectiveJordan": "8.4327",
+  "objectiveNick": "8.4769",
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "song for bird",
+      "jordanRating": 8.25,
+      "nickRating": 8.57
+    },
+    {
+      "songNumber": 2,
+      "songName": "Your Color",
+      "jordanRating": 8.5,
+      "nickRating": 8.3
+    },
+    {
+      "songNumber": 3,
+      "songName": "Lucid Dream",
+      "jordanRating": 9.5,
+      "nickRating": 8.8
+    },
+    {
+      "songNumber": 4,
+      "songName": "mind rain",
+      "jordanRating": 8,
+      "nickRating": 8.1
+    },
+    {
+      "songNumber": 5,
+      "songName": "dark wing complex",
+      "jordanRating": 7.125,
+      "nickRating": 7
+    },
+    {
+      "songNumber": 6,
+      "songName": "booklet choir",
+      "jordanRating": 8.375,
+      "nickRating": 8.4
+    },
+    {
+      "songNumber": 7,
+      "songName": "And So I Go On Along This Route",
+      "jordanRating": 7.75,
+      "nickRating": 8.2
+    },
+    {
+      "songNumber": 8,
+      "songName": "Under a Blue Moon",
+      "jordanRating": 9.25,
+      "nickRating": 7.89
+    },
+    {
+      "songNumber": 9,
+      "songName": "Alegro?",
+      "jordanRating": 8.25,
+      "nickRating": 8.35
+    },
+    {
+      "songNumber": 10,
+      "songName": "Beneath the Scarlet Moon, The Crazed Blossoms' Severance -1st Anniversary Remix-",
+      "jordanRating": 9.5,
+      "nickRating": 9.8
+    },
+    {
+      "songNumber": 11,
+      "songName": "Fractal Cage",
+      "jordanRating": 9.375,
+      "nickRating": 9.2
+    },
+    {
+      "songNumber": 12,
+      "songName": "My direction",
+      "jordanRating": 8.25,
+      "nickRating": 8.99
+    },
+    {
+      "songNumber": 13,
+      "songName": "Whitest Eden",
+      "jordanRating": 7.5,
+      "nickRating": 8.6
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "albumTitle": "GENSOKYO DEMPA EXPO ─IOSYS Touhou Compilation vol.23─",
+  "circleName": "IOSYS",
+  "albumPhoto": "https://en.touhouwiki.net/images/0/09/IO-0285.jpg",
+  "dateCompleted": "2021-02-22T05:50",
+  "subjectiveJordan": 7.4375,
+  "subjectiveNick": 8,
+  "songAmount": 10,
+  "objectiveJordan": "7.7500",
+  "objectiveNick": "7.2800",
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "Expo Declaration",
+      "jordanRating": 9,
+      "nickRating": 9
+    },
+    {
+      "songNumber": 2,
+      "songName": "Gensokyo DEMPASTIC greeting",
+      "jordanRating": 9,
+      "nickRating": 9
+    },
+    {
+      "songNumber": 3,
+      "songName": "A title that encourages players to have a lot of gambling faith",
+      "jordanRating": 8,
+      "nickRating": 7.5
+    },
+    {
+      "songNumber": 4,
+      "songName": "Dullahan Night - Your head, flying fireworks",
+      "jordanRating": 7,
+      "nickRating": 7.2
+    },
+    {
+      "songNumber": 5,
+      "songName": "Murasame UNITED: Marisa vs. fake Marisa version",
+      "jordanRating": 6.5,
+      "nickRating": 6
+    },
+    {
+      "songNumber": 6,
+      "songName": "Freezing, Tomboyish Steam of Love, Cirno's Hot Spring (DJ Laugh Remix)",
+      "jordanRating": 7.5,
+      "nickRating": 8.8
+    },
+    {
+      "songNumber": 7,
+      "songName": "Scarlet Police on Ghetto Patrol 24/7",
+      "jordanRating": 9.5,
+      "nickRating": 9.5
+    },
+    {
+      "songNumber": 8,
+      "songName": "Zombie Dance",
+      "jordanRating": 5.5,
+      "nickRating": 1
+    },
+    {
+      "songNumber": 9,
+      "songName": "Babu Me Baby",
+      "jordanRating": 8.5,
+      "nickRating": 6.3
+    },
+    {
+      "songNumber": 10,
+      "songName": "COOL GENSOKYO",
+      "jordanRating": 7,
+      "nickRating": 8.5
+    }
+  ]
+}

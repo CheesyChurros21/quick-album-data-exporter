@@ -1,0 +1,97 @@
+{
+  "albumTitle": "BULLET HELL",
+  "circleName": "RichaadEB",
+  "albumPhoto": "https://en.touhouwiki.net/images/f/fd/RichaadEB_-_Bullet_Hell.png",
+  "dateCompleted": "2021-02-22T04:48",
+  "subjectiveJordan": 9.25,
+  "subjectiveNick": 8.2,
+  "songAmount": 14,
+  "objectiveJordan": "8.3750",
+  "objectiveNick": "8.2071",
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "U.N. Owen Was Her?.",
+      "jordanRating": 7,
+      "nickRating": 7.3
+    },
+    {
+      "songNumber": 2,
+      "songName": "Nuclear Fusion",
+      "jordanRating": 8,
+      "nickRating": 6.8
+    },
+    {
+      "songNumber": 3,
+      "songName": "Lunar Clock ~ Luna Dial",
+      "jordanRating": 9.5,
+      "nickRating": 7.7
+    },
+    {
+      "songNumber": 4,
+      "songName": "Lunatic Princess",
+      "jordanRating": 9,
+      "nickRating": 8.8
+    },
+    {
+      "songNumber": 5,
+      "songName": "Flowering Night",
+      "jordanRating": 7,
+      "nickRating": 9.4
+    },
+    {
+      "songNumber": 6,
+      "songName": "Native Faith",
+      "jordanRating": 8,
+      "nickRating": 8
+    },
+    {
+      "songNumber": 7,
+      "songName": "Septette for the Dead Princess",
+      "jordanRating": 8,
+      "nickRating": 9.5
+    },
+    {
+      "songNumber": 8,
+      "songName": "Reach for the Moon, Immortal Smoke",
+      "jordanRating": 8.5,
+      "nickRating": 9.3
+    },
+    {
+      "songNumber": 9,
+      "songName": "Beloved Tomboyish Daughter",
+      "jordanRating": 9,
+      "nickRating": 7.1
+    },
+    {
+      "songNumber": 10,
+      "songName": "Necrofantasia",
+      "jordanRating": 7.5,
+      "nickRating": 7.3
+    },
+    {
+      "songNumber": 11,
+      "songName": "Love-Coloured Master Spark",
+      "jordanRating": 8,
+      "nickRating": 8.8
+    },
+    {
+      "songNumber": 12,
+      "songName": "Primordial Beat",
+      "jordanRating": 9.5,
+      "nickRating": 8.3
+    },
+    {
+      "songNumber": 13,
+      "songName": "Border of Life",
+      "jordanRating": 8.5,
+      "nickRating": 7.6
+    },
+    {
+      "songNumber": 14,
+      "songName": "Bad Apple!!",
+      "jordanRating": 9.75,
+      "nickRating": 9
+    }
+  ]
+}

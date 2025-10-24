@@ -1,0 +1,49 @@
+{
+  "albumTitle": "ether",
+  "circleName": "Liz Triangle",
+  "albumPhoto": "https://en.touhouwiki.net/images/d/d0/LTCD-0025.jpg",
+  "dateCompleted": "2021-03-11T09:46",
+  "subjectiveJordan": 8,
+  "subjectiveNick": 8.4,
+  "songAmount": 6,
+  "objectiveJordan": "8.0833",
+  "objectiveNick": "8.5083",
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "Florid Words",
+      "jordanRating": 8.5,
+      "nickRating": 8.5
+    },
+    {
+      "songNumber": 2,
+      "songName": "The Night Circus",
+      "jordanRating": 7.5,
+      "nickRating": 8.6
+    },
+    {
+      "songNumber": 3,
+      "songName": "The Sea of Ether",
+      "jordanRating": 7.5,
+      "nickRating": 8.8
+    },
+    {
+      "songNumber": 4,
+      "songName": "Parallel Rabbit",
+      "jordanRating": 8.75,
+      "nickRating": 8.2
+    },
+    {
+      "songNumber": 5,
+      "songName": "Blue Moon",
+      "jordanRating": 8.5,
+      "nickRating": 8.7
+    },
+    {
+      "songNumber": 6,
+      "songName": "Dreaming",
+      "jordanRating": 7.75,
+      "nickRating": 8.25
+    }
+  ]
+}

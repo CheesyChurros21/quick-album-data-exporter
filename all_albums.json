@@ -1,0 +1,1621 @@
+[
+  {
+    "albumTitle": "Retro Future Girls",
+    "circleName": "ShibayanRecords",
+    "albumPhoto": "https://en.touhouwiki.net/images/f/fd/STAL-1302.jpg",
+    "dateCompleted": "2021-01-19T22:42",
+    "subjectiveJordan": 7.5,
+    "subjectiveNick": 7.5,
+    "songAmount": 8,
+    "objectiveJordan": "7.3750",
+    "objectiveNick": "7.9500",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Super Fine Red",
+        "jordanRating": 7.5,
+        "nickRating": 8.1
+      },
+      {
+        "songNumber": 2,
+        "songName": "Ready Made City Life",
+        "jordanRating": 9,
+        "nickRating": 10
+      },
+      {
+        "songNumber": 3,
+        "songName": "Cherry Blossom Crash",
+        "jordanRating": 6.5,
+        "nickRating": 6.4
+      },
+      {
+        "songNumber": 4,
+        "songName": "MyonMyonMyonMyonMyonMyonMyon!",
+        "jordanRating": 7,
+        "nickRating": 7.3
+      },
+      {
+        "songNumber": 5,
+        "songName": "Fly Out! Bankikki",
+        "jordanRating": 6.5,
+        "nickRating": 7.8
+      },
+      {
+        "songNumber": 6,
+        "songName": "Spring Rouge",
+        "jordanRating": 7.5,
+        "nickRating": 7.2
+      },
+      {
+        "songNumber": 7,
+        "songName": "Desert Years",
+        "jordanRating": 9,
+        "nickRating": 9.3
+      },
+      {
+        "songNumber": 8,
+        "songName": "Phoenix",
+        "jordanRating": 6,
+        "nickRating": 7.5
+      }
+    ]
+  },
+  {
+    "albumTitle": "Radical Destruction",
+    "circleName": "Amateras Records",
+    "albumPhoto": "https://en.touhouwiki.net/images/3/38/AMRC-0015.jpg",
+    "dateCompleted": "2021-01-24T18:03",
+    "subjectiveJordan": 8,
+    "subjectiveNick": 8.5,
+    "songAmount": 10,
+    "objectiveJordan": "7.4500",
+    "objectiveNick": "8.0500",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Fighter Girl",
+        "jordanRating": 8,
+        "nickRating": 8.5
+      },
+      {
+        "songNumber": 2,
+        "songName": "Secret Melody",
+        "jordanRating": 7,
+        "nickRating": 7.8
+      },
+      {
+        "songNumber": 3,
+        "songName": "Luv For U",
+        "jordanRating": 8.5,
+        "nickRating": 8
+      },
+      {
+        "songNumber": 4,
+        "songName": "Soft Weather",
+        "jordanRating": 6.5,
+        "nickRating": 7
+      },
+      {
+        "songNumber": 5,
+        "songName": "Tear Rain",
+        "jordanRating": 9.5,
+        "nickRating": 10
+      },
+      {
+        "songNumber": 6,
+        "songName": "Impact Factor",
+        "jordanRating": 7,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 7,
+        "songName": "Knowledge Chronicle",
+        "jordanRating": 7.5,
+        "nickRating": 8.1
+      },
+      {
+        "songNumber": 8,
+        "songName": "Important Lie",
+        "jordanRating": 6,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 9,
+        "songName": "Izayoi Heart",
+        "jordanRating": 7,
+        "nickRating": 7.2
+      },
+      {
+        "songNumber": 10,
+        "songName": "Another Frontier",
+        "jordanRating": 7.5,
+        "nickRating": 7.6
+      }
+    ]
+  },
+  {
+    "albumTitle": "Lovelight",
+    "circleName": "Alstroemeria Records",
+    "albumPhoto": "https://en.touhouwiki.net/images/c/c7/ARCD0018.jpg",
+    "dateCompleted": "2021-02-16T01:37",
+    "subjectiveJordan": 2,
+    "subjectiveNick": 5,
+    "songAmount": 11,
+    "objectiveJordan": "1.7273",
+    "objectiveNick": "1.5909",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Lovelight",
+        "jordanRating": 4,
+        "nickRating": 5.5
+      },
+      {
+        "songNumber": 2,
+        "songName": "Bad Apple!!",
+        "jordanRating": 12,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 3,
+        "songName": "Magic Girl",
+        "jordanRating": 3,
+        "nickRating": 3
+      },
+      {
+        "songNumber": 4,
+        "songName": "Witherd Leaf",
+        "jordanRating": 0,
+        "nickRating": 0
+      },
+      {
+        "songNumber": 5,
+        "songName": "Silver That Can Be Crushed Like Crystal",
+        "jordanRating": 0,
+        "nickRating": 0
+      },
+      {
+        "songNumber": 6,
+        "songName": "Ultimate Truth",
+        "jordanRating": 0,
+        "nickRating": 0
+      },
+      {
+        "songNumber": 7,
+        "songName": "Interlude",
+        "jordanRating": 0,
+        "nickRating": 0
+      },
+      {
+        "songNumber": 8,
+        "songName": "Fractal Night",
+        "jordanRating": 0,
+        "nickRating": 0
+      },
+      {
+        "songNumber": 9,
+        "songName": "Extend Ash",
+        "jordanRating": 0,
+        "nickRating": 0
+      },
+      {
+        "songNumber": 10,
+        "songName": "How Is Your Eyes Crazy?",
+        "jordanRating": 0,
+        "nickRating": 0
+      },
+      {
+        "songNumber": 11,
+        "songName": "Bad Apple!! (Instrumental)",
+        "jordanRating": 0,
+        "nickRating": 0
+      }
+    ]
+  },
+  {
+    "albumTitle": "Touhou Faithful Star",
+    "circleName": "IOSYS",
+    "albumPhoto": "https://en.touhouwiki.net/images/e/e5/IO-0169.jpg",
+    "dateCompleted": "2021-02-16T01:57",
+    "subjectiveJordan": 7.75,
+    "subjectiveNick": 7.6,
+    "songAmount": 7,
+    "objectiveJordan": "7.5000",
+    "objectiveNick": "7.4143",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Sparking Slash",
+        "jordanRating": 8,
+        "nickRating": 7.8
+      },
+      {
+        "songNumber": 2,
+        "songName": "Judgement Star",
+        "jordanRating": 8.5,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 3,
+        "songName": "Cosmic Purple",
+        "jordanRating": 7,
+        "nickRating": 6.5
+      },
+      {
+        "songNumber": 4,
+        "songName": "Emotional Region",
+        "jordanRating": 8.5,
+        "nickRating": 8.5
+      },
+      {
+        "songNumber": 5,
+        "songName": "Beyond the Core",
+        "jordanRating": 8,
+        "nickRating": 7.9
+      },
+      {
+        "songNumber": 6,
+        "songName": "Green Limits",
+        "jordanRating": 7.5,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 7,
+        "songName": "Don't Realize",
+        "jordanRating": 5,
+        "nickRating": 5.5
+      }
+    ]
+  },
+  {
+    "albumTitle": "ROCKIN'ON TOUHOU VOL.4",
+    "circleName": "IOSYS",
+    "albumPhoto": "https://en.touhouwiki.net/images/b/bd/IO-0286.jpg",
+    "dateCompleted": "2021-02-16T02:30",
+    "subjectiveJordan": 8.625,
+    "subjectiveNick": 8.8,
+    "songAmount": 9,
+    "objectiveJordan": "7.8889",
+    "objectiveNick": "8.4889",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "MY FIRST FLOWER",
+        "jordanRating": 9,
+        "nickRating": 9.6
+      },
+      {
+        "songNumber": 2,
+        "songName": "Higan Nine Phases",
+        "jordanRating": 7,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 3,
+        "songName": "If You're Gonna Eat Me, Then Eat Me, Flowers And All!",
+        "jordanRating": 8.5,
+        "nickRating": 8.7
+      },
+      {
+        "songNumber": 4,
+        "songName": "The Flower Is Most Beautiful When It Blooms In Despair",
+        "jordanRating": 9,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 5,
+        "songName": "Falling Flower Factor",
+        "jordanRating": 8.5,
+        "nickRating": 9.2
+      },
+      {
+        "songNumber": 6,
+        "songName": "Repeated Lies",
+        "jordanRating": 8,
+        "nickRating": 8.1
+      },
+      {
+        "songNumber": 7,
+        "songName": "Red Eye",
+        "jordanRating": 7.5,
+        "nickRating": 8.4
+      },
+      {
+        "songNumber": 8,
+        "songName": "Beloved Flower Master",
+        "jordanRating": 7,
+        "nickRating": 8.1
+      },
+      {
+        "songNumber": 9,
+        "songName": "Stardust Flight ",
+        "jordanRating": 6.5,
+        "nickRating": 7.3
+      }
+    ]
+  },
+  {
+    "albumTitle": "BULLET HELL",
+    "circleName": "RichaadEB",
+    "albumPhoto": "https://en.touhouwiki.net/images/f/fd/RichaadEB_-_Bullet_Hell.png",
+    "dateCompleted": "2021-02-22T04:48",
+    "subjectiveJordan": 9.25,
+    "subjectiveNick": 8.2,
+    "songAmount": 14,
+    "objectiveJordan": "8.3750",
+    "objectiveNick": "8.2071",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "U.N. Owen Was Her?.",
+        "jordanRating": 7,
+        "nickRating": 7.3
+      },
+      {
+        "songNumber": 2,
+        "songName": "Nuclear Fusion",
+        "jordanRating": 8,
+        "nickRating": 6.8
+      },
+      {
+        "songNumber": 3,
+        "songName": "Lunar Clock ~ Luna Dial",
+        "jordanRating": 9.5,
+        "nickRating": 7.7
+      },
+      {
+        "songNumber": 4,
+        "songName": "Lunatic Princess",
+        "jordanRating": 9,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 5,
+        "songName": "Flowering Night",
+        "jordanRating": 7,
+        "nickRating": 9.4
+      },
+      {
+        "songNumber": 6,
+        "songName": "Native Faith",
+        "jordanRating": 8,
+        "nickRating": 8
+      },
+      {
+        "songNumber": 7,
+        "songName": "Septette for the Dead Princess",
+        "jordanRating": 8,
+        "nickRating": 9.5
+      },
+      {
+        "songNumber": 8,
+        "songName": "Reach for the Moon, Immortal Smoke",
+        "jordanRating": 8.5,
+        "nickRating": 9.3
+      },
+      {
+        "songNumber": 9,
+        "songName": "Beloved Tomboyish Daughter",
+        "jordanRating": 9,
+        "nickRating": 7.1
+      },
+      {
+        "songNumber": 10,
+        "songName": "Necrofantasia",
+        "jordanRating": 7.5,
+        "nickRating": 7.3
+      },
+      {
+        "songNumber": 11,
+        "songName": "Love-Coloured Master Spark",
+        "jordanRating": 8,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 12,
+        "songName": "Primordial Beat",
+        "jordanRating": 9.5,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 13,
+        "songName": "Border of Life",
+        "jordanRating": 8.5,
+        "nickRating": 7.6
+      },
+      {
+        "songNumber": 14,
+        "songName": "Bad Apple!!",
+        "jordanRating": 9.75,
+        "nickRating": 9
+      }
+    ]
+  },
+  {
+    "albumTitle": "GENSOKYO DEMPA EXPO ─IOSYS Touhou Compilation vol.23─",
+    "circleName": "IOSYS",
+    "albumPhoto": "https://en.touhouwiki.net/images/0/09/IO-0285.jpg",
+    "dateCompleted": "2021-02-22T05:50",
+    "subjectiveJordan": 7.4375,
+    "subjectiveNick": 8,
+    "songAmount": 10,
+    "objectiveJordan": "7.7500",
+    "objectiveNick": "7.2800",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Expo Declaration",
+        "jordanRating": 9,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 2,
+        "songName": "Gensokyo DEMPASTIC greeting",
+        "jordanRating": 9,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 3,
+        "songName": "A title that encourages players to have a lot of gambling faith",
+        "jordanRating": 8,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 4,
+        "songName": "Dullahan Night - Your head, flying fireworks",
+        "jordanRating": 7,
+        "nickRating": 7.2
+      },
+      {
+        "songNumber": 5,
+        "songName": "Murasame UNITED: Marisa vs. fake Marisa version",
+        "jordanRating": 6.5,
+        "nickRating": 6
+      },
+      {
+        "songNumber": 6,
+        "songName": "Freezing, Tomboyish Steam of Love, Cirno's Hot Spring (DJ Laugh Remix)",
+        "jordanRating": 7.5,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 7,
+        "songName": "Scarlet Police on Ghetto Patrol 24/7",
+        "jordanRating": 9.5,
+        "nickRating": 9.5
+      },
+      {
+        "songNumber": 8,
+        "songName": "Zombie Dance",
+        "jordanRating": 5.5,
+        "nickRating": 1
+      },
+      {
+        "songNumber": 9,
+        "songName": "Babu Me Baby",
+        "jordanRating": 8.5,
+        "nickRating": 6.3
+      },
+      {
+        "songNumber": 10,
+        "songName": "COOL GENSOKYO",
+        "jordanRating": 7,
+        "nickRating": 8.5
+      }
+    ]
+  },
+  {
+    "albumTitle": "Touhou Philharmonic Orchestra 3 Eternity",
+    "circleName": "Kokyo Active NEETs",
+    "albumPhoto": "https://en.touhouwiki.net/images/7/7c/KNCD-0006.jpg",
+    "dateCompleted": "2021-02-23T20:39",
+    "subjectiveJordan": 8.75,
+    "subjectiveNick": 8.7,
+    "songAmount": 7,
+    "objectiveJordan": "8.5000",
+    "objectiveNick": "8.4286",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Voyage 1969",
+        "jordanRating": 8,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 2,
+        "songName": "Reach for the Moon, Immortal Smoke",
+        "jordanRating": 8.5,
+        "nickRating": 8
+      },
+      {
+        "songNumber": 3,
+        "songName": "Plain Asia ~ Nostalgic Blood of the East",
+        "jordanRating": 8.5,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 4,
+        "songName": "Flight of the Bamboo Cutter",
+        "jordanRating": 9,
+        "nickRating": 8.4
+      },
+      {
+        "songNumber": 5,
+        "songName": "Deaf to All but the Song ~ Song of the Night Sparrow",
+        "jordanRating": 8.5,
+        "nickRating": 9.5
+      },
+      {
+        "songNumber": 6,
+        "songName": "Cinderella Cage",
+        "jordanRating": 8.5,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 7,
+        "songName": "Love-Colored Master Spark",
+        "jordanRating": 8.5,
+        "nickRating": 8
+      }
+    ]
+  },
+  {
+    "albumTitle": "Touhou Philharmonic Orchestra 4 Eternity & Gather",
+    "circleName": "Kokyo Active NEETs",
+    "albumPhoto": "https://en.touhouwiki.net/images/c/c5/KNCD-0008.jpg",
+    "dateCompleted": "2021-02-23T21:09",
+    "subjectiveJordan": 9,
+    "subjectiveNick": 8.8,
+    "songAmount": 7,
+    "objectiveJordan": "8.8929",
+    "objectiveNick": "8.7686",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Maiden's Capriccio ~ Dream Battle",
+        "jordanRating": 9,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 2,
+        "songName": "Extend Ash ~ Hourai Victim",
+        "jordanRating": 8.75,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 3,
+        "songName": "Lunatic Eyes ~ Invisible Full Moon",
+        "jordanRating": 8.5,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 4,
+        "songName": "Gensokyo Millennium ~ History of the Moon",
+        "jordanRating": 9.25,
+        "nickRating": 8.5
+      },
+      {
+        "songNumber": 5,
+        "songName": "Night Falls ~ Evening Star",
+        "jordanRating": 8.5,
+        "nickRating": 8.4
+      },
+      {
+        "songNumber": 6,
+        "songName": "The Fabled Land of Onigashima ~ Missing Power",
+        "jordanRating": 9.5,
+        "nickRating": 9.3
+      },
+      {
+        "songNumber": 7,
+        "songName": "Eastern Forgathering Dream",
+        "jordanRating": 8.75,
+        "nickRating": 8.78
+      }
+    ]
+  },
+  {
+    "albumTitle": "Even The Blossoming Flowers Will Eventually Scatter",
+    "circleName": "Yuuhei Satellite",
+    "albumPhoto": "https://en.touhouwiki.net/images/1/1d/YHST-0002_cover.jpg",
+    "dateCompleted": "2021-02-23T21:52",
+    "subjectiveJordan": 8.25,
+    "subjectiveNick": 8.38,
+    "songAmount": 6,
+    "objectiveJordan": "8.2708",
+    "objectiveNick": "8.3833",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Even The Blossoming Flowers Will Eventually Scatter",
+        "jordanRating": 9,
+        "nickRating": 10
+      },
+      {
+        "songNumber": 2,
+        "songName": "Emotional Chemistry",
+        "jordanRating": 7.5,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 3,
+        "songName": "No One Can Stop This Accelerating Love",
+        "jordanRating": 8.375,
+        "nickRating": 7.7
+      },
+      {
+        "songNumber": 4,
+        "songName": "Fallen Cherry Blossom",
+        "jordanRating": 8.25,
+        "nickRating": 8.4
+      },
+      {
+        "songNumber": 5,
+        "songName": "Daphne's Illusionary Song",
+        "jordanRating": 8.5,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 6,
+        "songName": "Solitary Moon",
+        "jordanRating": 8,
+        "nickRating": 8.4
+      }
+    ]
+  },
+  {
+    "albumTitle": "Disorderly Love",
+    "circleName": "Amateras Records",
+    "albumPhoto": "https://en.touhouwiki.net/images/thumb/2/2b/AMRC-0058.jpg/1200px-AMRC-0058.jpg",
+    "dateCompleted": "2021-03-03T01:40",
+    "subjectiveJordan": 5,
+    "subjectiveNick": 3.7,
+    "songAmount": 10,
+    "objectiveJordan": "5.9700",
+    "objectiveNick": "5.5500",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Lost Time",
+        "jordanRating": 4,
+        "nickRating": 5
+      },
+      {
+        "songNumber": 2,
+        "songName": "Never Call My Name",
+        "jordanRating": 6,
+        "nickRating": 6.5
+      },
+      {
+        "songNumber": 3,
+        "songName": "Disorderly Love",
+        "jordanRating": 7,
+        "nickRating": 6
+      },
+      {
+        "songNumber": 4,
+        "songName": "Psychopathic Moonlight",
+        "jordanRating": 5,
+        "nickRating": 3.5
+      },
+      {
+        "songNumber": 5,
+        "songName": "Axis",
+        "jordanRating": 7.2,
+        "nickRating": 7.6
+      },
+      {
+        "songNumber": 6,
+        "songName": "Withered Leaves",
+        "jordanRating": 4,
+        "nickRating": 3
+      },
+      {
+        "songNumber": 7,
+        "songName": "Without You",
+        "jordanRating": 5,
+        "nickRating": 4
+      },
+      {
+        "songNumber": 8,
+        "songName": "POISONBODY (Tracy Remix)",
+        "jordanRating": 5,
+        "nickRating": 3.2
+      },
+      {
+        "songNumber": 9,
+        "songName": "Love Connection Epilogue",
+        "jordanRating": 8.5,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 10,
+        "songName": "Special Smile [Eurobeat Remix]",
+        "jordanRating": 8,
+        "nickRating": 8.5
+      }
+    ]
+  },
+  {
+    "albumTitle": "I Tried Singing Touhou",
+    "circleName": "ShinRa-Bansho",
+    "albumPhoto": "https://en.touhouwiki.net/images/1/1f/SBCD-016.jpg",
+    "dateCompleted": "2021-03-03T02:56",
+    "subjectiveJordan": 9.3,
+    "subjectiveNick": 9.3,
+    "songAmount": 10,
+    "objectiveJordan": "8.3750",
+    "objectiveNick": "8.8900",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Clouds Over the Moon, and Wind Over the Flowers - ShinRa-Bansho Ver",
+        "jordanRating": 9.5,
+        "nickRating": 9.7
+      },
+      {
+        "songNumber": 2,
+        "songName": "Help me, ERINNNNNN!! - ShinRa-Bansho Ver",
+        "jordanRating": 9.25,
+        "nickRating": 9.6
+      },
+      {
+        "songNumber": 3,
+        "songName": "Marisa Stole the Precious Thing - ShinRa-Bansho Ver",
+        "jordanRating": 7.5,
+        "nickRating": 10
+      },
+      {
+        "songNumber": 4,
+        "songName": "Starry Sky Grand Slam - ShinRa-Bansho Ver",
+        "jordanRating": 8.5,
+        "nickRating": 9.2
+      },
+      {
+        "songNumber": 5,
+        "songName": "Witches' Night - ShinRa-Bansho Ver",
+        "jordanRating": 9.5,
+        "nickRating": 9.7
+      },
+      {
+        "songNumber": 6,
+        "songName": "The Boundless World is but a Passing Phase of the Moon - ShinRa-Bansho Ver",
+        "jordanRating": 7.5,
+        "nickRating": 7.6
+      },
+      {
+        "songNumber": 7,
+        "songName": "The Song of a Broken Youkai Who Loved a Human - ShinRa-Bansho Ver",
+        "jordanRating": 7.5,
+        "nickRating": 7.8
+      },
+      {
+        "songNumber": 8,
+        "songName": "Paranoia(SBver1 Remix)",
+        "jordanRating": 8.5,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 9,
+        "songName": "Tewi!～ - ShinRa-Bansho Ver",
+        "jordanRating": 7.5,
+        "nickRating": 8
+      },
+      {
+        "songNumber": 10,
+        "songName": "Send Stars Round the Sky Faster than the Moon - VerS",
+        "jordanRating": 8.5,
+        "nickRating": 8.7
+      }
+    ]
+  },
+  {
+    "albumTitle": "Palindrome",
+    "circleName": "Diao ye zong",
+    "albumPhoto": "https://en.touhouwiki.net/images/4/4d/RDWL-0027.jpg",
+    "dateCompleted": "2021-03-07T04:30",
+    "subjectiveJordan": 8.3,
+    "subjectiveNick": 7.8,
+    "songAmount": 11,
+    "objectiveJordan": "7.5455",
+    "objectiveNick": "7.5182",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Uprising Ideology",
+        "jordanRating": 7.5,
+        "nickRating": 7.6
+      },
+      {
+        "songNumber": 2,
+        "songName": "No More, Anymore? More, More?!",
+        "jordanRating": 8,
+        "nickRating": 7.6
+      },
+      {
+        "songNumber": 3,
+        "songName": "Hexentanz Goes Just Like This",
+        "jordanRating": 7.75,
+        "nickRating": 7.4
+      },
+      {
+        "songNumber": 4,
+        "songName": "To Heaven",
+        "jordanRating": 9.5,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 5,
+        "songName": "Revoke",
+        "jordanRating": 8.5,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 6,
+        "songName": "A Strange Tale \"Hero of Justice\"",
+        "jordanRating": 8.75,
+        "nickRating": 8
+      },
+      {
+        "songNumber": 7,
+        "songName": "Symphonic Poem \"Demon Emperor\" from II. Legendary Illusion",
+        "jordanRating": 0,
+        "nickRating": 0
+      },
+      {
+        "songNumber": 8,
+        "songName": "Annoying Sister",
+        "jordanRating": 8.25,
+        "nickRating": 8.7
+      },
+      {
+        "songNumber": 9,
+        "songName": "Enslaved",
+        "jordanRating": 7.5,
+        "nickRating": 7.3
+      },
+      {
+        "songNumber": 10,
+        "songName": "Tsukumo Melody Tale",
+        "jordanRating": 9.5,
+        "nickRating": 9.2
+      },
+      {
+        "songNumber": 11,
+        "songName": "Downfalling Ideology",
+        "jordanRating": 7.75,
+        "nickRating": 8.9
+      }
+    ]
+  },
+  {
+    "albumTitle": "Embodiment of Scarlet Devil",
+    "circleName": "ZUN",
+    "albumPhoto": "https://en.touhouwiki.net/images/8/8b/Th06cover.jpg",
+    "dateCompleted": "2021-03-07T06:24",
+    "subjectiveJordan": 9.625,
+    "subjectiveNick": 9.1,
+    "songAmount": 17,
+    "objectiveJordan": "7.9853",
+    "objectiveNick": "7.6700",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Scarlet Beyond a Crimson Dream",
+        "jordanRating": 9,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 2,
+        "songName": "A Soul as Red as a Ground Cherry",
+        "jordanRating": 9.5,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 3,
+        "songName": "Apparitions Stalk the Night",
+        "jordanRating": 8.5,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 4,
+        "songName": "Lunate Elf",
+        "jordanRating": 8.5,
+        "nickRating": 8.9
+      },
+      {
+        "songNumber": 5,
+        "songName": "Tomboyish Girl in Love",
+        "jordanRating": 9.75,
+        "nickRating": 9.5
+      },
+      {
+        "songNumber": 6,
+        "songName": "Shanghai Teahouse ~ Chinese Tea",
+        "jordanRating": 9.5,
+        "nickRating": 9.4
+      },
+      {
+        "songNumber": 7,
+        "songName": "Shanghai Alice of Meiji 17",
+        "jordanRating": 9,
+        "nickRating": 8.85
+      },
+      {
+        "songNumber": 8,
+        "songName": "Voile, the Magic Library",
+        "jordanRating": 8,
+        "nickRating": 7.9
+      },
+      {
+        "songNumber": 9,
+        "songName": "Locked Girl ~ The Girl's Sealed Room",
+        "jordanRating": 9.75,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 10,
+        "songName": "The Maid and the Pocket Watch of Blood",
+        "jordanRating": 8,
+        "nickRating": 8.68
+      },
+      {
+        "songNumber": 11,
+        "songName": "Lunar Clock ~ Luna Dial",
+        "jordanRating": 9.75,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 12,
+        "songName": "The Young Descendant of Tepes",
+        "jordanRating": 8,
+        "nickRating": 8.56
+      },
+      {
+        "songNumber": 13,
+        "songName": "Septette for the Dead Princess",
+        "jordanRating": 10,
+        "nickRating": 9.7
+      },
+      {
+        "songNumber": 14,
+        "songName": "The Centennial Festival for Magical Girls",
+        "jordanRating": 9,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 15,
+        "songName": "U.N. Owen Was Her?",
+        "jordanRating": 9.5,
+        "nickRating": 9.6
+      },
+      {
+        "songNumber": 16,
+        "songName": "Crimson Beyond a Fleeting Eternity",
+        "jordanRating": 0,
+        "nickRating": 0
+      },
+      {
+        "songNumber": 17,
+        "songName": "Crimson Belvedere ~ Eastern Dream...",
+        "jordanRating": 0,
+        "nickRating": 0
+      }
+    ]
+  },
+  {
+    "albumTitle": "ether",
+    "circleName": "Liz Triangle",
+    "albumPhoto": "https://en.touhouwiki.net/images/d/d0/LTCD-0025.jpg",
+    "dateCompleted": "2021-03-11T09:46",
+    "subjectiveJordan": 8,
+    "subjectiveNick": 8.4,
+    "songAmount": 6,
+    "objectiveJordan": "8.0833",
+    "objectiveNick": "8.5083",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Florid Words",
+        "jordanRating": 8.5,
+        "nickRating": 8.5
+      },
+      {
+        "songNumber": 2,
+        "songName": "The Night Circus",
+        "jordanRating": 7.5,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 3,
+        "songName": "The Sea of Ether",
+        "jordanRating": 7.5,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 4,
+        "songName": "Parallel Rabbit",
+        "jordanRating": 8.75,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 5,
+        "songName": "Blue Moon",
+        "jordanRating": 8.5,
+        "nickRating": 8.7
+      },
+      {
+        "songNumber": 6,
+        "songName": "Dreaming",
+        "jordanRating": 7.75,
+        "nickRating": 8.25
+      }
+    ]
+  },
+  {
+    "albumTitle": "Shinra Museum",
+    "circleName": "ShinRa-Bansho",
+    "albumPhoto": "https://en.touhouwiki.net/images/4/45/SBCD-015.jpg",
+    "dateCompleted": "2021-04-04T03:09",
+    "subjectiveJordan": 8.3227,
+    "subjectiveNick": 8.5227,
+    "songAmount": 11,
+    "objectiveJordan": "8.3227",
+    "objectiveNick": "8.5227",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "A Starry Night Duo",
+        "jordanRating": 9.25,
+        "nickRating": 9.5
+      },
+      {
+        "songNumber": 2,
+        "songName": "inner light",
+        "jordanRating": 8,
+        "nickRating": 8
+      },
+      {
+        "songNumber": 3,
+        "songName": "Hangover",
+        "jordanRating": 8.5,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 4,
+        "songName": "Starry Sky Planeteria",
+        "jordanRating": 8.25,
+        "nickRating": 8.4
+      },
+      {
+        "songNumber": 5,
+        "songName": "Call My Name",
+        "jordanRating": 7.5,
+        "nickRating": 8.35
+      },
+      {
+        "songNumber": 6,
+        "songName": "1/8000000",
+        "jordanRating": 9,
+        "nickRating": 8.1
+      },
+      {
+        "songNumber": 7,
+        "songName": "Honest",
+        "jordanRating": 8.5,
+        "nickRating": 8.55
+      },
+      {
+        "songNumber": 8,
+        "songName": "Stylish",
+        "jordanRating": 9.25,
+        "nickRating": 8.45
+      },
+      {
+        "songNumber": 9,
+        "songName": "Lucky Peace World",
+        "jordanRating": 8,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 10,
+        "songName": "This Is a September Cantata",
+        "jordanRating": 7.8,
+        "nickRating": 7.8
+      },
+      {
+        "songNumber": 11,
+        "songName": "I",
+        "jordanRating": 7.5,
+        "nickRating": 9.4
+      }
+    ]
+  },
+  {
+    "albumTitle": "Metallical Astronomy",
+    "circleName": "SOUND HOLIC",
+    "albumPhoto": "https://en.touhouwiki.net/images/3/32/SDHC-0020.jpg",
+    "dateCompleted": "2021-04-27T04:18",
+    "subjectiveJordan": 7.4,
+    "subjectiveNick": 7,
+    "songAmount": 11,
+    "objectiveJordan": "7.7045",
+    "objectiveNick": "7.6636",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Metallical Astronomy",
+        "jordanRating": 8.75,
+        "nickRating": 9.1
+      },
+      {
+        "songNumber": 2,
+        "songName": "Satellite XXX",
+        "jordanRating": 8.5,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 3,
+        "songName": "Scarlet Desire",
+        "jordanRating": 8,
+        "nickRating": 7.7
+      },
+      {
+        "songNumber": 4,
+        "songName": "G.M.T.",
+        "jordanRating": 7.75,
+        "nickRating": 7.8
+      },
+      {
+        "songNumber": 5,
+        "songName": "Heart of Singularity",
+        "jordanRating": 7.25,
+        "nickRating": 7.4
+      },
+      {
+        "songNumber": 6,
+        "songName": "G-ZERO",
+        "jordanRating": 8.25,
+        "nickRating": 7.6
+      },
+      {
+        "songNumber": 7,
+        "songName": "A Trip to the Moon",
+        "jordanRating": 7.75,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 8,
+        "songName": "Infinity Trip",
+        "jordanRating": 6,
+        "nickRating": 6.2
+      },
+      {
+        "songNumber": 9,
+        "songName": "Demystify The Universe",
+        "jordanRating": 6.75,
+        "nickRating": 6.4
+      },
+      {
+        "songNumber": 10,
+        "songName": "Break the world down",
+        "jordanRating": 8.25,
+        "nickRating": 6.6
+      },
+      {
+        "songNumber": 11,
+        "songName": "Missing Moon",
+        "jordanRating": 7.5,
+        "nickRating": 8.6
+      }
+    ]
+  },
+  {
+    "albumTitle": "Cleave Spark",
+    "circleName": "EastNewSound",
+    "albumPhoto": "https://en.touhouwiki.net/images/c/ce/ENS-0060.jpg",
+    "dateCompleted": "2021-04-27T05:20",
+    "subjectiveJordan": 8.5,
+    "subjectiveNick": 8.63,
+    "songAmount": 10,
+    "objectiveJordan": "8.0000",
+    "objectiveNick": "8.1600",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "",
+        "jordanRating": 7.5,
+        "nickRating": 7.6
+      },
+      {
+        "songNumber": 2,
+        "songName": "",
+        "jordanRating": 8.125,
+        "nickRating": 8.45
+      },
+      {
+        "songNumber": 3,
+        "songName": "",
+        "jordanRating": 8.625,
+        "nickRating": 8.653
+      },
+      {
+        "songNumber": 4,
+        "songName": "",
+        "jordanRating": 8.25,
+        "nickRating": 8.755
+      },
+      {
+        "songNumber": 5,
+        "songName": "",
+        "jordanRating": 9,
+        "nickRating": 8.35
+      },
+      {
+        "songNumber": 6,
+        "songName": "",
+        "jordanRating": 7.75,
+        "nickRating": 8.125
+      },
+      {
+        "songNumber": 7,
+        "songName": "",
+        "jordanRating": 7,
+        "nickRating": 7.4
+      },
+      {
+        "songNumber": 8,
+        "songName": "",
+        "jordanRating": 8,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 9,
+        "songName": "",
+        "jordanRating": 7.5,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 10,
+        "songName": "",
+        "jordanRating": 8.25,
+        "nickRating": 8.567
+      }
+    ]
+  },
+  {
+    "albumTitle": "Little Devil's Apple",
+    "circleName": "Yuuhei Satellite",
+    "albumPhoto": "https://en.touhouwiki.net/images/b/b3/YHST-0004.jpg",
+    "dateCompleted": "2021-04-28T03:49",
+    "subjectiveJordan": 8.7,
+    "subjectiveNick": 8.3,
+    "songAmount": 6,
+    "objectiveJordan": "8.6667",
+    "objectiveNick": "8.5083",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Little Devil's Apple",
+        "jordanRating": 9.75,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 2,
+        "songName": "An Address to Innocence",
+        "jordanRating": 8.25,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 3,
+        "songName": "IRON RAIN ~Confession of the Sealed Room~",
+        "jordanRating": 9.5,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 4,
+        "songName": "Philosophy of Loneliness",
+        "jordanRating": 7.75,
+        "nickRating": 7.6
+      },
+      {
+        "songNumber": 5,
+        "songName": "Irreversible Nexus",
+        "jordanRating": 7.75,
+        "nickRating": 7.65
+      },
+      {
+        "songNumber": 6,
+        "songName": "Opposite World",
+        "jordanRating": 9,
+        "nickRating": 9.8
+      }
+    ]
+  },
+  {
+    "albumTitle": "Mischievous Sensation",
+    "circleName": "ShinRa-Bansho",
+    "albumPhoto": "https://en.touhouwiki.net/images/c/c2/SBCD-0008.jpg",
+    "dateCompleted": "2021-04-28T04:47",
+    "subjectiveJordan": 8.6,
+    "subjectiveNick": 8.7,
+    "songAmount": 7,
+    "objectiveJordan": "8.5179",
+    "objectiveNick": "8.6414",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "The Song of a Grand Number",
+        "jordanRating": 8.25,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 2,
+        "songName": "Titan",
+        "jordanRating": 8.5,
+        "nickRating": 8.45
+      },
+      {
+        "songNumber": 3,
+        "songName": "The Inverted Resistance",
+        "jordanRating": 8.25,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 4,
+        "songName": "During a Night of Lapis Lazuli",
+        "jordanRating": 8.25,
+        "nickRating": 8.7
+      },
+      {
+        "songNumber": 5,
+        "songName": "Mischievous Sensation",
+        "jordanRating": 8.625,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 6,
+        "songName": "Allahakaki Dance Hal",
+        "jordanRating": 8.75,
+        "nickRating": 8.75
+      },
+      {
+        "songNumber": 7,
+        "songName": "A Story About When I Became a Butterfly",
+        "jordanRating": 9,
+        "nickRating": 8.89
+      }
+    ]
+  },
+  {
+    "albumTitle": "Touhou Variable Spellcaster",
+    "circleName": "IOSYS",
+    "albumPhoto": "https://en.touhouwiki.net/images/6/66/IO-0189.jpg",
+    "dateCompleted": "2021-04-30T05:33",
+    "subjectiveJordan": 8.125,
+    "subjectiveNick": 6.9,
+    "songAmount": 7,
+    "objectiveJordan": "8.0714",
+    "objectiveNick": "8.0314",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Red Dreamer",
+        "jordanRating": 9,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 2,
+        "songName": "End of the Underground",
+        "jordanRating": 8.75,
+        "nickRating": 8.75
+      },
+      {
+        "songNumber": 3,
+        "songName": "Satori Eyes",
+        "jordanRating": 7.5,
+        "nickRating": 7.3
+      },
+      {
+        "songNumber": 4,
+        "songName": "Captain Swing Rock",
+        "jordanRating": 8.5,
+        "nickRating": 7.45
+      },
+      {
+        "songNumber": 5,
+        "songName": "Starlight Illumination",
+        "jordanRating": 8,
+        "nickRating": 8.24
+      },
+      {
+        "songNumber": 6,
+        "songName": "Nighttime Cruising",
+        "jordanRating": 8.75,
+        "nickRating": 8.68
+      },
+      {
+        "songNumber": 7,
+        "songName": "Flame of Synchronicity",
+        "jordanRating": 6,
+        "nickRating": 7
+      }
+    ]
+  },
+  {
+    "albumTitle": "Sacred Factor",
+    "circleName": "EastNewSound",
+    "albumPhoto": "https://en.touhouwiki.net/images/0/01/ENS-0006.jpg",
+    "dateCompleted": "2021-04-30T06:13",
+    "subjectiveJordan": 8.5938,
+    "subjectiveNick": 8.45,
+    "songAmount": 13,
+    "objectiveJordan": "8.4327",
+    "objectiveNick": "8.4769",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "song for bird",
+        "jordanRating": 8.25,
+        "nickRating": 8.57
+      },
+      {
+        "songNumber": 2,
+        "songName": "Your Color",
+        "jordanRating": 8.5,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 3,
+        "songName": "Lucid Dream",
+        "jordanRating": 9.5,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 4,
+        "songName": "mind rain",
+        "jordanRating": 8,
+        "nickRating": 8.1
+      },
+      {
+        "songNumber": 5,
+        "songName": "dark wing complex",
+        "jordanRating": 7.125,
+        "nickRating": 7
+      },
+      {
+        "songNumber": 6,
+        "songName": "booklet choir",
+        "jordanRating": 8.375,
+        "nickRating": 8.4
+      },
+      {
+        "songNumber": 7,
+        "songName": "And So I Go On Along This Route",
+        "jordanRating": 7.75,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 8,
+        "songName": "Under a Blue Moon",
+        "jordanRating": 9.25,
+        "nickRating": 7.89
+      },
+      {
+        "songNumber": 9,
+        "songName": "Alegro?",
+        "jordanRating": 8.25,
+        "nickRating": 8.35
+      },
+      {
+        "songNumber": 10,
+        "songName": "Beneath the Scarlet Moon, The Crazed Blossoms' Severance -1st Anniversary Remix-",
+        "jordanRating": 9.5,
+        "nickRating": 9.8
+      },
+      {
+        "songNumber": 11,
+        "songName": "Fractal Cage",
+        "jordanRating": 9.375,
+        "nickRating": 9.2
+      },
+      {
+        "songNumber": 12,
+        "songName": "My direction",
+        "jordanRating": 8.25,
+        "nickRating": 8.99
+      },
+      {
+        "songNumber": 13,
+        "songName": "Whitest Eden",
+        "jordanRating": 7.5,
+        "nickRating": 8.6
+      }
+    ]
+  },
+  {
+    "albumTitle": "Touhou Strike",
+    "circleName": "COOL&CREATE",
+    "albumPhoto": "https://en.touhouwiki.net/images/9/9f/CCCD-0007.jpg",
+    "dateCompleted": "2021-04-30T07:48",
+    "subjectiveJordan": 8.25,
+    "subjectiveNick": 8.54,
+    "songAmount": 12,
+    "objectiveJordan": "8.4010",
+    "objectiveNick": "8.2375",
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "BORDER OF STRIKE!",
+        "jordanRating": 8,
+        "nickRating": 8
+      },
+      {
+        "songNumber": 2,
+        "songName": "Wriggle Buggle",
+        "jordanRating": 8.25,
+        "nickRating": 8.25
+      },
+      {
+        "songNumber": 3,
+        "songName": "Flower Heaven -Flowers of the Sky-",
+        "jordanRating": 8.1875,
+        "nickRating": 8.1
+      },
+      {
+        "songNumber": 4,
+        "songName": "Dash Ensemble",
+        "jordanRating": 8.5,
+        "nickRating": 8.4
+      },
+      {
+        "songNumber": 5,
+        "songName": "LaserMari is Not Difficult!",
+        "jordanRating": 7.5,
+        "nickRating": 7.4
+      },
+      {
+        "songNumber": 6,
+        "songName": "Tohno Youkai Frontline",
+        "jordanRating": 8.125,
+        "nickRating": 8.1
+      },
+      {
+        "songNumber": 7,
+        "songName": "drizzly rain",
+        "jordanRating": 8.5,
+        "nickRating": 8.2
+      },
+      {
+        "songNumber": 8,
+        "songName": "Paradise [C.C.LIVE]",
+        "jordanRating": 9,
+        "nickRating": 8.5
+      },
+      {
+        "songNumber": 9,
+        "songName": "Help me, ERINNNNNN!!",
+        "jordanRating": 9,
+        "nickRating": 8.7
+      },
+      {
+        "songNumber": 10,
+        "songName": "Sakura Sakura -Sakura Sakura-",
+        "jordanRating": 8,
+        "nickRating": 7.8
+      },
+      {
+        "songNumber": 11,
+        "songName": "Last Brutal Sister, Flandre S.",
+        "jordanRating": 9.25,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 12,
+        "songName": "There Never was a Dead Princess to Begin With",
+        "jordanRating": 8.5,
+        "nickRating": 8.6
+      }
+    ]
+  }
+]

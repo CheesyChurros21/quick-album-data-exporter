@@ -28,6 +28,10 @@
             <input type="text" id="albumPhoto" name="albumPhoto" >
             <br>
 
+            <label for="dateCompleted">Date Completed - </label>
+            <input type="datetime-local" id="dateCompleted" name="dateCompleted">
+            <br>
+
             <label for="subjectiveJordan">Subjective Jordan Album Ranking - </label>
             <input type="number" id="subjectiveJordan" name="subjectiveJordan" min="1" max="20" step="0.5">
             <br>
@@ -87,6 +91,17 @@
                         ratingDiv.style.display = "flex";
                         ratingDiv.style.justifyContent = "center";
                         ratingDiv.style.gap = "12px";
+
+                        // Song Name
+                        let songNameLabel = document.createElement("label");
+                        songNameLabel.textContent = `Song ${i + 1} Name - `;
+                        let songNameInput = document.createElement("input");
+                        songNameInput.type = "text";
+                        songNameInput.name = `songName${i + 1}`;
+
+                        ratingDiv.appendChild(songNameLabel);
+                        ratingDiv.appendChild(songNameInput);
+
                         // Jordan's rating
                         const jordanLabel = document.createElement("label");
                         jordanLabel.textContent = `Jordan Rating For Song ${i + 1} - `;
@@ -157,13 +172,14 @@
 
 
         document.getElementById("submitAlbum").addEventListener("click", () => {
-            const albumTitle = document.getElementById("albumTitle").value;    
-            const circleName = document.getElementById("circleName").value;
-            const albumPhoto = document.getElementById("albumPhoto").value;
+            const albumTitle = document.getElementById("albumTitle").value.trim();    
+            const circleName = document.getElementById("circleName").value.trim();
+            const albumPhoto = document.getElementById("albumPhoto").value.trim();
+            const dateCompleted = document.getElementById("dateCompleted").value;
             const subjectiveJordan = parseFloat(document.getElementById("subjectiveJordan").value) || 0;
             const subjectiveNick = parseFloat(document.getElementById("subjectiveNick").value) || 0;
             const songAmount = parseInt(document.getElementById("songAmount").value);
-
+            const songNames = document.querySelectorAll("input[name^='songName']");
             const jordanRatings = document.querySelectorAll("input[name^='jordanRating']");
             const nickRatings = document.querySelectorAll("input[name^='nickRating']");
 
@@ -174,12 +190,12 @@
 
             if (songAmount > 0) {
                 for (let i = 0; i < jordanRatings.length; i = i + 1) {
-                    a = 
                     jordanTotal = jordanTotal + (parseFloat(jordanRatings[i].value) || 0);
                     nickTotal = nickTotal + (parseFloat(nickRatings[i].value) || 0);
 
                     ratings.push({
                         songNumber: i + 1,
+                        songName: songNames[i].value.trim() || "",
                         jordanRating: (parseFloat(jordanRatings[i].value) || 0),
                         nickRating: (parseFloat(nickRatings[i].value) || 0)
                     });
@@ -194,6 +210,7 @@
                     albumTitle,
                     circleName,
                     albumPhoto,
+                    dateCompleted,
                     subjectiveJordan,
                     subjectiveNick,
                     songAmount,

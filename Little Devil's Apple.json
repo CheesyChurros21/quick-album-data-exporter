@@ -1,0 +1,49 @@
+{
+  "albumTitle": "Little Devil's Apple",
+  "circleName": "Yuuhei Satellite",
+  "albumPhoto": "https://en.touhouwiki.net/images/b/b3/YHST-0004.jpg",
+  "dateCompleted": "2021-04-28T03:49",
+  "subjectiveJordan": 8.7,
+  "subjectiveNick": 8.3,
+  "songAmount": 6,
+  "objectiveJordan": "8.6667",
+  "objectiveNick": "8.5083",
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "Little Devil's Apple",
+      "jordanRating": 9.75,
+      "nickRating": 9
+    },
+    {
+      "songNumber": 2,
+      "songName": "An Address to Innocence",
+      "jordanRating": 8.25,
+      "nickRating": 8.2
+    },
+    {
+      "songNumber": 3,
+      "songName": "IRON RAIN ~Confession of the Sealed Room~",
+      "jordanRating": 9.5,
+      "nickRating": 8.8
+    },
+    {
+      "songNumber": 4,
+      "songName": "Philosophy of Loneliness",
+      "jordanRating": 7.75,
+      "nickRating": 7.6
+    },
+    {
+      "songNumber": 5,
+      "songName": "Irreversible Nexus",
+      "jordanRating": 7.75,
+      "nickRating": 7.65
+    },
+    {
+      "songNumber": 6,
+      "songName": "Opposite World",
+      "jordanRating": 9,
+      "nickRating": 9.8
+    }
+  ]
+}
