@@ -8,7 +8,7 @@
             Album Displayer
         </title>
 
-        <header class='websiteTitle' id="circleName">
+        <header class='websiteTitle' id="sortOption">
             Album Database Browser
         </header>
     </head>
@@ -25,18 +25,35 @@
     
         let circleAlbums = [];
        
-        let selectedCircle = new URLSearchParams(window.location.search).get("circleDropdown");
+        let selectedOption = new URLSearchParams(window.location.search).get("albumOptions");
         let albumContainer = document.getElementById("albumContainer");
 
         fetch('all_albums.json')
         .then(response => response.json())
         .then(data => {
             console.log(data);
-            circleAlbums = data.filter(entry => entry.circleName == selectedCircle);
+
+            if (selectedOption == "Ascending Objective Rating") {
+
+            }
+
+            else if (selectedOption == "Ascending Subjective Rating") {
+                
+            }
+
+            else if (selectedOption == "Descending Objective Rating") {
+                
+            }
+
+            else if (selectedOption == "Descending Objective Rating") {
+                
+            }
+
+            circleAlbums = data.filter(entry => entry.circleName == selectedOption);
             console.log(circleAlbums);
 
-            let pageHeader = document.getElementById("circleName");
-            pageHeader.innerText = selectedCircle;
+            let pageHeader = document.getElementById("sortOption");
+            pageHeader.innerText = selectedOption;
 
             for (let i = 0; i < circleAlbums.length; i = i + 1) {
                 let album = document.createElement("div");
@@ -91,5 +108,38 @@
             }
         })
         .catch(error => console.error('Error loading JSON:', error));
+
+        /*
+            
+fetch('all_albums.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+
+        // Filter by selected circle
+        circleAlbums = data.filter(entry => entry.circleName === selectedOption);
+
+        // Apply sorting based on selected option
+        if (selectedOption === "Ascending Objective Rating") {
+            circleAlbums.sort((a, b) => a.jordanObjective - b.jordanObjective);
+        } else if (selectedOption === "Descending Objective Rating") {
+            circleAlbums.sort((a, b) => b.jordanObjective - a.jordanObjective);
+        } else if (selectedOption === "Ascending Subjective Rating") {
+            circleAlbums.sort((a, b) => a.jordanSubjective - b.jordanSubjective);
+        } else if (selectedOption === "Descending Subjective Rating") {
+            circleAlbums.sort((a, b) => b.jordanSubjective - a.jordanSubjective);
+        }
+
+        // Now you can render the sorted albums to the DOM
+        // Example:
+        albumContainer.innerHTML = "";
+        circleAlbums.forEach(album => {
+            const albumElement = document.createElement("div");
+            albumElement.textContent = `${album.albumName} - Objective: ${album.jordanObjective}`;
+            albumContainer.appendChild(albumElement);
+        });
+    });
+
+        */
     </script>
 </html>

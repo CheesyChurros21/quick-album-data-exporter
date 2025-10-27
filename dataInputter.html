@@ -108,7 +108,7 @@
                         const jordanInput = document.createElement("input");
                         jordanInput.type = "number";
                         jordanInput.name = `jordanRating${i + 1}`;
-                        jordanInput.min = "0";
+                        jordanInput.min = "-1";
                         jordanInput.max = "12";
                         jordanInput.step = "any";
 
@@ -121,7 +121,7 @@
                         const nickInput = document.createElement("input");
                         nickInput.type = "number";
                         nickInput.name = `nickRating${i + 1}`;
-                        nickInput.min = "0";
+                        nickInput.min = "-1";
                         nickInput.max = "12";
                         nickInput.step = "any";
 
@@ -144,6 +144,8 @@
 
             let jordanTotal = 0;
             let nickTotal = 0;
+            let jordanUnavailableSongTotal = 0;
+            let nickUnavailableSongTotal = 0;
 
             let songAmount = parseInt(document.getElementById("songAmount").value);
 
@@ -151,12 +153,26 @@
                 jordanTotal = 0;
                 nickTotal = 0;
                 for (let i = 0; i < jordanRatings.length; i = i + 1) {
-                    jordanTotal = jordanTotal + (parseFloat(jordanRatings[i].value) || 0);
-                    nickTotal = nickTotal + (parseFloat(nickRatings[i].value) || 0);
+
+                    if (parseFloat(jordanRatings[i].value) >= 0) {
+                        jordanTotal = jordanTotal + (parseFloat(jordanRatings[i].value) || 0);
+                    }
+
+                    else {
+                        jordanUnavailableSongTotal = jordanUnavailableSongTotal + 1;
+                    }
+                    
+                    if (parseFloat(nickRatings[i].value) >= 0) {
+                        nickTotal = nickTotal + (parseFloat(nickRatings[i].value) || 0);
+                    }
+                    
+                    else {
+                        nickUnavailableSongTotal = nickUnavailableSongTotal + 1;
+                    }
                 }
 
-                let objectiveJordan = songAmount > 0 ? (jordanTotal / songAmount).toFixed(4) : "N/A";
-                let objectiveNick = songAmount > 0 ? (nickTotal / songAmount).toFixed(4) : "N/A";
+                let objectiveJordan = songAmount > 0 ? (jordanTotal / (songAmount - jordanUnavailableSongTotal)).toFixed(4) : "N/A";
+                let objectiveNick = songAmount > 0 ? (nickTotal / (songAmount - nickUnavailableSongTotal)).toFixed(4) : "N/A";
 
                 document.getElementById("averageDisplay").textContent = `Jordan's Average: ${objectiveJordan} | Nick's Average: ${objectiveNick}`;
             }   
@@ -185,25 +201,46 @@
 
             let jordanTotal = 0;
             let nickTotal = 0;
+            let jordanUnavailableSongTotal = 0;
+            let nickUnavailableSongTotal = 0;
+            let jordanCurrentRating = 0;
+            let nickCurrentRating = 0;
 
             const ratings = [];
 
             if (songAmount > 0) {
                 for (let i = 0; i < jordanRatings.length; i = i + 1) {
-                    jordanTotal = jordanTotal + (parseFloat(jordanRatings[i].value) || 0);
-                    nickTotal = nickTotal + (parseFloat(nickRatings[i].value) || 0);
+                    if (parseFloat(jordanRatings[i].value) >= 0) {
+                        jordanCurrentRating = parseFloat(jordanRatings[i].value);
+                        jordanTotal = jordanTotal + (jordanCurrentRating || 0);
+                    }
+
+                    else {
+                        jordanCurrentRating = "N/A";
+                        jordanUnavailableSongTotal = jordanUnavailableSongTotal + 1;
+                    }
+
+                    if (parseFloat(nickRatings[i].value) >= 0) {
+                        nickCurrentRating = parseFloat(nickRatings[i].value);
+                        nickTotal = nickTotal + (nickCurrentRating || 0);
+                    }
+
+                    else {
+                        nickCurrentRating = "N/A";
+                        nickUnavailableSongTotal = nickUnavailableSongTotal + 1;
+                    }
 
                     ratings.push({
                         songNumber: i + 1,
                         songName: songNames[i].value.trim() || "",
-                        jordanRating: (parseFloat(jordanRatings[i].value) || 0),
-                        nickRating: (parseFloat(nickRatings[i].value) || 0)
+                        jordanRating: (jordanCurrentRating || "N/A"),
+                        nickRating: (nickCurrentRating || "N/A")
                     });
 
                 }
 
-                let objectiveJordan = songAmount > 0 ? (jordanTotal / songAmount).toFixed(4) : "N/A";
-                let objectiveNick = songAmount > 0 ? (nickTotal / songAmount).toFixed(4) : "N/A";
+                let objectiveJordan = songAmount > 0 ? (jordanTotal / (songAmount - jordanUnavailableSongTotal)).toFixed(4) : "N/A";
+                let objectiveNick = songAmount > 0 ? (nickTotal / (songAmount - nickUnavailableSongTotal)).toFixed(4) : "N/A";
 
 
                 const albumData = {

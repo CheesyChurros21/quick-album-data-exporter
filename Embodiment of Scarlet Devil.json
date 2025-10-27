@@ -6,8 +6,8 @@
   "subjectiveJordan": 9.625,
   "subjectiveNick": 9.1,
   "songAmount": 17,
-  "objectiveJordan": "7.9853",
-  "objectiveNick": "7.6700",
+  "objectiveJordan": "9.0500",
+  "objectiveNick": "8.6933",
   "ratings": [
     {
       "songNumber": 1,
@@ -102,14 +102,14 @@
     {
       "songNumber": 16,
       "songName": "Crimson Beyond a Fleeting Eternity",
-      "jordanRating": 0,
-      "nickRating": 0
+      "jordanRating": "N/A",
+      "nickRating": "N/A"
     },
     {
       "songNumber": 17,
       "songName": "Crimson Belvedere ~ Eastern Dream...",
-      "jordanRating": 0,
-      "nickRating": 0
+      "jordanRating": "N/A",
+      "nickRating": "N/A"
     }
   ]
 }

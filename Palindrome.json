@@ -6,8 +6,8 @@
   "subjectiveJordan": 8.3,
   "subjectiveNick": 7.8,
   "songAmount": 11,
-  "objectiveJordan": "7.5455",
-  "objectiveNick": "7.5182",
+  "objectiveJordan": "8.3000",
+  "objectiveNick": "8.2700",
   "ratings": [
     {
       "songNumber": 1,
@@ -48,8 +48,8 @@
     {
       "songNumber": 7,
       "songName": "Symphonic Poem \"Demon Emperor\" from II. Legendary Illusion",
-      "jordanRating": 0,
-      "nickRating": 0
+      "jordanRating": "N/A",
+      "nickRating": "N/A"
     },
     {
       "songNumber": 8,

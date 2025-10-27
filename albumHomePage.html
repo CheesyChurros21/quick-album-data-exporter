@@ -25,6 +25,21 @@
 
             <input type="submit" value="Submit">
         </form>
+
+        <br><br><br>
+
+        <form action="albumSorter.html" method="get" onsubmit="return checkEmptySortSubmit()">
+            <label for="albumSorter">Album Sorter - </label>
+            <select id="sortOptions" name="sortOptions">
+                <option value="No Input Detected" style="display: none">Select An Option</option>
+                <option value="Ascending Objective Rating">Ascending Objective Rating</option>
+                <option value="Ascending Subjective Rating">Ascending Subjective Rating</option>
+                <option value="Descending Objective Rating">Descending Objective Rating</option>
+                <option value="Descending Subjective Rating">Descending Subjective Rating</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
     </body>
 
 
@@ -61,18 +76,8 @@
         .catch(error => console.error('Error loading JSON:', error));
 
 
-        function checkEmptySearchSortSubmit() {
-            if (document.getElementById("searchType").value == "No Input Detected" && document.getElementById("sortType").value == "No Input Detected") {
-                alert("No Option Submitted For Both Search Type and Sort Type. \nMake Sure to Select An Option.")
-                return false
-            }
-
-            else if (document.getElementById("searchType").value == "No Input Detected") {
-                alert("No Option Submitted For Search Type. \nMake Sure to Select An Option.")
-                return false
-            }
-
-            else if (document.getElementById("sortType").value == "No Input Detected") {
+        function checkEmptySortSubmit() {
+            if (document.getElementById("sortOptions").value == "No Input Detected") {
                 alert("No Option Submitted For Sort Type. \nMake Sure to Select An Option.")
                 return false
             }
