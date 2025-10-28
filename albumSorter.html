@@ -25,32 +25,47 @@
     
         let circleAlbums = [];
        
-        let selectedOption = new URLSearchParams(window.location.search).get("albumOptions");
+        let selectedOption = new URLSearchParams(window.location.search).get("sortOptions");
         let albumContainer = document.getElementById("albumContainer");
 
         fetch('all_albums.json')
         .then(response => response.json())
         .then(data => {
             console.log(data);
-
-            if (selectedOption == "Ascending Objective Rating") {
-
-            }
-
-            else if (selectedOption == "Ascending Subjective Rating") {
-                
-            }
-
-            else if (selectedOption == "Descending Objective Rating") {
-                
-            }
-
-            else if (selectedOption == "Descending Objective Rating") {
-                
-            }
-
-            circleAlbums = data.filter(entry => entry.circleName == selectedOption);
             console.log(circleAlbums);
+
+            if (selectedOption == "Descending Jordan Objective Rating") {
+                console.log("nyaeh");
+                circleAlbums = data.sort((a, b) => b.objectiveJordan - a.objectiveJordan);
+            }
+
+            else if (selectedOption == "Descending Nick Objective Rating") {
+                circleAlbums = data.sort((a, b) => b.objectiveNick - a.objectiveNick);
+            }
+
+            else if (selectedOption == "Descending Jordan Subjective Rating") {
+                circleAlbums = data.sort((a, b) => b.subjectiveJordan - a.subjectiveJordan);
+            }
+
+            else if (selectedOption == "Descending Nick Subjective Rating") {
+                circleAlbums = data.sort((a, b) => b.subjectiveNick - a.subjectiveNick);
+            }
+
+            else if (selectedOption == "Ascending Jordan Objective Rating") {
+                circleAlbums = data.sort((a, b) => a.objectiveJordan - b.objectiveJordan);
+            }
+
+            else if (selectedOption == "Ascending Nick Objective Rating") {
+                circleAlbums = data.sort((a, b) => a.objectiveNick - b.objectiveNick);
+            }
+
+            else if (selectedOption == "Ascending Jordan Subjective Rating") {
+                circleAlbums = data.sort((a, b) => a.subjectiveJordan - b.subjectiveJordan);
+            }
+
+            else if (selectedOption == "Ascending Nick Subjective Rating") {
+                circleAlbums = data.sort((a, b) => a.subjectiveNick - b.subjectiveNick);
+            }
 
             let pageHeader = document.getElementById("sortOption");
             pageHeader.innerText = selectedOption;
@@ -62,6 +77,7 @@
                 album.innerHTML = `
                     <img src="${circleAlbums[i].albumPhoto}"<br><br>
                     <strong>${circleAlbums[i].albumTitle}</strong><br>
+                    <strong>${circleAlbums[i].circleName}</strong><br>
                     Subjective Jordan Rating - ${circleAlbums[i].subjectiveJordan}/10<br>
                     Subjective Nick Rating - ${circleAlbums[i].subjectiveNick}/10<br><br>
                     Objective Jordan Rating - ${circleAlbums[i].objectiveJordan}/10<br>
@@ -108,38 +124,5 @@
             }
         })
         .catch(error => console.error('Error loading JSON:', error));
-
-        /*
-            
-fetch('all_albums.json')
-    .then(response => response.json())
-    .then(data => {
-        console.log(data);
-
-        // Filter by selected circle
-        circleAlbums = data.filter(entry => entry.circleName === selectedOption);
-
-        // Apply sorting based on selected option
-        if (selectedOption === "Ascending Objective Rating") {
-            circleAlbums.sort((a, b) => a.jordanObjective - b.jordanObjective);
-        } else if (selectedOption === "Descending Objective Rating") {
-            circleAlbums.sort((a, b) => b.jordanObjective - a.jordanObjective);
-        } else if (selectedOption === "Ascending Subjective Rating") {
-            circleAlbums.sort((a, b) => a.jordanSubjective - b.jordanSubjective);
-        } else if (selectedOption === "Descending Subjective Rating") {
-            circleAlbums.sort((a, b) => b.jordanSubjective - a.jordanSubjective);
-        }
-
-        // Now you can render the sorted albums to the DOM
-        // Example:
-        albumContainer.innerHTML = "";
-        circleAlbums.forEach(album => {
-            const albumElement = document.createElement("div");
-            albumElement.textContent = `${album.albumName} - Objective: ${album.jordanObjective}`;
-            albumContainer.appendChild(albumElement);
-        });
-    });
-
-        */
     </script>
 </html>
