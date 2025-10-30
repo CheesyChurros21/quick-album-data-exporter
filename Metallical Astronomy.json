@@ -1,79 +1,81 @@
 {
-  "albumTitle": "Metallical Astronomy",
-  "circleName": "SOUND HOLIC",
-  "albumPhoto": "https://en.touhouwiki.net/images/3/32/SDHC-0020.jpg",
-  "dateCompleted": "2021-04-27T04:18",
-  "subjectiveJordan": 7.4,
-  "subjectiveNick": 7,
-  "songAmount": 11,
-  "objectiveJordan": "7.7045",
-  "objectiveNick": "7.6636",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "Metallical Astronomy",
-      "jordanRating": 8.75,
-      "nickRating": 9.1
-    },
-    {
-      "songNumber": 2,
-      "songName": "Satellite XXX",
-      "jordanRating": 8.5,
-      "nickRating": 8.6
-    },
-    {
-      "songNumber": 3,
-      "songName": "Scarlet Desire",
-      "jordanRating": 8,
-      "nickRating": 7.7
-    },
-    {
-      "songNumber": 4,
-      "songName": "G.M.T.",
-      "jordanRating": 7.75,
-      "nickRating": 7.8
-    },
-    {
-      "songNumber": 5,
-      "songName": "Heart of Singularity",
-      "jordanRating": 7.25,
-      "nickRating": 7.4
-    },
-    {
-      "songNumber": 6,
-      "songName": "G-ZERO",
-      "jordanRating": 8.25,
-      "nickRating": 7.6
-    },
-    {
-      "songNumber": 7,
-      "songName": "A Trip to the Moon",
-      "jordanRating": 7.75,
-      "nickRating": 8.3
-    },
-    {
-      "songNumber": 8,
-      "songName": "Infinity Trip",
-      "jordanRating": 6,
-      "nickRating": 6.2
-    },
-    {
-      "songNumber": 9,
-      "songName": "Demystify The Universe",
-      "jordanRating": 6.75,
-      "nickRating": 6.4
-    },
-    {
-      "songNumber": 10,
-      "songName": "Break the world down",
-      "jordanRating": 8.25,
-      "nickRating": 6.6
-    },
-    {
-      "songNumber": 11,
-      "songName": "Missing Moon",
-      "jordanRating": 7.5,
-      "nickRating": 8.6
-    }
-  ]
+    "albumTitle": "Metallical Astronomy",
+    "circleName": "SOUND HOLIC",
+    "albumPhoto": "https://en.touhouwiki.net/images/3/32/SDHC-0020.jpg",
+    "dateCompleted": "2021-04-27T04:18",
+    "subjectiveJordan": 7.4,
+    "subjectiveNick": 7,
+    "objectiveJordan": 7.7045,
+    "objectiveNick": 7.6636,
+    "subjectiveCombined": 7.2,
+    "objectiveCombined": 7.6841,
+    "songAmount": 11,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "Metallical Astronomy",
+            "jordanRating": 8.75,
+            "nickRating": 9.1
+        },
+        {
+            "songNumber": 2,
+            "songName": "Satellite XXX",
+            "jordanRating": 8.5,
+            "nickRating": 8.6
+        },
+        {
+            "songNumber": 3,
+            "songName": "Scarlet Desire",
+            "jordanRating": 8,
+            "nickRating": 7.7
+        },
+        {
+            "songNumber": 4,
+            "songName": "G.M.T.",
+            "jordanRating": 7.75,
+            "nickRating": 7.8
+        },
+        {
+            "songNumber": 5,
+            "songName": "Heart of Singularity",
+            "jordanRating": 7.25,
+            "nickRating": 7.4
+        },
+        {
+            "songNumber": 6,
+            "songName": "G-ZERO",
+            "jordanRating": 8.25,
+            "nickRating": 7.6
+        },
+        {
+            "songNumber": 7,
+            "songName": "A Trip to the Moon",
+            "jordanRating": 7.75,
+            "nickRating": 8.3
+        },
+        {
+            "songNumber": 8,
+            "songName": "Infinity Trip",
+            "jordanRating": 6,
+            "nickRating": 6.2
+        },
+        {
+            "songNumber": 9,
+            "songName": "Demystify The Universe",
+            "jordanRating": 6.75,
+            "nickRating": 6.4
+        },
+        {
+            "songNumber": 10,
+            "songName": "Break the world down",
+            "jordanRating": 8.25,
+            "nickRating": 6.6
+        },
+        {
+            "songNumber": 11,
+            "songName": "Missing Moon",
+            "jordanRating": 7.5,
+            "nickRating": 8.6
+        }
+    ]
 }

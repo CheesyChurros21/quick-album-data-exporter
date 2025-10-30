@@ -27,7 +27,7 @@
         let filteredAlbums = [];
        
         let parameters = new URLSearchParams(window.location.search);
-        let selectedOptions = parameters.get("orderOptions") + " " + parameters.get("whoOptions") + " " + parameters.get("rankType");
+        let selectedOptions = parameters.get("orderOptionsTierList") + " " + parameters.get("whoOptionsTierList") + " " + parameters.get("rankTypeTierList");
 
         let albumContainer = document.getElementById("albumContainer");
 

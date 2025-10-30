@@ -1,115 +1,117 @@
 {
-  "albumTitle": "Embodiment of Scarlet Devil",
-  "circleName": "ZUN",
-  "albumPhoto": "https://en.touhouwiki.net/images/8/8b/Th06cover.jpg",
-  "dateCompleted": "2021-03-07T06:24",
-  "subjectiveJordan": 9.625,
-  "subjectiveNick": 9.1,
-  "songAmount": 17,
-  "objectiveJordan": "9.0500",
-  "objectiveNick": "8.6933",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "Scarlet Beyond a Crimson Dream",
-      "jordanRating": 9,
-      "nickRating": 7.5
-    },
-    {
-      "songNumber": 2,
-      "songName": "A Soul as Red as a Ground Cherry",
-      "jordanRating": 9.5,
-      "nickRating": 8.8
-    },
-    {
-      "songNumber": 3,
-      "songName": "Apparitions Stalk the Night",
-      "jordanRating": 8.5,
-      "nickRating": 9
-    },
-    {
-      "songNumber": 4,
-      "songName": "Lunate Elf",
-      "jordanRating": 8.5,
-      "nickRating": 8.9
-    },
-    {
-      "songNumber": 5,
-      "songName": "Tomboyish Girl in Love",
-      "jordanRating": 9.75,
-      "nickRating": 9.5
-    },
-    {
-      "songNumber": 6,
-      "songName": "Shanghai Teahouse ~ Chinese Tea",
-      "jordanRating": 9.5,
-      "nickRating": 9.4
-    },
-    {
-      "songNumber": 7,
-      "songName": "Shanghai Alice of Meiji 17",
-      "jordanRating": 9,
-      "nickRating": 8.85
-    },
-    {
-      "songNumber": 8,
-      "songName": "Voile, the Magic Library",
-      "jordanRating": 8,
-      "nickRating": 7.9
-    },
-    {
-      "songNumber": 9,
-      "songName": "Locked Girl ~ The Girl's Sealed Room",
-      "jordanRating": 9.75,
-      "nickRating": 8.3
-    },
-    {
-      "songNumber": 10,
-      "songName": "The Maid and the Pocket Watch of Blood",
-      "jordanRating": 8,
-      "nickRating": 8.68
-    },
-    {
-      "songNumber": 11,
-      "songName": "Lunar Clock ~ Luna Dial",
-      "jordanRating": 9.75,
-      "nickRating": 8.2
-    },
-    {
-      "songNumber": 12,
-      "songName": "The Young Descendant of Tepes",
-      "jordanRating": 8,
-      "nickRating": 8.56
-    },
-    {
-      "songNumber": 13,
-      "songName": "Septette for the Dead Princess",
-      "jordanRating": 10,
-      "nickRating": 9.7
-    },
-    {
-      "songNumber": 14,
-      "songName": "The Centennial Festival for Magical Girls",
-      "jordanRating": 9,
-      "nickRating": 7.5
-    },
-    {
-      "songNumber": 15,
-      "songName": "U.N. Owen Was Her?",
-      "jordanRating": 9.5,
-      "nickRating": 9.6
-    },
-    {
-      "songNumber": 16,
-      "songName": "Crimson Beyond a Fleeting Eternity",
-      "jordanRating": "N/A",
-      "nickRating": "N/A"
-    },
-    {
-      "songNumber": 17,
-      "songName": "Crimson Belvedere ~ Eastern Dream...",
-      "jordanRating": "N/A",
-      "nickRating": "N/A"
-    }
-  ]
+    "albumTitle": "Embodiment of Scarlet Devil",
+    "circleName": "ZUN",
+    "albumPhoto": "https://en.touhouwiki.net/images/8/8b/Th06cover.jpg",
+    "dateCompleted": "2021-03-07T06:24",
+    "subjectiveJordan": 9.625,
+    "subjectiveNick": 9.1,
+    "objectiveJordan": 9.05,
+    "objectiveNick": 8.6933,
+    "subjectiveCombined": 9.3625,
+    "objectiveCombined": 8.8717,
+    "songAmount": 17,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "Scarlet Beyond a Crimson Dream",
+            "jordanRating": 9,
+            "nickRating": 7.5
+        },
+        {
+            "songNumber": 2,
+            "songName": "A Soul as Red as a Ground Cherry",
+            "jordanRating": 9.5,
+            "nickRating": 8.8
+        },
+        {
+            "songNumber": 3,
+            "songName": "Apparitions Stalk the Night",
+            "jordanRating": 8.5,
+            "nickRating": 9
+        },
+        {
+            "songNumber": 4,
+            "songName": "Lunate Elf",
+            "jordanRating": 8.5,
+            "nickRating": 8.9
+        },
+        {
+            "songNumber": 5,
+            "songName": "Tomboyish Girl in Love",
+            "jordanRating": 9.75,
+            "nickRating": 9.5
+        },
+        {
+            "songNumber": 6,
+            "songName": "Shanghai Teahouse ~ Chinese Tea",
+            "jordanRating": 9.5,
+            "nickRating": 9.4
+        },
+        {
+            "songNumber": 7,
+            "songName": "Shanghai Alice of Meiji 17",
+            "jordanRating": 9,
+            "nickRating": 8.85
+        },
+        {
+            "songNumber": 8,
+            "songName": "Voile, the Magic Library",
+            "jordanRating": 8,
+            "nickRating": 7.9
+        },
+        {
+            "songNumber": 9,
+            "songName": "Locked Girl ~ The Girl's Sealed Room",
+            "jordanRating": 9.75,
+            "nickRating": 8.3
+        },
+        {
+            "songNumber": 10,
+            "songName": "The Maid and the Pocket Watch of Blood",
+            "jordanRating": 8,
+            "nickRating": 8.68
+        },
+        {
+            "songNumber": 11,
+            "songName": "Lunar Clock ~ Luna Dial",
+            "jordanRating": 9.75,
+            "nickRating": 8.2
+        },
+        {
+            "songNumber": 12,
+            "songName": "The Young Descendant of Tepes",
+            "jordanRating": 8,
+            "nickRating": 8.56
+        },
+        {
+            "songNumber": 13,
+            "songName": "Septette for the Dead Princess",
+            "jordanRating": 10,
+            "nickRating": 9.7
+        },
+        {
+            "songNumber": 14,
+            "songName": "The Centennial Festival for Magical Girls",
+            "jordanRating": 9,
+            "nickRating": 7.5
+        },
+        {
+            "songNumber": 15,
+            "songName": "U.N. Owen Was Her?",
+            "jordanRating": 9.5,
+            "nickRating": 9.6
+        },
+        {
+            "songNumber": 16,
+            "songName": "Crimson Beyond a Fleeting Eternity",
+            "jordanRating": "N/A",
+            "nickRating": "N/A"
+        },
+        {
+            "songNumber": 17,
+            "songName": "Crimson Belvedere ~ Eastern Dream...",
+            "jordanRating": "N/A",
+            "nickRating": "N/A"
+        }
+    ]
 }

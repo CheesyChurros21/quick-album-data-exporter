@@ -29,6 +29,7 @@
         <br><br><br>
 
         <form action="albumSorter.html" method="get" onsubmit="return checkEmptySortSubmit()">
+            <!--
             <label for="albumSorter">Album Sorter - </label>
             <select id="sortOptions" name="sortOptions">
                 <option value="No Input Detected" style="display: none">Select An Option</option>
@@ -40,9 +41,82 @@
                 <option value="Ascending Nick Objective Rating">Ascending Nick Objective Rating</option>
                 <option value="Ascending Jordan Subjective Rating">Ascending Jordan Subjective Rating</option>
                 <option value="Ascending Nick Subjective Rating">Ascending Nick Subjective Rating</option>
+
+                <option value="Descending Combined Objective Rating">Descending Combined Objective Rating</option>
+                <option value="Descending Combined Subjective Rating">Descending Combined Subjective Rating</option>
+                <option value="Ascending Combined Objective Rating">Ascending Combined Objective Rating</option>
+                <option value="Ascending Combined Subjective Rating">Ascending Combined Subjective Rating</option>
                 
             </select>
+            -->
+            <label for="order">Order - </label>
+            <select id="orderOptions" name="orderOptions">
+                <option value="No Input Detected" style="display: none">Select An Option</option>
+                <option value="Descending">Descending</option>
+                <option value="Ascending">Ascending</option>
+            </select>
 
+            <br>
+
+            <label for="who">Who - </label>
+            <select id="whoOptions" name="whoOptions">
+                <option value="No Input Detected" style="display: none">Select An Option</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Nick">Nick</option>
+                <option value="Combined">Combined</option>
+            </select>
+
+            <br>
+
+            <label for="rankType">Rank Type - </label>
+            <select id="rankType" name="rankType">
+                <option value="No Input Detected" style="display: none">Select An Option</option>
+                <option value="Objective">Objective</option>
+                <option value="Subjective">Subjective</option>
+            </select>
+
+            <br>
+
+            <label for="range">Rank Range Inclusive - </label>
+            <input type="number" id="rangeStart" name="rangeStart" min="0" max="10" step="any" value="0">
+            <input type="number" id="rangeEnd" name="rangeEnd" min="0" max="10" step="any" value="10">
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <br><br><br>
+
+        <form action="albumTierList.html" method="get" onsubmit="return checkEmptyTierListSubmit()">
+            <label for="orderTierList">Order - </label>
+            <select id="orderOptionsTierList" name="orderOptionsTierList">
+                <option value="No Input Detected" style="display: none">Select An Option</option>
+                <option value="Descending">Descending</option>
+                <option value="Ascending">Ascending</option>
+            </select>
+
+            <br>
+
+            <label for="whoTierList">Who - </label>
+            <select id="whoOptionsTierList" name="whoOptionsTierList">
+                <option value="No Input Detected" style="display: none">Select An Option</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Nick">Nick</option>
+                <option value="Combined">Combined</option>
+            </select>
+
+            <br>
+
+            <label for="rankTypeTierList">Rank Type - </label>
+            <select id="rankTypeTierList" name="rankTypeTierList">
+                <option value="No Input Detected" style="display: none">Select An Option</option>
+                <option value="Objective">Objective</option>
+                <option value="Subjective">Subjective</option>
+            </select>
+
+            <br>
+
+            <label for="albumTierList">Album Tier List - </label>
             <input type="submit" value="Submit">
         </form>
     </body>
@@ -82,8 +156,40 @@
 
 
         function checkEmptySortSubmit() {
-            if (document.getElementById("sortOptions").value == "No Input Detected") {
-                alert("No Option Submitted For Sort Type. \nMake Sure to Select An Option.")
+            if (document.getElementById("orderOptions").value == "No Input Detected") {
+                alert("No Option Submitted For Order Type. \nMake Sure To Select An Option.")
+                return false
+            }
+
+            else if (document.getElementById("whoOptions").value == "No Input Detected") {
+                alert("No Option Submitted For Who Type. \nMake Sure To Select An Option.")
+                return false
+            }
+
+            else if (document.getElementById("rankType").value == "No Input Detected") {
+                alert("No Option Submitted For Rank Type. \nMake Sure To Select An Option.")
+                return false
+            }
+
+            else if (parseFloat(document.getElementById("rangeStart").value) > parseFloat(document.getElementById("rangeEnd").value)) {
+                alert("Range Start Is Greater Than Range End. \nMake Sure Range Start Is Lesser Than Or Equal To Range End.")
+                return false
+            }
+        }
+
+        function checkEmptyTierListSubmit() {
+            if (document.getElementById("orderOptionsTierList").value == "No Input Detected") {
+                alert("No Option Submitted For Tier List Order Type. \nMake Sure To Select An Option.")
+                return false
+            }
+
+            else if (document.getElementById("whoOptionsTierList").value == "No Input Detected") {
+                alert("No Option Submitted For Tier List Who Type. \nMake Sure To Select An Option.")
+                return false
+            }
+
+            else if (document.getElementById("rankTypeTierList").value == "No Input Detected") {
+                alert("No Option Submitted For Tier List Rank Type. \nMake Sure To Select An Option.")
                 return false
             }
         }

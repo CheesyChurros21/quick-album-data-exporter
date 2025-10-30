@@ -1,55 +1,57 @@
 {
-  "albumTitle": "Touhou Philharmonic Orchestra 4 Eternity & Gather",
-  "circleName": "Kokyo Active NEETs",
-  "albumPhoto": "https://en.touhouwiki.net/images/c/c5/KNCD-0008.jpg",
-  "dateCompleted": "2021-02-23T21:09",
-  "subjectiveJordan": 9,
-  "subjectiveNick": 8.8,
-  "songAmount": 7,
-  "objectiveJordan": "8.8929",
-  "objectiveNick": "8.7686",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "Maiden's Capriccio ~ Dream Battle",
-      "jordanRating": 9,
-      "nickRating": 8.6
-    },
-    {
-      "songNumber": 2,
-      "songName": "Extend Ash ~ Hourai Victim",
-      "jordanRating": 8.75,
-      "nickRating": 8.8
-    },
-    {
-      "songNumber": 3,
-      "songName": "Lunatic Eyes ~ Invisible Full Moon",
-      "jordanRating": 8.5,
-      "nickRating": 9
-    },
-    {
-      "songNumber": 4,
-      "songName": "Gensokyo Millennium ~ History of the Moon",
-      "jordanRating": 9.25,
-      "nickRating": 8.5
-    },
-    {
-      "songNumber": 5,
-      "songName": "Night Falls ~ Evening Star",
-      "jordanRating": 8.5,
-      "nickRating": 8.4
-    },
-    {
-      "songNumber": 6,
-      "songName": "The Fabled Land of Onigashima ~ Missing Power",
-      "jordanRating": 9.5,
-      "nickRating": 9.3
-    },
-    {
-      "songNumber": 7,
-      "songName": "Eastern Forgathering Dream",
-      "jordanRating": 8.75,
-      "nickRating": 8.78
-    }
-  ]
+    "albumTitle": "Touhou Philharmonic Orchestra 4 Eternity & Gather",
+    "circleName": "Kokyo Active NEETs",
+    "albumPhoto": "https://en.touhouwiki.net/images/c/c5/KNCD-0008.jpg",
+    "dateCompleted": "2021-02-23T21:09",
+    "subjectiveJordan": 9,
+    "subjectiveNick": 8.8,
+    "objectiveJordan": 8.8929,
+    "objectiveNick": 8.7686,
+    "subjectiveCombined": 8.9,
+    "objectiveCombined": 8.8307,
+    "songAmount": 7,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "Maiden's Capriccio ~ Dream Battle",
+            "jordanRating": 9,
+            "nickRating": 8.6
+        },
+        {
+            "songNumber": 2,
+            "songName": "Extend Ash ~ Hourai Victim",
+            "jordanRating": 8.75,
+            "nickRating": 8.8
+        },
+        {
+            "songNumber": 3,
+            "songName": "Lunatic Eyes ~ Invisible Full Moon",
+            "jordanRating": 8.5,
+            "nickRating": 9
+        },
+        {
+            "songNumber": 4,
+            "songName": "Gensokyo Millennium ~ History of the Moon",
+            "jordanRating": 9.25,
+            "nickRating": 8.5
+        },
+        {
+            "songNumber": 5,
+            "songName": "Night Falls ~ Evening Star",
+            "jordanRating": 8.5,
+            "nickRating": 8.4
+        },
+        {
+            "songNumber": 6,
+            "songName": "The Fabled Land of Onigashima ~ Missing Power",
+            "jordanRating": 9.5,
+            "nickRating": 9.3
+        },
+        {
+            "songNumber": 7,
+            "songName": "Eastern Forgathering Dream",
+            "jordanRating": 8.75,
+            "nickRating": 8.78
+        }
+    ]
 }

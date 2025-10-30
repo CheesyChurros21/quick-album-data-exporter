@@ -1,79 +1,81 @@
 {
-  "albumTitle": "Lovelight",
-  "circleName": "Alstroemeria Records",
-  "albumPhoto": "https://en.touhouwiki.net/images/c/c7/ARCD0018.jpg",
-  "dateCompleted": "2021-02-16T01:37",
-  "subjectiveJordan": 2,
-  "subjectiveNick": 5,
-  "songAmount": 11,
-  "objectiveJordan": "1.7273",
-  "objectiveNick": "1.5909",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "Lovelight",
-      "jordanRating": 4,
-      "nickRating": 5.5
-    },
-    {
-      "songNumber": 2,
-      "songName": "Bad Apple!!",
-      "jordanRating": 12,
-      "nickRating": 9
-    },
-    {
-      "songNumber": 3,
-      "songName": "Magic Girl",
-      "jordanRating": 3,
-      "nickRating": 3
-    },
-    {
-      "songNumber": 4,
-      "songName": "Witherd Leaf",
-      "jordanRating": 0,
-      "nickRating": 0
-    },
-    {
-      "songNumber": 5,
-      "songName": "Silver That Can Be Crushed Like Crystal",
-      "jordanRating": 0,
-      "nickRating": 0
-    },
-    {
-      "songNumber": 6,
-      "songName": "Ultimate Truth",
-      "jordanRating": 0,
-      "nickRating": 0
-    },
-    {
-      "songNumber": 7,
-      "songName": "Interlude",
-      "jordanRating": 0,
-      "nickRating": 0
-    },
-    {
-      "songNumber": 8,
-      "songName": "Fractal Night",
-      "jordanRating": 0,
-      "nickRating": 0
-    },
-    {
-      "songNumber": 9,
-      "songName": "Extend Ash",
-      "jordanRating": 0,
-      "nickRating": 0
-    },
-    {
-      "songNumber": 10,
-      "songName": "How Is Your Eyes Crazy?",
-      "jordanRating": 0,
-      "nickRating": 0
-    },
-    {
-      "songNumber": 11,
-      "songName": "Bad Apple!! (Instrumental)",
-      "jordanRating": 0,
-      "nickRating": 0
-    }
-  ]
+    "albumTitle": "Lovelight",
+    "circleName": "Alstroemeria Records",
+    "albumPhoto": "https://en.touhouwiki.net/images/c/c7/ARCD0018.jpg",
+    "dateCompleted": "2021-02-16T01:37",
+    "subjectiveJordan": 2,
+    "subjectiveNick": 5,
+    "objectiveJordan": 1.7273,
+    "objectiveNick": 1.5909,
+    "subjectiveCombined": 3.5,
+    "objectiveCombined": 1.6591,
+    "songAmount": 11,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "Lovelight",
+            "jordanRating": 4,
+            "nickRating": 5.5
+        },
+        {
+            "songNumber": 2,
+            "songName": "Bad Apple!!",
+            "jordanRating": 12,
+            "nickRating": 9
+        },
+        {
+            "songNumber": 3,
+            "songName": "Magic Girl",
+            "jordanRating": 3,
+            "nickRating": 3
+        },
+        {
+            "songNumber": 4,
+            "songName": "Witherd Leaf",
+            "jordanRating": 0,
+            "nickRating": 0
+        },
+        {
+            "songNumber": 5,
+            "songName": "Silver That Can Be Crushed Like Crystal",
+            "jordanRating": 0,
+            "nickRating": 0
+        },
+        {
+            "songNumber": 6,
+            "songName": "Ultimate Truth",
+            "jordanRating": 0,
+            "nickRating": 0
+        },
+        {
+            "songNumber": 7,
+            "songName": "Interlude",
+            "jordanRating": 0,
+            "nickRating": 0
+        },
+        {
+            "songNumber": 8,
+            "songName": "Fractal Night",
+            "jordanRating": 0,
+            "nickRating": 0
+        },
+        {
+            "songNumber": 9,
+            "songName": "Extend Ash",
+            "jordanRating": 0,
+            "nickRating": 0
+        },
+        {
+            "songNumber": 10,
+            "songName": "How Is Your Eyes Crazy?",
+            "jordanRating": 0,
+            "nickRating": 0
+        },
+        {
+            "songNumber": 11,
+            "songName": "Bad Apple!! (Instrumental)",
+            "jordanRating": 0,
+            "nickRating": 0
+        }
+    ]
 }

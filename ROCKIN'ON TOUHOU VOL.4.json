@@ -1,67 +1,69 @@
 {
-  "albumTitle": "ROCKIN'ON TOUHOU VOL.4",
-  "circleName": "IOSYS",
-  "albumPhoto": "https://en.touhouwiki.net/images/b/bd/IO-0286.jpg",
-  "dateCompleted": "2021-02-16T02:30",
-  "subjectiveJordan": 8.625,
-  "subjectiveNick": 8.8,
-  "songAmount": 9,
-  "objectiveJordan": "7.8889",
-  "objectiveNick": "8.4889",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "MY FIRST FLOWER",
-      "jordanRating": 9,
-      "nickRating": 9.6
-    },
-    {
-      "songNumber": 2,
-      "songName": "Higan Nine Phases",
-      "jordanRating": 7,
-      "nickRating": 8.2
-    },
-    {
-      "songNumber": 3,
-      "songName": "If You’re Gonna Eat Me, Then Eat Me, Flowers And All!",
-      "jordanRating": 8.5,
-      "nickRating": 8.7
-    },
-    {
-      "songNumber": 4,
-      "songName": "The Flower Is Most Beautiful When It Blooms In Despair",
-      "jordanRating": 9,
-      "nickRating": 8.8
-    },
-    {
-      "songNumber": 5,
-      "songName": "Falling Flower Factor",
-      "jordanRating": 8.5,
-      "nickRating": 9.2
-    },
-    {
-      "songNumber": 6,
-      "songName": "Repeated Lies",
-      "jordanRating": 8,
-      "nickRating": 8.1
-    },
-    {
-      "songNumber": 7,
-      "songName": "Red Eye",
-      "jordanRating": 7.5,
-      "nickRating": 8.4
-    },
-    {
-      "songNumber": 8,
-      "songName": "Beloved Flower Master",
-      "jordanRating": 7,
-      "nickRating": 8.1
-    },
-    {
-      "songNumber": 9,
-      "songName": "Stardust Flight ",
-      "jordanRating": 6.5,
-      "nickRating": 7.3
-    }
-  ]
+    "albumTitle": "ROCKIN'ON TOUHOU VOL.4",
+    "circleName": "IOSYS",
+    "albumPhoto": "https://en.touhouwiki.net/images/b/bd/IO-0286.jpg",
+    "dateCompleted": "2021-02-16T02:30",
+    "subjectiveJordan": 8.625,
+    "subjectiveNick": 8.8,
+    "objectiveJordan": 7.8889,
+    "objectiveNick": 8.4889,
+    "subjectiveCombined": 8.7125,
+    "objectiveCombined": 8.1889,
+    "songAmount": 9,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "MY FIRST FLOWER",
+            "jordanRating": 9,
+            "nickRating": 9.6
+        },
+        {
+            "songNumber": 2,
+            "songName": "Higan Nine Phases",
+            "jordanRating": 7,
+            "nickRating": 8.2
+        },
+        {
+            "songNumber": 3,
+            "songName": "If You\u2019re Gonna Eat Me, Then Eat Me, Flowers And All!",
+            "jordanRating": 8.5,
+            "nickRating": 8.7
+        },
+        {
+            "songNumber": 4,
+            "songName": "The Flower Is Most Beautiful When It Blooms In Despair",
+            "jordanRating": 9,
+            "nickRating": 8.8
+        },
+        {
+            "songNumber": 5,
+            "songName": "Falling Flower Factor",
+            "jordanRating": 8.5,
+            "nickRating": 9.2
+        },
+        {
+            "songNumber": 6,
+            "songName": "Repeated Lies",
+            "jordanRating": 8,
+            "nickRating": 8.1
+        },
+        {
+            "songNumber": 7,
+            "songName": "Red Eye",
+            "jordanRating": 7.5,
+            "nickRating": 8.4
+        },
+        {
+            "songNumber": 8,
+            "songName": "Beloved Flower Master",
+            "jordanRating": 7,
+            "nickRating": 8.1
+        },
+        {
+            "songNumber": 9,
+            "songName": "Stardust Flight ",
+            "jordanRating": 6.5,
+            "nickRating": 7.3
+        }
+    ]
 }

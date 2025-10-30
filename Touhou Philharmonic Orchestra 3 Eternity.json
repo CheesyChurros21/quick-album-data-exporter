@@ -1,55 +1,57 @@
 {
-  "albumTitle": "Touhou Philharmonic Orchestra 3 Eternity",
-  "circleName": "Kokyo Active NEETs",
-  "albumPhoto": "https://en.touhouwiki.net/images/7/7c/KNCD-0006.jpg",
-  "dateCompleted": "2021-02-23T20:39",
-  "subjectiveJordan": 8.75,
-  "subjectiveNick": 8.7,
-  "songAmount": 7,
-  "objectiveJordan": "8.5000",
-  "objectiveNick": "8.4286",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "Voyage 1969",
-      "jordanRating": 8,
-      "nickRating": 8.2
-    },
-    {
-      "songNumber": 2,
-      "songName": "Reach for the Moon, Immortal Smoke",
-      "jordanRating": 8.5,
-      "nickRating": 8
-    },
-    {
-      "songNumber": 3,
-      "songName": "Plain Asia ~ Nostalgic Blood of the East",
-      "jordanRating": 8.5,
-      "nickRating": 8.6
-    },
-    {
-      "songNumber": 4,
-      "songName": "Flight of the Bamboo Cutter",
-      "jordanRating": 9,
-      "nickRating": 8.4
-    },
-    {
-      "songNumber": 5,
-      "songName": "Deaf to All but the Song ~ Song of the Night Sparrow",
-      "jordanRating": 8.5,
-      "nickRating": 9.5
-    },
-    {
-      "songNumber": 6,
-      "songName": "Cinderella Cage",
-      "jordanRating": 8.5,
-      "nickRating": 8.3
-    },
-    {
-      "songNumber": 7,
-      "songName": "Love-Colored Master Spark",
-      "jordanRating": 8.5,
-      "nickRating": 8
-    }
-  ]
+    "albumTitle": "Touhou Philharmonic Orchestra 3 Eternity",
+    "circleName": "Kokyo Active NEETs",
+    "albumPhoto": "https://en.touhouwiki.net/images/7/7c/KNCD-0006.jpg",
+    "dateCompleted": "2021-02-23T20:39",
+    "subjectiveJordan": 8.75,
+    "subjectiveNick": 8.7,
+    "objectiveJordan": 8.5,
+    "objectiveNick": 8.4286,
+    "subjectiveCombined": 8.725,
+    "objectiveCombined": 8.4643,
+    "songAmount": 7,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "Voyage 1969",
+            "jordanRating": 8,
+            "nickRating": 8.2
+        },
+        {
+            "songNumber": 2,
+            "songName": "Reach for the Moon, Immortal Smoke",
+            "jordanRating": 8.5,
+            "nickRating": 8
+        },
+        {
+            "songNumber": 3,
+            "songName": "Plain Asia ~ Nostalgic Blood of the East",
+            "jordanRating": 8.5,
+            "nickRating": 8.6
+        },
+        {
+            "songNumber": 4,
+            "songName": "Flight of the Bamboo Cutter",
+            "jordanRating": 9,
+            "nickRating": 8.4
+        },
+        {
+            "songNumber": 5,
+            "songName": "Deaf to All but the Song ~ Song of the Night Sparrow",
+            "jordanRating": 8.5,
+            "nickRating": 9.5
+        },
+        {
+            "songNumber": 6,
+            "songName": "Cinderella Cage",
+            "jordanRating": 8.5,
+            "nickRating": 8.3
+        },
+        {
+            "songNumber": 7,
+            "songName": "Love-Colored Master Spark",
+            "jordanRating": 8.5,
+            "nickRating": 8
+        }
+    ]
 }

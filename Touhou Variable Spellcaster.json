@@ -1,55 +1,57 @@
 {
-  "albumTitle": "Touhou Variable Spellcaster",
-  "circleName": "IOSYS",
-  "albumPhoto": "https://en.touhouwiki.net/images/6/66/IO-0189.jpg",
-  "dateCompleted": "2021-04-30T05:33",
-  "subjectiveJordan": 8.125,
-  "subjectiveNick": 6.9,
-  "songAmount": 7,
-  "objectiveJordan": "8.0714",
-  "objectiveNick": "8.0314",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "Red Dreamer",
-      "jordanRating": 9,
-      "nickRating": 8.8
-    },
-    {
-      "songNumber": 2,
-      "songName": "End of the Underground",
-      "jordanRating": 8.75,
-      "nickRating": 8.75
-    },
-    {
-      "songNumber": 3,
-      "songName": "Satori Eyes",
-      "jordanRating": 7.5,
-      "nickRating": 7.3
-    },
-    {
-      "songNumber": 4,
-      "songName": "Captain Swing Rock",
-      "jordanRating": 8.5,
-      "nickRating": 7.45
-    },
-    {
-      "songNumber": 5,
-      "songName": "Starlight Illumination",
-      "jordanRating": 8,
-      "nickRating": 8.24
-    },
-    {
-      "songNumber": 6,
-      "songName": "Nighttime Cruising",
-      "jordanRating": 8.75,
-      "nickRating": 8.68
-    },
-    {
-      "songNumber": 7,
-      "songName": "Flame of Synchronicity",
-      "jordanRating": 6,
-      "nickRating": 7
-    }
-  ]
+    "albumTitle": "Touhou Variable Spellcaster",
+    "circleName": "IOSYS",
+    "albumPhoto": "https://en.touhouwiki.net/images/6/66/IO-0189.jpg",
+    "dateCompleted": "2021-04-30T05:33",
+    "subjectiveJordan": 8.125,
+    "subjectiveNick": 6.9,
+    "objectiveJordan": 8.0714,
+    "objectiveNick": 8.0314,
+    "subjectiveCombined": 7.5125,
+    "objectiveCombined": 8.0514,
+    "songAmount": 7,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "Red Dreamer",
+            "jordanRating": 9,
+            "nickRating": 8.8
+        },
+        {
+            "songNumber": 2,
+            "songName": "End of the Underground",
+            "jordanRating": 8.75,
+            "nickRating": 8.75
+        },
+        {
+            "songNumber": 3,
+            "songName": "Satori Eyes",
+            "jordanRating": 7.5,
+            "nickRating": 7.3
+        },
+        {
+            "songNumber": 4,
+            "songName": "Captain Swing Rock",
+            "jordanRating": 8.5,
+            "nickRating": 7.45
+        },
+        {
+            "songNumber": 5,
+            "songName": "Starlight Illumination",
+            "jordanRating": 8,
+            "nickRating": 8.24
+        },
+        {
+            "songNumber": 6,
+            "songName": "Nighttime Cruising",
+            "jordanRating": 8.75,
+            "nickRating": 8.68
+        },
+        {
+            "songNumber": 7,
+            "songName": "Flame of Synchronicity",
+            "jordanRating": 6,
+            "nickRating": 7
+        }
+    ]
 }

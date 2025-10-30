@@ -1,55 +1,57 @@
 {
-  "albumTitle": "Touhou Faithful Star",
-  "circleName": "IOSYS",
-  "albumPhoto": "https://en.touhouwiki.net/images/e/e5/IO-0169.jpg",
-  "dateCompleted": "2021-02-16T01:57",
-  "subjectiveJordan": 7.75,
-  "subjectiveNick": 7.6,
-  "songAmount": 7,
-  "objectiveJordan": "7.5000",
-  "objectiveNick": "7.4143",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "Sparking Slash",
-      "jordanRating": 8,
-      "nickRating": 7.8
-    },
-    {
-      "songNumber": 2,
-      "songName": "Judgement Star",
-      "jordanRating": 8.5,
-      "nickRating": 8.2
-    },
-    {
-      "songNumber": 3,
-      "songName": "Cosmic Purple",
-      "jordanRating": 7,
-      "nickRating": 6.5
-    },
-    {
-      "songNumber": 4,
-      "songName": "Emotional Region",
-      "jordanRating": 8.5,
-      "nickRating": 8.5
-    },
-    {
-      "songNumber": 5,
-      "songName": "Beyond the Core",
-      "jordanRating": 8,
-      "nickRating": 7.9
-    },
-    {
-      "songNumber": 6,
-      "songName": "Green Limits",
-      "jordanRating": 7.5,
-      "nickRating": 7.5
-    },
-    {
-      "songNumber": 7,
-      "songName": "Don't Realize",
-      "jordanRating": 5,
-      "nickRating": 5.5
-    }
-  ]
+    "albumTitle": "Touhou Faithful Star",
+    "circleName": "IOSYS",
+    "albumPhoto": "https://en.touhouwiki.net/images/e/e5/IO-0169.jpg",
+    "dateCompleted": "2021-02-16T01:57",
+    "subjectiveJordan": 7.75,
+    "subjectiveNick": 7.6,
+    "objectiveJordan": 7.5,
+    "objectiveNick": 7.4143,
+    "subjectiveCombined": 7.675,
+    "objectiveCombined": 7.4572,
+    "songAmount": 7,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "Sparking Slash",
+            "jordanRating": 8,
+            "nickRating": 7.8
+        },
+        {
+            "songNumber": 2,
+            "songName": "Judgement Star",
+            "jordanRating": 8.5,
+            "nickRating": 8.2
+        },
+        {
+            "songNumber": 3,
+            "songName": "Cosmic Purple",
+            "jordanRating": 7,
+            "nickRating": 6.5
+        },
+        {
+            "songNumber": 4,
+            "songName": "Emotional Region",
+            "jordanRating": 8.5,
+            "nickRating": 8.5
+        },
+        {
+            "songNumber": 5,
+            "songName": "Beyond the Core",
+            "jordanRating": 8,
+            "nickRating": 7.9
+        },
+        {
+            "songNumber": 6,
+            "songName": "Green Limits",
+            "jordanRating": 7.5,
+            "nickRating": 7.5
+        },
+        {
+            "songNumber": 7,
+            "songName": "Don't Realize",
+            "jordanRating": 5,
+            "nickRating": 5.5
+        }
+    ]
 }

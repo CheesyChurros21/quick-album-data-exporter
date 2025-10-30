@@ -1,73 +1,75 @@
 {
-  "albumTitle": "Cleave Spark",
-  "circleName": "EastNewSound",
-  "albumPhoto": "https://en.touhouwiki.net/images/c/ce/ENS-0060.jpg",
-  "dateCompleted": "2021-04-27T05:20",
-  "subjectiveJordan": 8.5,
-  "subjectiveNick": 8.63,
-  "songAmount": 10,
-  "objectiveJordan": "8.0000",
-  "objectiveNick": "8.1600",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "",
-      "jordanRating": 7.5,
-      "nickRating": 7.6
-    },
-    {
-      "songNumber": 2,
-      "songName": "",
-      "jordanRating": 8.125,
-      "nickRating": 8.45
-    },
-    {
-      "songNumber": 3,
-      "songName": "",
-      "jordanRating": 8.625,
-      "nickRating": 8.653
-    },
-    {
-      "songNumber": 4,
-      "songName": "",
-      "jordanRating": 8.25,
-      "nickRating": 8.755
-    },
-    {
-      "songNumber": 5,
-      "songName": "",
-      "jordanRating": 9,
-      "nickRating": 8.35
-    },
-    {
-      "songNumber": 6,
-      "songName": "",
-      "jordanRating": 7.75,
-      "nickRating": 8.125
-    },
-    {
-      "songNumber": 7,
-      "songName": "",
-      "jordanRating": 7,
-      "nickRating": 7.4
-    },
-    {
-      "songNumber": 8,
-      "songName": "",
-      "jordanRating": 8,
-      "nickRating": 8.2
-    },
-    {
-      "songNumber": 9,
-      "songName": "",
-      "jordanRating": 7.5,
-      "nickRating": 7.5
-    },
-    {
-      "songNumber": 10,
-      "songName": "",
-      "jordanRating": 8.25,
-      "nickRating": 8.567
-    }
-  ]
+    "albumTitle": "Cleave Spark",
+    "circleName": "EastNewSound",
+    "albumPhoto": "https://en.touhouwiki.net/images/c/ce/ENS-0060.jpg",
+    "dateCompleted": "2021-04-27T05:20",
+    "subjectiveJordan": 8.5,
+    "subjectiveNick": 8.63,
+    "objectiveJordan": 8.0,
+    "objectiveNick": 8.16,
+    "subjectiveCombined": 8.565,
+    "objectiveCombined": 8.08,
+    "songAmount": 10,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "",
+            "jordanRating": 7.5,
+            "nickRating": 7.6
+        },
+        {
+            "songNumber": 2,
+            "songName": "",
+            "jordanRating": 8.125,
+            "nickRating": 8.45
+        },
+        {
+            "songNumber": 3,
+            "songName": "",
+            "jordanRating": 8.625,
+            "nickRating": 8.653
+        },
+        {
+            "songNumber": 4,
+            "songName": "",
+            "jordanRating": 8.25,
+            "nickRating": 8.755
+        },
+        {
+            "songNumber": 5,
+            "songName": "",
+            "jordanRating": 9,
+            "nickRating": 8.35
+        },
+        {
+            "songNumber": 6,
+            "songName": "",
+            "jordanRating": 7.75,
+            "nickRating": 8.125
+        },
+        {
+            "songNumber": 7,
+            "songName": "",
+            "jordanRating": 7,
+            "nickRating": 7.4
+        },
+        {
+            "songNumber": 8,
+            "songName": "",
+            "jordanRating": 8,
+            "nickRating": 8.2
+        },
+        {
+            "songNumber": 9,
+            "songName": "",
+            "jordanRating": 7.5,
+            "nickRating": 7.5
+        },
+        {
+            "songNumber": 10,
+            "songName": "",
+            "jordanRating": 8.25,
+            "nickRating": 8.567
+        }
+    ]
 }

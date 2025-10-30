@@ -6,9 +6,11 @@
     "dateCompleted": "2021-01-19T22:42",
     "subjectiveJordan": 7.5,
     "subjectiveNick": 7.5,
+    "objectiveJordan": 7.375,
+    "objectiveNick": 7.95,
+    "subjectiveCombined": 7.5,
+    "objectiveCombined": 7.6625,
     "songAmount": 8,
-    "objectiveJordan": "7.3750",
-    "objectiveNick": "7.9500",
     "ratings": [
       {
         "songNumber": 1,
@@ -67,9 +69,11 @@
     "dateCompleted": "2021-01-24T18:03",
     "subjectiveJordan": 8,
     "subjectiveNick": 8.5,
+    "objectiveJordan": 7.45,
+    "objectiveNick": 8.05,
+    "subjectiveCombined": 8.25,
+    "objectiveCombined": 7.75,
     "songAmount": 10,
-    "objectiveJordan": "7.4500",
-    "objectiveNick": "8.0500",
     "ratings": [
       {
         "songNumber": 1,
@@ -140,9 +144,11 @@
     "dateCompleted": "2021-02-16T01:37",
     "subjectiveJordan": 2,
     "subjectiveNick": 5,
+    "objectiveJordan": 1.7273,
+    "objectiveNick": 1.5909,
+    "subjectiveCombined": 3.5,
+    "objectiveCombined": 1.6591,
     "songAmount": 11,
-    "objectiveJordan": "1.7273",
-    "objectiveNick": "1.5909",
     "ratings": [
       {
         "songNumber": 1,
@@ -219,9 +225,11 @@
     "dateCompleted": "2021-02-16T01:57",
     "subjectiveJordan": 7.75,
     "subjectiveNick": 7.6,
+    "objectiveJordan": 7.5,
+    "objectiveNick": 7.4143,
+    "subjectiveCombined": 7.675,
+    "objectiveCombined": 7.4572,
     "songAmount": 7,
-    "objectiveJordan": "7.5000",
-    "objectiveNick": "7.4143",
     "ratings": [
       {
         "songNumber": 1,
@@ -274,9 +282,11 @@
     "dateCompleted": "2021-02-16T02:30",
     "subjectiveJordan": 8.625,
     "subjectiveNick": 8.8,
+    "objectiveJordan": 7.8889,
+    "objectiveNick": 8.4889,
+    "subjectiveCombined": 8.7125,
+    "objectiveCombined": 8.1889,
     "songAmount": 9,
-    "objectiveJordan": "7.8889",
-    "objectiveNick": "8.4889",
     "ratings": [
       {
         "songNumber": 1,
@@ -341,9 +351,11 @@
     "dateCompleted": "2021-02-22T04:48",
     "subjectiveJordan": 9.25,
     "subjectiveNick": 8.2,
+    "objectiveJordan": 8.375,
+    "objectiveNick": 8.2071,
+    "subjectiveCombined": 8.725,
+    "objectiveCombined": 8.2911,
     "songAmount": 14,
-    "objectiveJordan": "8.3750",
-    "objectiveNick": "8.2071",
     "ratings": [
       {
         "songNumber": 1,
@@ -438,9 +450,11 @@
     "dateCompleted": "2021-02-22T05:50",
     "subjectiveJordan": 7.4375,
     "subjectiveNick": 8,
+    "objectiveJordan": 7.75,
+    "objectiveNick": 7.28,
+    "subjectiveCombined": 7.7188,
+    "objectiveCombined": 7.515,
     "songAmount": 10,
-    "objectiveJordan": "7.7500",
-    "objectiveNick": "7.2800",
     "ratings": [
       {
         "songNumber": 1,
@@ -511,9 +525,11 @@
     "dateCompleted": "2021-02-23T20:39",
     "subjectiveJordan": 8.75,
     "subjectiveNick": 8.7,
+    "objectiveJordan": 8.5,
+    "objectiveNick": 8.4286,
+    "subjectiveCombined": 8.725,
+    "objectiveCombined": 8.4643,
     "songAmount": 7,
-    "objectiveJordan": "8.5000",
-    "objectiveNick": "8.4286",
     "ratings": [
       {
         "songNumber": 1,
@@ -566,9 +582,11 @@
     "dateCompleted": "2021-02-23T21:09",
     "subjectiveJordan": 9,
     "subjectiveNick": 8.8,
+    "objectiveJordan": 8.8929,
+    "objectiveNick": 8.7686,
+    "subjectiveCombined": 8.9,
+    "objectiveCombined": 8.8307,
     "songAmount": 7,
-    "objectiveJordan": "8.8929",
-    "objectiveNick": "8.7686",
     "ratings": [
       {
         "songNumber": 1,
@@ -621,9 +639,11 @@
     "dateCompleted": "2021-02-23T21:52",
     "subjectiveJordan": 8.25,
     "subjectiveNick": 8.38,
+    "objectiveJordan": 8.2708,
+    "objectiveNick": 8.3833,
+    "subjectiveCombined": 8.315,
+    "objectiveCombined": 8.327,
     "songAmount": 6,
-    "objectiveJordan": "8.2708",
-    "objectiveNick": "8.3833",
     "ratings": [
       {
         "songNumber": 1,
@@ -670,9 +690,11 @@
     "dateCompleted": "2021-03-03T01:40",
     "subjectiveJordan": 5,
     "subjectiveNick": 3.7,
+    "objectiveJordan": 5.97,
+    "objectiveNick": 5.55,
+    "subjectiveCombined": 4.35,
+    "objectiveCombined": 5.76,
     "songAmount": 10,
-    "objectiveJordan": "5.9700",
-    "objectiveNick": "5.5500",
     "ratings": [
       {
         "songNumber": 1,
@@ -743,9 +765,11 @@
     "dateCompleted": "2021-03-03T02:56",
     "subjectiveJordan": 9.3,
     "subjectiveNick": 9.3,
+    "objectiveJordan": 8.375,
+    "objectiveNick": 8.89,
+    "subjectiveCombined": 9.3,
+    "objectiveCombined": 8.6325,
     "songAmount": 10,
-    "objectiveJordan": "8.3750",
-    "objectiveNick": "8.8900",
     "ratings": [
       {
         "songNumber": 1,
@@ -816,9 +840,11 @@
     "dateCompleted": "2021-03-07T04:30",
     "subjectiveJordan": 8.3,
     "subjectiveNick": 7.8,
+    "objectiveJordan": 8.3,
+    "objectiveNick": 8.27,
+    "subjectiveCombined": 8.05,
+    "objectiveCombined": 8.285,
     "songAmount": 11,
-    "objectiveJordan": "8.3000",
-    "objectiveNick": "8.2700",
     "ratings": [
       {
         "songNumber": 1,
@@ -895,9 +921,11 @@
     "dateCompleted": "2021-03-07T06:24",
     "subjectiveJordan": 9.625,
     "subjectiveNick": 9.1,
+    "objectiveJordan": 9.05,
+    "objectiveNick": 8.6933,
+    "subjectiveCombined": 9.3625,
+    "objectiveCombined": 8.8717,
     "songAmount": 17,
-    "objectiveJordan": "9.0500",
-    "objectiveNick": "8.6933",
     "ratings": [
       {
         "songNumber": 1,
@@ -1010,9 +1038,11 @@
     "dateCompleted": "2021-03-11T09:46",
     "subjectiveJordan": 8,
     "subjectiveNick": 8.4,
+    "objectiveJordan": 8.0833,
+    "objectiveNick": 8.5083,
+    "subjectiveCombined": 8.2,
+    "objectiveCombined": 8.2958,
     "songAmount": 6,
-    "objectiveJordan": "8.0833",
-    "objectiveNick": "8.5083",
     "ratings": [
       {
         "songNumber": 1,
@@ -1059,9 +1089,11 @@
     "dateCompleted": "2021-04-04T03:09",
     "subjectiveJordan": 8.3227,
     "subjectiveNick": 8.5227,
+    "objectiveJordan": 8.3227,
+    "objectiveNick": 8.5227,
+    "subjectiveCombined": 8.4227,
+    "objectiveCombined": 8.4227,
     "songAmount": 11,
-    "objectiveJordan": "8.3227",
-    "objectiveNick": "8.5227",
     "ratings": [
       {
         "songNumber": 1,
@@ -1138,9 +1170,11 @@
     "dateCompleted": "2021-04-27T04:18",
     "subjectiveJordan": 7.4,
     "subjectiveNick": 7,
+    "objectiveJordan": 7.7045,
+    "objectiveNick": 7.6636,
+    "subjectiveCombined": 7.2,
+    "objectiveCombined": 7.6841,
     "songAmount": 11,
-    "objectiveJordan": "7.7045",
-    "objectiveNick": "7.6636",
     "ratings": [
       {
         "songNumber": 1,
@@ -1217,9 +1251,11 @@
     "dateCompleted": "2021-04-27T05:20",
     "subjectiveJordan": 8.5,
     "subjectiveNick": 8.63,
+    "objectiveJordan": 8.0,
+    "objectiveNick": 8.16,
+    "subjectiveCombined": 8.565,
+    "objectiveCombined": 8.08,
     "songAmount": 10,
-    "objectiveJordan": "8.0000",
-    "objectiveNick": "8.1600",
     "ratings": [
       {
         "songNumber": 1,
@@ -1290,9 +1326,11 @@
     "dateCompleted": "2021-04-28T03:49",
     "subjectiveJordan": 8.7,
     "subjectiveNick": 8.3,
+    "objectiveJordan": 8.6667,
+    "objectiveNick": 8.5083,
+    "subjectiveCombined": 8.5,
+    "objectiveCombined": 8.5875,
     "songAmount": 6,
-    "objectiveJordan": "8.6667",
-    "objectiveNick": "8.5083",
     "ratings": [
       {
         "songNumber": 1,
@@ -1339,9 +1377,11 @@
     "dateCompleted": "2021-04-28T04:47",
     "subjectiveJordan": 8.6,
     "subjectiveNick": 8.7,
+    "objectiveJordan": 8.5179,
+    "objectiveNick": 8.6414,
+    "subjectiveCombined": 8.65,
+    "objectiveCombined": 8.5797,
     "songAmount": 7,
-    "objectiveJordan": "8.5179",
-    "objectiveNick": "8.6414",
     "ratings": [
       {
         "songNumber": 1,
@@ -1394,9 +1434,11 @@
     "dateCompleted": "2021-04-30T05:33",
     "subjectiveJordan": 8.125,
     "subjectiveNick": 6.9,
+    "objectiveJordan": 8.0714,
+    "objectiveNick": 8.0314,
+    "subjectiveCombined": 7.5125,
+    "objectiveCombined": 8.0514,
     "songAmount": 7,
-    "objectiveJordan": "8.0714",
-    "objectiveNick": "8.0314",
     "ratings": [
       {
         "songNumber": 1,
@@ -1449,9 +1491,11 @@
     "dateCompleted": "2021-04-30T06:13",
     "subjectiveJordan": 8.5938,
     "subjectiveNick": 8.45,
+    "objectiveJordan": 8.4327,
+    "objectiveNick": 8.4769,
+    "subjectiveCombined": 8.5219,
+    "objectiveCombined": 8.4548,
     "songAmount": 13,
-    "objectiveJordan": "8.4327",
-    "objectiveNick": "8.4769",
     "ratings": [
       {
         "songNumber": 1,
@@ -1540,9 +1584,11 @@
     "dateCompleted": "2021-04-30T07:48",
     "subjectiveJordan": 8.25,
     "subjectiveNick": 8.54,
+    "objectiveJordan": 8.401,
+    "objectiveNick": 8.2375,
+    "subjectiveCombined": 8.395,
+    "objectiveCombined": 8.3193,
     "songAmount": 12,
-    "objectiveJordan": "8.4010",
-    "objectiveNick": "8.2375",
     "ratings": [
       {
         "songNumber": 1,

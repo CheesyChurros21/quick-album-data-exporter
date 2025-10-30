@@ -1,0 +1,76 @@
+<div class="tierList">
+    <div class="tierRow">
+        <div class="tierLabel">S</div>
+        <div class="tierGrid" id="tier-s">
+            <!-- Album cards go here -->
+        </div>
+    </div>
+    <!-- Repeat for A, B, etc. -->
+</div>
+
+.tierList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.tierRow {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tierLabel {
+    width: 60px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.tierGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8.33%, 1fr)); /* 1/12 of screen */
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.albumCard {
+    aspect-ratio: 1 / 1;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+const tiers = {
+    S: [9, 10],
+    A: [8, 8.9],
+    B: [7, 7.9],
+    // Add more tiers as needed
+};
+
+function getTier(rating) {
+    for (let [tier, [min, max]] of Object.entries(tiers)) {
+        if (rating >= min && rating <= max) return tier;
+    }
+    return null;
+}
+
+// Example: populate albums
+fetch('all_albums.json')
+    .then(res => res.json())
+    .then(data => {
+        data.forEach(album => {
+            const rating = album.objectiveJordan; // or whichever rating
+            const tier = getTier(rating);
+            if (!tier) return;
+
+            const grid = document.getElementById(`tier-${tier.toLowerCase()}`);
+            const card = document.createElement('div');
+            card.className = 'albumCard';
+            card.textContent = album.title; // or album art
+            grid.appendChild(card);
+        });
+    });

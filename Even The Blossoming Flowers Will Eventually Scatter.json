@@ -1,49 +1,51 @@
 {
-  "albumTitle": "Even The Blossoming Flowers Will Eventually Scatter",
-  "circleName": "Yuuhei Satellite",
-  "albumPhoto": "https://en.touhouwiki.net/images/1/1d/YHST-0002_cover.jpg",
-  "dateCompleted": "2021-02-23T21:52",
-  "subjectiveJordan": 8.25,
-  "subjectiveNick": 8.38,
-  "songAmount": 6,
-  "objectiveJordan": "8.2708",
-  "objectiveNick": "8.3833",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "Even The Blossoming Flowers Will Eventually Scatter",
-      "jordanRating": 9,
-      "nickRating": 10
-    },
-    {
-      "songNumber": 2,
-      "songName": "Emotional Chemistry",
-      "jordanRating": 7.5,
-      "nickRating": 7.5
-    },
-    {
-      "songNumber": 3,
-      "songName": "No One Can Stop This Accelerating Love",
-      "jordanRating": 8.375,
-      "nickRating": 7.7
-    },
-    {
-      "songNumber": 4,
-      "songName": "Fallen Cherry Blossom",
-      "jordanRating": 8.25,
-      "nickRating": 8.4
-    },
-    {
-      "songNumber": 5,
-      "songName": "Daphne's Illusionary Song",
-      "jordanRating": 8.5,
-      "nickRating": 8.3
-    },
-    {
-      "songNumber": 6,
-      "songName": "Solitary Moon",
-      "jordanRating": 8,
-      "nickRating": 8.4
-    }
-  ]
+    "albumTitle": "Even The Blossoming Flowers Will Eventually Scatter",
+    "circleName": "Yuuhei Satellite",
+    "albumPhoto": "https://en.touhouwiki.net/images/1/1d/YHST-0002_cover.jpg",
+    "dateCompleted": "2021-02-23T21:52",
+    "subjectiveJordan": 8.25,
+    "subjectiveNick": 8.38,
+    "objectiveJordan": 8.2708,
+    "objectiveNick": 8.3833,
+    "subjectiveCombined": 8.315,
+    "objectiveCombined": 8.327,
+    "songAmount": 6,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "Even The Blossoming Flowers Will Eventually Scatter",
+            "jordanRating": 9,
+            "nickRating": 10
+        },
+        {
+            "songNumber": 2,
+            "songName": "Emotional Chemistry",
+            "jordanRating": 7.5,
+            "nickRating": 7.5
+        },
+        {
+            "songNumber": 3,
+            "songName": "No One Can Stop This Accelerating Love",
+            "jordanRating": 8.375,
+            "nickRating": 7.7
+        },
+        {
+            "songNumber": 4,
+            "songName": "Fallen Cherry Blossom",
+            "jordanRating": 8.25,
+            "nickRating": 8.4
+        },
+        {
+            "songNumber": 5,
+            "songName": "Daphne's Illusionary Song",
+            "jordanRating": 8.5,
+            "nickRating": 8.3
+        },
+        {
+            "songNumber": 6,
+            "songName": "Solitary Moon",
+            "jordanRating": 8,
+            "nickRating": 8.4
+        }
+    ]
 }

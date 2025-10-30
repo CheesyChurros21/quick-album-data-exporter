@@ -1,79 +1,81 @@
 {
-  "albumTitle": "Shinra Museum",
-  "circleName": "ShinRa-Bansho",
-  "albumPhoto": "https://en.touhouwiki.net/images/4/45/SBCD-015.jpg",
-  "dateCompleted": "2021-04-04T03:09",
-  "subjectiveJordan": 8.3227,
-  "subjectiveNick": 8.5227,
-  "songAmount": 11,
-  "objectiveJordan": "8.3227",
-  "objectiveNick": "8.5227",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "A Starry Night Duo",
-      "jordanRating": 9.25,
-      "nickRating": 9.5
-    },
-    {
-      "songNumber": 2,
-      "songName": "inner light",
-      "jordanRating": 8,
-      "nickRating": 8
-    },
-    {
-      "songNumber": 3,
-      "songName": "Hangover",
-      "jordanRating": 8.5,
-      "nickRating": 8.2
-    },
-    {
-      "songNumber": 4,
-      "songName": "Starry Sky Planeteria",
-      "jordanRating": 8.25,
-      "nickRating": 8.4
-    },
-    {
-      "songNumber": 5,
-      "songName": "Call My Name",
-      "jordanRating": 7.5,
-      "nickRating": 8.35
-    },
-    {
-      "songNumber": 6,
-      "songName": "1/8000000",
-      "jordanRating": 9,
-      "nickRating": 8.1
-    },
-    {
-      "songNumber": 7,
-      "songName": "Honest",
-      "jordanRating": 8.5,
-      "nickRating": 8.55
-    },
-    {
-      "songNumber": 8,
-      "songName": "Stylish",
-      "jordanRating": 9.25,
-      "nickRating": 8.45
-    },
-    {
-      "songNumber": 9,
-      "songName": "Lucky Peace World",
-      "jordanRating": 8,
-      "nickRating": 9
-    },
-    {
-      "songNumber": 10,
-      "songName": "This Is a September Cantata",
-      "jordanRating": 7.8,
-      "nickRating": 7.8
-    },
-    {
-      "songNumber": 11,
-      "songName": "I",
-      "jordanRating": 7.5,
-      "nickRating": 9.4
-    }
-  ]
+    "albumTitle": "Shinra Museum",
+    "circleName": "ShinRa-Bansho",
+    "albumPhoto": "https://en.touhouwiki.net/images/4/45/SBCD-015.jpg",
+    "dateCompleted": "2021-04-04T03:09",
+    "subjectiveJordan": 8.3227,
+    "subjectiveNick": 8.5227,
+    "objectiveJordan": 8.3227,
+    "objectiveNick": 8.5227,
+    "subjectiveCombined": 8.4227,
+    "objectiveCombined": 8.4227,
+    "songAmount": 11,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "A Starry Night Duo",
+            "jordanRating": 9.25,
+            "nickRating": 9.5
+        },
+        {
+            "songNumber": 2,
+            "songName": "inner light",
+            "jordanRating": 8,
+            "nickRating": 8
+        },
+        {
+            "songNumber": 3,
+            "songName": "Hangover",
+            "jordanRating": 8.5,
+            "nickRating": 8.2
+        },
+        {
+            "songNumber": 4,
+            "songName": "Starry Sky Planeteria",
+            "jordanRating": 8.25,
+            "nickRating": 8.4
+        },
+        {
+            "songNumber": 5,
+            "songName": "Call My Name",
+            "jordanRating": 7.5,
+            "nickRating": 8.35
+        },
+        {
+            "songNumber": 6,
+            "songName": "1/8000000",
+            "jordanRating": 9,
+            "nickRating": 8.1
+        },
+        {
+            "songNumber": 7,
+            "songName": "Honest",
+            "jordanRating": 8.5,
+            "nickRating": 8.55
+        },
+        {
+            "songNumber": 8,
+            "songName": "Stylish",
+            "jordanRating": 9.25,
+            "nickRating": 8.45
+        },
+        {
+            "songNumber": 9,
+            "songName": "Lucky Peace World",
+            "jordanRating": 8,
+            "nickRating": 9
+        },
+        {
+            "songNumber": 10,
+            "songName": "This Is a September Cantata",
+            "jordanRating": 7.8,
+            "nickRating": 7.8
+        },
+        {
+            "songNumber": 11,
+            "songName": "I",
+            "jordanRating": 7.5,
+            "nickRating": 9.4
+        }
+    ]
 }

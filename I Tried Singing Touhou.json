@@ -1,73 +1,75 @@
 {
-  "albumTitle": "I Tried Singing Touhou",
-  "circleName": "ShinRa-Bansho",
-  "albumPhoto": "https://en.touhouwiki.net/images/1/1f/SBCD-016.jpg",
-  "dateCompleted": "2021-03-03T02:56",
-  "subjectiveJordan": 9.3,
-  "subjectiveNick": 9.3,
-  "songAmount": 10,
-  "objectiveJordan": "8.3750",
-  "objectiveNick": "8.8900",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "Clouds Over the Moon, and Wind Over the Flowers - ShinRa-Bansho Ver",
-      "jordanRating": 9.5,
-      "nickRating": 9.7
-    },
-    {
-      "songNumber": 2,
-      "songName": "Help me, ERINNNNNN!! - ShinRa-Bansho Ver",
-      "jordanRating": 9.25,
-      "nickRating": 9.6
-    },
-    {
-      "songNumber": 3,
-      "songName": "Marisa Stole the Precious Thing - ShinRa-Bansho Ver",
-      "jordanRating": 7.5,
-      "nickRating": 10
-    },
-    {
-      "songNumber": 4,
-      "songName": "Starry Sky Grand Slam - ShinRa-Bansho Ver",
-      "jordanRating": 8.5,
-      "nickRating": 9.2
-    },
-    {
-      "songNumber": 5,
-      "songName": "Witches' Night - ShinRa-Bansho Ver",
-      "jordanRating": 9.5,
-      "nickRating": 9.7
-    },
-    {
-      "songNumber": 6,
-      "songName": "The Boundless World is but a Passing Phase of the Moon - ShinRa-Bansho Ver",
-      "jordanRating": 7.5,
-      "nickRating": 7.6
-    },
-    {
-      "songNumber": 7,
-      "songName": "The Song of a Broken Youkai Who Loved a Human - ShinRa-Bansho Ver",
-      "jordanRating": 7.5,
-      "nickRating": 7.8
-    },
-    {
-      "songNumber": 8,
-      "songName": "Paranoia(SBver1 Remix)",
-      "jordanRating": 8.5,
-      "nickRating": 8.6
-    },
-    {
-      "songNumber": 9,
-      "songName": "Tewi!～ - ShinRa-Bansho Ver",
-      "jordanRating": 7.5,
-      "nickRating": 8
-    },
-    {
-      "songNumber": 10,
-      "songName": "Send Stars Round the Sky Faster than the Moon - VerS",
-      "jordanRating": 8.5,
-      "nickRating": 8.7
-    }
-  ]
+    "albumTitle": "I Tried Singing Touhou",
+    "circleName": "ShinRa-Bansho",
+    "albumPhoto": "https://en.touhouwiki.net/images/1/1f/SBCD-016.jpg",
+    "dateCompleted": "2021-03-03T02:56",
+    "subjectiveJordan": 9.3,
+    "subjectiveNick": 9.3,
+    "objectiveJordan": 8.375,
+    "objectiveNick": 8.89,
+    "subjectiveCombined": 9.3,
+    "objectiveCombined": 8.6325,
+    "songAmount": 10,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "Clouds Over the Moon, and Wind Over the Flowers - ShinRa-Bansho Ver",
+            "jordanRating": 9.5,
+            "nickRating": 9.7
+        },
+        {
+            "songNumber": 2,
+            "songName": "Help me, ERINNNNNN!! - ShinRa-Bansho Ver",
+            "jordanRating": 9.25,
+            "nickRating": 9.6
+        },
+        {
+            "songNumber": 3,
+            "songName": "Marisa Stole the Precious Thing - ShinRa-Bansho Ver",
+            "jordanRating": 7.5,
+            "nickRating": 10
+        },
+        {
+            "songNumber": 4,
+            "songName": "Starry Sky Grand Slam - ShinRa-Bansho Ver",
+            "jordanRating": 8.5,
+            "nickRating": 9.2
+        },
+        {
+            "songNumber": 5,
+            "songName": "Witches' Night - ShinRa-Bansho Ver",
+            "jordanRating": 9.5,
+            "nickRating": 9.7
+        },
+        {
+            "songNumber": 6,
+            "songName": "The Boundless World is but a Passing Phase of the Moon - ShinRa-Bansho Ver",
+            "jordanRating": 7.5,
+            "nickRating": 7.6
+        },
+        {
+            "songNumber": 7,
+            "songName": "The Song of a Broken Youkai Who Loved a Human - ShinRa-Bansho Ver",
+            "jordanRating": 7.5,
+            "nickRating": 7.8
+        },
+        {
+            "songNumber": 8,
+            "songName": "Paranoia(SBver1 Remix)",
+            "jordanRating": 8.5,
+            "nickRating": 8.6
+        },
+        {
+            "songNumber": 9,
+            "songName": "Tewi!\uff5e - ShinRa-Bansho Ver",
+            "jordanRating": 7.5,
+            "nickRating": 8
+        },
+        {
+            "songNumber": 10,
+            "songName": "Send Stars Round the Sky Faster than the Moon - VerS",
+            "jordanRating": 8.5,
+            "nickRating": 8.7
+        }
+    ]
 }

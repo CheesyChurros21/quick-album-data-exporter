@@ -1,61 +1,63 @@
 {
-  "albumTitle": "Retro Future Girls",
-  "circleName": "ShibayanRecords",
-  "albumPhoto": "https://en.touhouwiki.net/images/f/fd/STAL-1302.jpg",
-  "dateCompleted": "2021-01-19T22:42",
-  "subjectiveJordan": 7.5,
-  "subjectiveNick": 7.5,
-  "songAmount": 8,
-  "objectiveJordan": "7.3750",
-  "objectiveNick": "7.9500",
-  "ratings": [
-    {
-      "songNumber": 1,
-      "songName": "Super Fine Red",
-      "jordanRating": 7.5,
-      "nickRating": 8.1
-    },
-    {
-      "songNumber": 2,
-      "songName": "Ready Made City Life",
-      "jordanRating": 9,
-      "nickRating": 10
-    },
-    {
-      "songNumber": 3,
-      "songName": "Cherry Blossom Crash",
-      "jordanRating": 6.5,
-      "nickRating": 6.4
-    },
-    {
-      "songNumber": 4,
-      "songName": "MyonMyonMyonMyonMyonMyonMyon!",
-      "jordanRating": 7,
-      "nickRating": 7.3
-    },
-    {
-      "songNumber": 5,
-      "songName": "Fly Out! Bankikki",
-      "jordanRating": 6.5,
-      "nickRating": 7.8
-    },
-    {
-      "songNumber": 6,
-      "songName": "Spring Rouge",
-      "jordanRating": 7.5,
-      "nickRating": 7.2
-    },
-    {
-      "songNumber": 7,
-      "songName": "Desert Years",
-      "jordanRating": 9,
-      "nickRating": 9.3
-    },
-    {
-      "songNumber": 8,
-      "songName": "Phoenix",
-      "jordanRating": 6,
-      "nickRating": 7.5
-    }
-  ]
+    "albumTitle": "Retro Future Girls",
+    "circleName": "ShibayanRecords",
+    "albumPhoto": "https://en.touhouwiki.net/images/f/fd/STAL-1302.jpg",
+    "dateCompleted": "2021-01-19T22:42",
+    "subjectiveJordan": 7.5,
+    "subjectiveNick": 7.5,
+    "objectiveJordan": 7.375,
+    "objectiveNick": 7.95,
+    "subjectiveCombined": 7.5,
+    "objectiveCombined": 7.6625,
+    "songAmount": 8,
+    "ratings": [
+        {
+            "songNumber": 1,
+            "songName": "Super Fine Red",
+            "jordanRating": 7.5,
+            "nickRating": 8.1
+        },
+        {
+            "songNumber": 2,
+            "songName": "Ready Made City Life",
+            "jordanRating": 9,
+            "nickRating": 10
+        },
+        {
+            "songNumber": 3,
+            "songName": "Cherry Blossom Crash",
+            "jordanRating": 6.5,
+            "nickRating": 6.4
+        },
+        {
+            "songNumber": 4,
+            "songName": "MyonMyonMyonMyonMyonMyonMyon!",
+            "jordanRating": 7,
+            "nickRating": 7.3
+        },
+        {
+            "songNumber": 5,
+            "songName": "Fly Out! Bankikki",
+            "jordanRating": 6.5,
+            "nickRating": 7.8
+        },
+        {
+            "songNumber": 6,
+            "songName": "Spring Rouge",
+            "jordanRating": 7.5,
+            "nickRating": 7.2
+        },
+        {
+            "songNumber": 7,
+            "songName": "Desert Years",
+            "jordanRating": 9,
+            "nickRating": 9.3
+        },
+        {
+            "songNumber": 8,
+            "songName": "Phoenix",
+            "jordanRating": 6,
+            "nickRating": 7.5
+        }
+    ]
 }
