@@ -14,7 +14,7 @@
     </head>
 
     <body>
-        <div id="albumContainer" class="albumGrid">
+        <div id="albumContainer" class="tierList">
 
         </div>
         
@@ -23,11 +23,54 @@
 
     <script>
     
-        let circleAlbums = [];
-        let filteredAlbums = [];
+        let tieredAlbums = [[], [], [], [], [], [], [], [], []];
+        const tierBoundaries = [9.75, 9.5, 9, 8.5, 8, 7, 6, 5, 0];
+        const tierGrades = ["SSS", "SS", "S", "A", "B", "C", "D", "E", "F"];
+        const filterOptions = {
+            "Jordan Objective": "objectiveJordan",
+            "Nick Objective": "objectiveNick",
+            "Combined Objective" : "objectiveCombined",
+            "Jordan Subjective": "subjectiveJordan",
+            "Nick Subjective" : "subjectiveNick",
+            "Combined Subjective" : "subjectiveCombined"
+        }
+
+        function getTierIndex(rating) {
+            for (let i = 0; i < tierBoundaries.length; i = i + 1) {
+                if (rating >= tierBoundaries[i]) {
+                    return i;
+                }
+            }
+
+            return tierBoundaries.length;
+        }
+
+        
+        function sortAndTier(data, key) {
+            tieredAlbums = [[], [], [], [], [], [], [], [], []];
+            const descendingRanks = [...data].sort((a, b) => b[key] - a[key]);
+
+            console.log(descendingRanks);
+
+            let tierIndex = 0;
+
+            for (let i = 0; i < descendingRanks.length; i++) {
+                const rating = descendingRanks[i][key];
+
+                // If rating is too low for current tier, move to next tier
+                while (tierIndex < tierBoundaries.length && rating < tierBoundaries[tierIndex]) {
+                    tierIndex++;
+                }
+
+                // Only push if within tier range
+                if (tierIndex < tieredAlbums.length) {
+                    tieredAlbums[tierIndex].push(descendingRanks[i]);
+                }
+            }
+        }
        
         let parameters = new URLSearchParams(window.location.search);
-        let selectedOptions = parameters.get("orderOptionsTierList") + " " + parameters.get("whoOptionsTierList") + " " + parameters.get("rankTypeTierList");
+        let selectedOptions = parameters.get("whoOptionsTierList") + " " + parameters.get("rankTypeTierList");
 
         let albumContainer = document.getElementById("albumContainer");
 
@@ -35,126 +78,40 @@
         .then(response => response.json())
         .then(data => {
 
-            if (selectedOptions == "Descending Jordan Objective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.objectiveJordan && entry.objectiveJordan <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => b.objectiveJordan - a.objectiveJordan);
-            }
+            sortAndTier(data, filterOptions[selectedOptions]);
 
-            else if (selectedOptions == "Descending Nick Objective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.objectiveNick && entry.objectiveNick <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => b.objectiveNick - a.objectiveNick);
-            }
-
-            else if (selectedOptions == "Descending Jordan Subjective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.subjectiveJordan && entry.subjectiveJordan <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => b.subjectiveJordan - a.subjectiveJordan);
-            }
-
-            else if (selectedOptions == "Descending Nick Subjective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.subjectiveNick && entry.subjectiveNick <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => b.subjectiveNick - a.subjectiveNick);
-            }
-
-            else if (selectedOptions == "Ascending Jordan Objective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.objectiveNick && entry.objectiveNick <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => a.objectiveJordan - b.objectiveJordan);
-            }
-
-            else if (selectedOptions == "Ascending Nick Objective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.objectiveNick && entry.objectiveNick <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => a.objectiveNick - b.objectiveNick);
-            }
-
-            else if (selectedOptions == "Ascending Jordan Subjective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.subjectiveJordan && entry.subjectiveJordan <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => a.subjectiveJordan - b.subjectiveJordan);
-            }
-
-            else if (selectedOptions == "Ascending Nick Subjective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.subjectiveNick && entry.subjectiveNick <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => a.subjectiveNick - b.subjectiveNick);
-            }
-
-            else if (selectedOptions == "Descending Combined Objective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.objectiveCombined && entry.objectiveCombined <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => b.objectiveCombined - a.objectiveCombined);
-            }
-
-            else if (selectedOptions == "Descending Combined Subjective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.subjectiveCombined && entry.subjectiveCombined <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => b.subjectiveCombined - a.subjectiveCombined);
-            }
-            
-            else if (selectedOptions == "Ascending Combined Objective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.objectiveCombined && entry.objectiveCombined <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => a.objectiveCombined - b.objectiveCombined);
-            }
-
-            else if (selectedOptions == "Ascending Combined Subjective") {
-                filteredAlbums = data.filter(entry => ratingRange[0] <= entry.subjectiveCombined && entry.subjectiveCombined <= ratingRange[1]);
-                circleAlbums = filteredAlbums.sort((a, b) => a.subjectiveCombined - b.subjectiveCombined);
-            }
+            console.log(tieredAlbums);
             
             let pageHeader = document.getElementById("sortOption");
-            pageHeader.innerHTML = selectedOptions;
+            pageHeader.innerHTML = selectedOptions + " Rankings Tierlist";
 
-            if (ratingRange[0] != 0 || ratingRange[1] != 10) {
-                pageHeader.innerHTML = pageHeader.innerHTML + `<br>Between ${ratingRange[0]} and ${ratingRange[1]}`;
-            }
+            const albumContainer = document.getElementById("albumContainer");
 
-            for (let i = 0; i < circleAlbums.length; i = i + 1) {
-                let album = document.createElement("div");
-                album.style.textAlign = "center"; 
+            for (let i = 0; i < tieredAlbums.length; i = i + 1) {
+                const tierRow = document.createElement("div");
+                tierRow.className = "tierRow";
 
-                album.innerHTML = `
-                    <img src="${circleAlbums[i].albumPhoto}"<br><br>
-                    <strong>${circleAlbums[i].albumTitle}</strong><br>
-                    <strong>${circleAlbums[i].circleName}</strong><br>
-                    Subjective Jordan Rating - ${circleAlbums[i].subjectiveJordan}/10<br>
-                    Subjective Nick Rating - ${circleAlbums[i].subjectiveNick}/10<br><br>
-                    Objective Jordan Rating - ${circleAlbums[i].objectiveJordan}/10<br>
-                    Objective Nick Rating - ${circleAlbums[i].objectiveNick}/10<br><br>
-                    Combined Objective Rating - ${circleAlbums[i].objectiveCombined}/10<br>
-                    Combined Subjective Rating - ${circleAlbums[i].subjectiveCombined}/10<br><br>
-                    Number Of Songs - ${circleAlbums[i].songAmount}<br>
-                `;
+                const tierLevel = document.createElement("div");
+                tierLevel.className = "tierLabel";
+                tierLevel.innerText = tierGrades[i];
                 
-                albumContainer.appendChild(album);
+                const grid = document.createElement("div");
+                grid.className = "tierGrid";
 
-                let toggleSongRatings = document.createElement("button");
-                toggleSongRatings.textContent = "Show Song Ratings";
-                toggleSongRatings.onclick = () => {
-                    ratingTable.style.display = ratingTable.style.display === "none" ? "block" : "none";
+                for (let x = 0; x < tieredAlbums[i].length; x = x + 1) {
+                    const album = document.createElement("div");
+                    album.className = "albumCard";
+
+                    const albumImage = document.createElement("img");
+                    albumImage.src = tieredAlbums[i][x].albumPhoto;
+
+                    album.appendChild(albumImage);
+                    grid.appendChild(album);
                 }
 
-                album.appendChild(document.createElement("br"));
-                album.appendChild(toggleSongRatings);
-
-                const ratingTable = document.createElement("table");
-                ratingTable.style.display = "none"; // hidden by default
-                
-                ratingTable.style.borderCollapse = "collapse";
-                ratingTable.innerHTML = `
-                <tr>
-                    <th>Song #</th>
-                    <th>Song Name</th>
-                    <th>Jordan Rating</th>
-                    <th>Nick Rating</th>
-                </tr>
-                `;
-
-                for (let ii = 0; ii < circleAlbums[i].ratings.length; ii = ii + 1) {
-                    const row = document.createElement("tr");
-                    row.innerHTML = `
-                    <td>${circleAlbums[i].ratings[ii].songNumber}</td>
-                    <td>${circleAlbums[i].ratings[ii].songName}</td>
-                    <td>${circleAlbums[i].ratings[ii].jordanRating}</td>
-                    <td>${circleAlbums[i].ratings[ii].nickRating}</td>
-                `;
-                    ratingTable.appendChild(row);
-                }
-
-                album.appendChild(ratingTable);
+                tierRow.appendChild(tierLevel);
+                tierRow.appendChild(grid);
+                albumContainer.appendChild(tierRow);
             }
         })
         .catch(error => console.error('Error loading JSON:', error));

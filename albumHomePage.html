@@ -88,15 +88,6 @@
         <br><br><br>
 
         <form action="albumTierList.html" method="get" onsubmit="return checkEmptyTierListSubmit()">
-            <label for="orderTierList">Order - </label>
-            <select id="orderOptionsTierList" name="orderOptionsTierList">
-                <option value="No Input Detected" style="display: none">Select An Option</option>
-                <option value="Descending">Descending</option>
-                <option value="Ascending">Ascending</option>
-            </select>
-
-            <br>
-
             <label for="whoTierList">Who - </label>
             <select id="whoOptionsTierList" name="whoOptionsTierList">
                 <option value="No Input Detected" style="display: none">Select An Option</option>
@@ -178,12 +169,7 @@
         }
 
         function checkEmptyTierListSubmit() {
-            if (document.getElementById("orderOptionsTierList").value == "No Input Detected") {
-                alert("No Option Submitted For Tier List Order Type. \nMake Sure To Select An Option.")
-                return false
-            }
-
-            else if (document.getElementById("whoOptionsTierList").value == "No Input Detected") {
+            if (document.getElementById("whoOptionsTierList").value == "No Input Detected") {
                 alert("No Option Submitted For Tier List Who Type. \nMake Sure To Select An Option.")
                 return false
             }

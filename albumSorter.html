@@ -29,6 +29,8 @@
         let parameters = new URLSearchParams(window.location.search);
         let selectedOptions = parameters.get("orderOptions") + " " + parameters.get("whoOptions") + " " + parameters.get("rankType");
 
+        let ratingRange = [parseFloat(parameters.get("rangeStart")), parseFloat(parameters.get("rangeEnd"))];
+
         let albumContainer = document.getElementById("albumContainer");
 
         fetch('all_albums.json')
