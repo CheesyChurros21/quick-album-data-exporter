@@ -1,0 +1,75 @@
+{
+  "albumTitle": "First Memory/Next Memory",
+  "circleName": "Akatsuki Records + Liz Triangle",
+  "albumPhoto": "https://en.touhouwiki.net/images/9/9a/First_Memory_Next_Memory.jpg",
+  "dateCompleted": "2021-05-14T01:55",
+  "subjectiveJordan": 9.4,
+  "subjectiveNick": 8.3,
+  "objectiveJordan": 8.75,
+  "objectiveNick": 8.42,
+  "subjectiveCombined": "8.8500",
+  "objectiveCombined": "8.5850",
+  "songAmount": 10,
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "First Memory",
+      "jordanRating": 8.625,
+      "nickRating": 8.3
+    },
+    {
+      "songNumber": 2,
+      "songName": "Next Memory",
+      "jordanRating": 8.625,
+      "nickRating": 8.3
+    },
+    {
+      "songNumber": 3,
+      "songName": "who killed U.N.Owen",
+      "jordanRating": 9,
+      "nickRating": 7.8
+    },
+    {
+      "songNumber": 4,
+      "songName": "LOVE EAST",
+      "jordanRating": 8.75,
+      "nickRating": 7.5
+    },
+    {
+      "songNumber": 5,
+      "songName": "CRYSTAL SIGN",
+      "jordanRating": 9.5,
+      "nickRating": 8.7
+    },
+    {
+      "songNumber": 6,
+      "songName": "Surprise Parasol",
+      "jordanRating": 8.25,
+      "nickRating": 9
+    },
+    {
+      "songNumber": 7,
+      "songName": "Human, Youkai and Me - a Machine",
+      "jordanRating": 9.25,
+      "nickRating": 8.1
+    },
+    {
+      "songNumber": 8,
+      "songName": "Evening Primrose",
+      "jordanRating": 8.75,
+      "nickRating": 9.5
+    },
+    {
+      "songNumber": 9,
+      "songName": "First Memory(Non connect Ver)",
+      "jordanRating": 8.5,
+      "nickRating": 8.6
+    },
+    {
+      "songNumber": 10,
+      "songName": "Next Memory(Non connect Ver)",
+      "jordanRating": 8.25,
+      "nickRating": 8.4
+    }
+  ]
+}

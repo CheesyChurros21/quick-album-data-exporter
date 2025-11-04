@@ -1,0 +1,141 @@
+{
+  "albumTitle": "Imperishable Night",
+  "circleName": "ZUN",
+  "albumPhoto": "https://en.touhouwiki.net/images/5/59/Th08cover.jpg",
+  "dateCompleted": "2021-05-20T05:37",
+  "subjectiveJordan": 9.1908,
+  "subjectiveNick": 8.8442,
+  "objectiveJordan": 9.1908,
+  "objectiveNick": 8.8442,
+  "subjectiveCombined": "9.0175",
+  "objectiveCombined": "9.0175",
+  "songAmount": 21,
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "Eternal Night Vignette ~ Eastern Nigh",
+      "jordanRating": 9,
+      "nickRating": 8.65
+    },
+    {
+      "songNumber": 2,
+      "songName": "Illusionary Night ~ Ghostly Eyes",
+      "jordanRating": 8.75,
+      "nickRating": 9.25
+    },
+    {
+      "songNumber": 3,
+      "songName": "Wriggling Autumn Moon ~ Mooned Insect",
+      "jordanRating": 8.75,
+      "nickRating": 8
+    },
+    {
+      "songNumber": 4,
+      "songName": "Song of the Night Sparrow ~ Night Bird",
+      "jordanRating": 8,
+      "nickRating": 8.25
+    },
+    {
+      "songNumber": 5,
+      "songName": "Deaf to All but the Song",
+      "jordanRating": 9.25,
+      "nickRating": 7.5
+    },
+    {
+      "songNumber": 6,
+      "songName": "Nostalgic Blood of the East ~ Old World",
+      "jordanRating": 8,
+      "nickRating": 7.4
+    },
+    {
+      "songNumber": 7,
+      "songName": "Plain Asia",
+      "jordanRating": 8.25,
+      "nickRating": 7.5
+    },
+    {
+      "songNumber": 8,
+      "songName": "Retribution for the Eternal Night ~ Imperishable Night",
+      "jordanRating": 9.25,
+      "nickRating": 8.7
+    },
+    {
+      "songNumber": 9,
+      "songName": "Maiden's Capriccio ~ Dream Battle",
+      "jordanRating": 10,
+      "nickRating": 8.8
+    },
+    {
+      "songNumber": 10,
+      "songName": "Love-Colored Master Spark",
+      "jordanRating": 10,
+      "nickRating": 8.3
+    },
+    {
+      "songNumber": 11,
+      "songName": "Cinderella Cage ~ Kagome-Kagome",
+      "jordanRating": 9.25,
+      "nickRating": 8.9
+    },
+    {
+      "songNumber": 12,
+      "songName": "Lunatic Eyes ~ Invisible Full Moon",
+      "jordanRating": 9.375,
+      "nickRating": 9.8
+    },
+    {
+      "songNumber": 13,
+      "songName": "Voyage 1969",
+      "jordanRating": 9.5,
+      "nickRating": 9.6
+    },
+    {
+      "songNumber": 14,
+      "songName": "Gensokyo Millennium ~ History of the Moon",
+      "jordanRating": 11,
+      "nickRating": 9.9999
+    },
+    {
+      "songNumber": 15,
+      "songName": "Flight of the Bamboo Cutter ~ Lunatic Princess",
+      "jordanRating": 10,
+      "nickRating": 11
+    },
+    {
+      "songNumber": 16,
+      "songName": "Voyage 1970",
+      "jordanRating": 8.5,
+      "nickRating": 9
+    },
+    {
+      "songNumber": 17,
+      "songName": "Extend Ash ~ Hourai Victim",
+      "jordanRating": 9.25,
+      "nickRating": 8.6
+    },
+    {
+      "songNumber": 18,
+      "songName": "Reach for the Moon, Immortal Smoke",
+      "jordanRating": 9.5,
+      "nickRating": 9.89
+    },
+    {
+      "songNumber": 19,
+      "songName": "Evening Primrose",
+      "jordanRating": "N/A",
+      "nickRating": "N/A"
+    },
+    {
+      "songNumber": 20,
+      "songName": "Eternal Dream ~ Mystical Maple",
+      "jordanRating": "N/A",
+      "nickRating": "N/A"
+    },
+    {
+      "songNumber": 21,
+      "songName": "Eastern Youkai Beauty",
+      "jordanRating": 9,
+      "nickRating": 8.9
+    }
+  ]
+}

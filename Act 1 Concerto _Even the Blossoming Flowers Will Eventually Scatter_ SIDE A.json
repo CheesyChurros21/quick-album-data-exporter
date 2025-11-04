@@ -1,0 +1,51 @@
+{
+  "albumTitle": "Act 1 Concerto \"Even the Blossoming Flowers Will Eventually Scatter\" SIDE A",
+  "circleName": "Yuuhei Shoujo Active NEETs",
+  "albumPhoto": "https://en.touhouwiki.net/images/thumb/e/ee/YHST-0070.jpg/1200px-YHST-0070.jpg",
+  "dateCompleted": "2021-05-31T06:21",
+  "subjectiveJordan": 9,
+  "subjectiveNick": 9.85,
+  "objectiveJordan": 8.9167,
+  "objectiveNick": 9.675,
+  "subjectiveCombined": "9.4250",
+  "objectiveCombined": "9.2959",
+  "songAmount": 6,
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "Even the Blossoming Flowers Will Eventually Scatter (Vocal Version)",
+      "jordanRating": 9.5,
+      "nickRating": 11
+    },
+    {
+      "songNumber": 2,
+      "songName": "Wandering Darkness (Orchestra Version)",
+      "jordanRating": 9,
+      "nickRating": 9.5
+    },
+    {
+      "songNumber": 3,
+      "songName": "Hidden Among These Leaves (Vocal Version)",
+      "jordanRating": 8.5,
+      "nickRating": 9.75
+    },
+    {
+      "songNumber": 4,
+      "songName": "The Universe (Orchestra Version)",
+      "jordanRating": 8.5,
+      "nickRating": 9.4
+    },
+    {
+      "songNumber": 5,
+      "songName": "The Tuning of a Saint (Vocal Version)",
+      "jordanRating": 8.5,
+      "nickRating": 8.6
+    },
+    {
+      "songNumber": 6,
+      "songName": "Opposite World (Orchestra Version)",
+      "jordanRating": 9.5,
+      "nickRating": 9.8
+    }
+  ]
+}

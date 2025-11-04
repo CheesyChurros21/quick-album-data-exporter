@@ -1,0 +1,135 @@
+{
+  "albumTitle": "Perfect Cherry Blossom",
+  "circleName": "ZUN",
+  "albumPhoto": "https://en.touhouwiki.net/images/5/52/Th07cover.jpg",
+  "dateCompleted": "2021-05-20T04:03",
+  "subjectiveJordan": 9.5,
+  "subjectiveNick": 8.6,
+  "objectiveJordan": 8.9375,
+  "objectiveNick": 8.747,
+  "subjectiveCombined": "9.0500",
+  "objectiveCombined": "8.8422",
+  "songAmount": 20,
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "Ghostly Dream ~ Snow or Cherry Petal",
+      "jordanRating": 9,
+      "nickRating": 8.7
+    },
+    {
+      "songNumber": 2,
+      "songName": "Paradise ~ Deep Mountain",
+      "jordanRating": 9,
+      "nickRating": 8.6
+    },
+    {
+      "songNumber": 3,
+      "songName": "Crystallized Silver",
+      "jordanRating": 9.625,
+      "nickRating": 8.75
+    },
+    {
+      "songNumber": 4,
+      "songName": "The Fantastic Tales from Tohno",
+      "jordanRating": 9.25,
+      "nickRating": 8.89
+    },
+    {
+      "songNumber": 5,
+      "songName": "Diao Ye Zong (withered leaf)",
+      "jordanRating": 7.5,
+      "nickRating": 7.5
+    },
+    {
+      "songNumber": 6,
+      "songName": "The Doll Maker of București",
+      "jordanRating": 8.5,
+      "nickRating": 8.6
+    },
+    {
+      "songNumber": 7,
+      "songName": "Doll Judgement ~ The Girl Who Played with People's Shapes",
+      "jordanRating": 8.5,
+      "nickRating": 9
+    },
+    {
+      "songNumber": 8,
+      "songName": "The Capital City of Flowers in the Sky",
+      "jordanRating": 9.625,
+      "nickRating": 9.6
+    },
+    {
+      "songNumber": 9,
+      "songName": "Ghostly Band ~ Phantom Ensemble",
+      "jordanRating": 9.75,
+      "nickRating": 9.6556
+    },
+    {
+      "songNumber": 10,
+      "songName": "Eastern Ghostly Dream ~ Ancient Temple",
+      "jordanRating": 8.5,
+      "nickRating": 8.5
+    },
+    {
+      "songNumber": 11,
+      "songName": "Hiroari Shoots a Strange Bird ~ Till When?",
+      "jordanRating": 8,
+      "nickRating": 8
+    },
+    {
+      "songNumber": 12,
+      "songName": "Ultimate Truth",
+      "jordanRating": 9,
+      "nickRating": 8.5
+    },
+    {
+      "songNumber": 13,
+      "songName": "Bloom Nobly, Ink-Black Cherry Blossom ~ Border of Life",
+      "jordanRating": 9.625,
+      "nickRating": 9.75
+    },
+    {
+      "songNumber": 14,
+      "songName": "Border of Life",
+      "jordanRating": 9.25,
+      "nickRating": 9.2
+    },
+    {
+      "songNumber": 15,
+      "songName": "Spiritual Domination",
+      "jordanRating": 9,
+      "nickRating": 8.7
+    },
+    {
+      "songNumber": 16,
+      "songName": "A Maiden's Illusionary Funeral ~ Necro-Fantasy",
+      "jordanRating": 9,
+      "nickRating": 8.65
+    },
+    {
+      "songNumber": 17,
+      "songName": "Spiritual Domination ~ Who done it!",
+      "jordanRating": 8.5,
+      "nickRating": 8.4
+    },
+    {
+      "songNumber": 18,
+      "songName": "Necrofantasia",
+      "jordanRating": 9.25,
+      "nickRating": 8.45
+    },
+    {
+      "songNumber": 19,
+      "songName": "Dream of a Spring Breeze",
+      "jordanRating": "N/A",
+      "nickRating": "N/A"
+    },
+    {
+      "songNumber": 20,
+      "songName": "Sakura, Sakura ~ Japanize Dream...",
+      "jordanRating": "N/A",
+      "nickRating": "N/A"
+    }
+  ]
+}

@@ -71,6 +71,7 @@
        
         let parameters = new URLSearchParams(window.location.search);
         let selectedOptions = parameters.get("whoOptionsTierList") + " " + parameters.get("rankTypeTierList");
+        let infoDisplayPreference = parameters.get("infoDisplayPreference");
 
         let albumContainer = document.getElementById("albumContainer");
 
@@ -105,15 +106,52 @@
                     const albumImage = document.createElement("img");
                     albumImage.src = tieredAlbums[i][x].albumPhoto;
 
+                    const albumInfoDisplay = document.createElement("span");
+
+                    if (infoDisplayPreference == "Hover") {
+                        albumInfoDisplay.className = "albumHoverInfo";
+                    }
+
+                    else {
+                        albumInfoDisplay.className = "albumClickInfo";
+                    }
+
+                    albumInfoDisplay.innerHTML = `
+                        <strong>${tieredAlbums[i][x].albumTitle}</strong><br><br>
+                        <strong>${tieredAlbums[i][x].circleName}</strong><br><br>
+                        Subjective Jordan Rating - ${tieredAlbums[i][x].subjectiveJordan}/10<br>
+                        Subjective Nick Rating - ${tieredAlbums[i][x].subjectiveNick}/10<br><br>
+                        Objective Jordan Rating - ${tieredAlbums[i][x].objectiveJordan}/10<br>
+                        Objective Nick Rating - ${tieredAlbums[i][x].objectiveNick}/10<br><br>
+                        Combined Objective Rating - ${tieredAlbums[i][x].objectiveCombined}/10<br>
+                        Combined Subjective Rating - ${tieredAlbums[i][x].subjectiveCombined}/10<br><br>
+                        Number Of Songs - ${tieredAlbums[i][x].songAmount}<br>
+                    `;
+
                     album.appendChild(albumImage);
+                    album.appendChild(albumInfoDisplay);
                     grid.appendChild(album);
+
+
                 }
 
                 tierRow.appendChild(tierLevel);
                 tierRow.appendChild(grid);
                 albumContainer.appendChild(tierRow);
             }
+
+            if (infoDisplayPreference == "Click") {
+                document.querySelectorAll('.albumCard').forEach(card => {
+                    const tooltip = card.querySelector('.albumClickInfo');
+
+                    card.addEventListener('click', () => {
+                        tooltip.style.display = (tooltip.style.display === 'block') ? 'none' : 'block';
+                    });
+                });
+            }
         })
+
         .catch(error => console.error('Error loading JSON:', error));
+
     </script>
 </html>

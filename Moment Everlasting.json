@@ -1,0 +1,69 @@
+{
+  "albumTitle": "Moment Everlasting",
+  "circleName": "Yuuhei Satellite",
+  "albumPhoto": "https://en.touhouwiki.net/images/1/15/YHST-0075.jpg",
+  "dateCompleted": "2021-05-14T03:27",
+  "subjectiveJordan": 8.2,
+  "subjectiveNick": 8.55,
+  "objectiveJordan": 8.5417,
+  "objectiveNick": 8.6056,
+  "subjectiveCombined": "8.3750",
+  "objectiveCombined": "8.5737",
+  "songAmount": 9,
+  "ratings": [
+    {
+      "songNumber": 1,
+      "songName": "First Memory",
+      "jordanRating": 7.75,
+      "nickRating": 7.6
+    },
+    {
+      "songNumber": 2,
+      "songName": "Next Memory",
+      "jordanRating": 8,
+      "nickRating": 7.9
+    },
+    {
+      "songNumber": 3,
+      "songName": "who killed U.N.Owen",
+      "jordanRating": 8.25,
+      "nickRating": 8.3
+    },
+    {
+      "songNumber": 4,
+      "songName": "LOVE EAST",
+      "jordanRating": 8.5,
+      "nickRating": 8.5
+    },
+    {
+      "songNumber": 5,
+      "songName": "CRYSTAL SIGN",
+      "jordanRating": 8.75,
+      "nickRating": 8.7
+    },
+    {
+      "songNumber": 6,
+      "songName": "Surprise Parasol",
+      "jordanRating": 8.875,
+      "nickRating": 8.75
+    },
+    {
+      "songNumber": 7,
+      "songName": "Human, Youkai and Me - a Machine",
+      "jordanRating": 9,
+      "nickRating": 8.9
+    },
+    {
+      "songNumber": 8,
+      "songName": "Evening Primrose",
+      "jordanRating": 9.25,
+      "nickRating": 9.2
+    },
+    {
+      "songNumber": 9,
+      "songName": "First Memory(Non connect Ver)",
+      "jordanRating": 8.5,
+      "nickRating": 9.6
+    }
+  ]
+}

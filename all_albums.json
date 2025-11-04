@@ -1663,5 +1663,476 @@
         "nickRating": 8.6
       }
     ]
+  },
+  {
+    "albumTitle": "First Memory/Next Memory",
+    "circleName": "Akatsuki Records + Liz Triangle",
+    "albumPhoto": "https://en.touhouwiki.net/images/9/9a/First_Memory_Next_Memory.jpg",
+    "dateCompleted": "2021-05-14T01:55",
+    "subjectiveJordan": 9.4,
+    "subjectiveNick": 8.3,
+    "objectiveJordan": 8.75,
+    "objectiveNick": 8.42,
+    "subjectiveCombined": "8.8500",
+    "objectiveCombined": "8.5850",
+    "songAmount": 10,
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "First Memory",
+        "jordanRating": 8.625,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 2,
+        "songName": "Next Memory",
+        "jordanRating": 8.625,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 3,
+        "songName": "who killed U.N.Owen",
+        "jordanRating": 9,
+        "nickRating": 7.8
+      },
+      {
+        "songNumber": 4,
+        "songName": "LOVE EAST",
+        "jordanRating": 8.75,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 5,
+        "songName": "CRYSTAL SIGN",
+        "jordanRating": 9.5,
+        "nickRating": 8.7
+      },
+      {
+        "songNumber": 6,
+        "songName": "Surprise Parasol",
+        "jordanRating": 8.25,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 7,
+        "songName": "Human, Youkai and Me - a Machine",
+        "jordanRating": 9.25,
+        "nickRating": 8.1
+      },
+      {
+        "songNumber": 8,
+        "songName": "Evening Primrose",
+        "jordanRating": 8.75,
+        "nickRating": 9.5
+      },
+      {
+        "songNumber": 9,
+        "songName": "First Memory(Non connect Ver)",
+        "jordanRating": 8.5,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 10,
+        "songName": "Next Memory(Non connect Ver)",
+        "jordanRating": 8.25,
+        "nickRating": 8.4
+      }
+    ]
+  },
+  {
+    "albumTitle": "Moment Everlasting",
+    "circleName": "Yuuhei Satellite",
+    "albumPhoto": "https://en.touhouwiki.net/images/1/15/YHST-0075.jpg",
+    "dateCompleted": "2021-05-14T03:27",
+    "subjectiveJordan": 8.2,
+    "subjectiveNick": 8.55,
+    "objectiveJordan": 8.5417,
+    "objectiveNick": 8.6056,
+    "subjectiveCombined": "8.3750",
+    "objectiveCombined": "8.5737",
+    "songAmount": 9,
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "First Memory",
+        "jordanRating": 7.75,
+        "nickRating": 7.6
+      },
+      {
+        "songNumber": 2,
+        "songName": "Next Memory",
+        "jordanRating": 8,
+        "nickRating": 7.9
+      },
+      {
+        "songNumber": 3,
+        "songName": "who killed U.N.Owen",
+        "jordanRating": 8.25,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 4,
+        "songName": "LOVE EAST",
+        "jordanRating": 8.5,
+        "nickRating": 8.5
+      },
+      {
+        "songNumber": 5,
+        "songName": "CRYSTAL SIGN",
+        "jordanRating": 8.75,
+        "nickRating": 8.7
+      },
+      {
+        "songNumber": 6,
+        "songName": "Surprise Parasol",
+        "jordanRating": 8.875,
+        "nickRating": 8.75
+      },
+      {
+        "songNumber": 7,
+        "songName": "Human, Youkai and Me - a Machine",
+        "jordanRating": 9,
+        "nickRating": 8.9
+      },
+      {
+        "songNumber": 8,
+        "songName": "Evening Primrose",
+        "jordanRating": 9.25,
+        "nickRating": 9.2
+      },
+      {
+        "songNumber": 9,
+        "songName": "First Memory(Non connect Ver)",
+        "jordanRating": 8.5,
+        "nickRating": 9.6
+      }
+    ]
+  },
+  {
+    "albumTitle": "Perfect Cherry Blossom",
+    "circleName": "ZUN",
+    "albumPhoto": "https://en.touhouwiki.net/images/5/52/Th07cover.jpg",
+    "dateCompleted": "2021-05-20T04:03",
+    "subjectiveJordan": 9.5,
+    "subjectiveNick": 8.6,
+    "objectiveJordan": 8.9375,
+    "objectiveNick": 8.747,
+    "subjectiveCombined": "9.0500",
+    "objectiveCombined": "8.8422",
+    "songAmount": 20,
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Ghostly Dream ~ Snow or Cherry Petal",
+        "jordanRating": 9,
+        "nickRating": 8.7
+      },
+      {
+        "songNumber": 2,
+        "songName": "Paradise ~ Deep Mountain",
+        "jordanRating": 9,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 3,
+        "songName": "Crystallized Silver",
+        "jordanRating": 9.625,
+        "nickRating": 8.75
+      },
+      {
+        "songNumber": 4,
+        "songName": "The Fantastic Tales from Tohno",
+        "jordanRating": 9.25,
+        "nickRating": 8.89
+      },
+      {
+        "songNumber": 5,
+        "songName": "Diao Ye Zong (withered leaf)",
+        "jordanRating": 7.5,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 6,
+        "songName": "The Doll Maker of București",
+        "jordanRating": 8.5,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 7,
+        "songName": "Doll Judgement ~ The Girl Who Played with People's Shapes",
+        "jordanRating": 8.5,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 8,
+        "songName": "The Capital City of Flowers in the Sky",
+        "jordanRating": 9.625,
+        "nickRating": 9.6
+      },
+      {
+        "songNumber": 9,
+        "songName": "Ghostly Band ~ Phantom Ensemble",
+        "jordanRating": 9.75,
+        "nickRating": 9.6556
+      },
+      {
+        "songNumber": 10,
+        "songName": "Eastern Ghostly Dream ~ Ancient Temple",
+        "jordanRating": 8.5,
+        "nickRating": 8.5
+      },
+      {
+        "songNumber": 11,
+        "songName": "Hiroari Shoots a Strange Bird ~ Till When?",
+        "jordanRating": 8,
+        "nickRating": 8
+      },
+      {
+        "songNumber": 12,
+        "songName": "Ultimate Truth",
+        "jordanRating": 9,
+        "nickRating": 8.5
+      },
+      {
+        "songNumber": 13,
+        "songName": "Bloom Nobly, Ink-Black Cherry Blossom ~ Border of Life",
+        "jordanRating": 9.625,
+        "nickRating": 9.75
+      },
+      {
+        "songNumber": 14,
+        "songName": "Border of Life",
+        "jordanRating": 9.25,
+        "nickRating": 9.2
+      },
+      {
+        "songNumber": 15,
+        "songName": "Spiritual Domination",
+        "jordanRating": 9,
+        "nickRating": 8.7
+      },
+      {
+        "songNumber": 16,
+        "songName": "A Maiden's Illusionary Funeral ~ Necro-Fantasy",
+        "jordanRating": 9,
+        "nickRating": 8.65
+      },
+      {
+        "songNumber": 17,
+        "songName": "Spiritual Domination ~ Who done it!",
+        "jordanRating": 8.5,
+        "nickRating": 8.4
+      },
+      {
+        "songNumber": 18,
+        "songName": "Necrofantasia",
+        "jordanRating": 9.25,
+        "nickRating": 8.45
+      },
+      {
+        "songNumber": 19,
+        "songName": "Dream of a Spring Breeze",
+        "jordanRating": "N/A",
+        "nickRating": "N/A"
+      },
+      {
+        "songNumber": 20,
+        "songName": "Sakura, Sakura ~ Japanize Dream...",
+        "jordanRating": "N/A",
+        "nickRating": "N/A"
+      }
+    ]
+  },
+  {
+    "albumTitle": "Imperishable Night",
+    "circleName": "ZUN",
+    "albumPhoto": "https://en.touhouwiki.net/images/5/59/Th08cover.jpg",
+    "dateCompleted": "2021-05-20T05:37",
+    "subjectiveJordan": 9.1908,
+    "subjectiveNick": 8.8442,
+    "objectiveJordan": 9.1908,
+    "objectiveNick": 8.8442,
+    "subjectiveCombined": "9.0175",
+    "objectiveCombined": "9.0175",
+    "songAmount": 21,
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Eternal Night Vignette ~ Eastern Nigh",
+        "jordanRating": 9,
+        "nickRating": 8.65
+      },
+      {
+        "songNumber": 2,
+        "songName": "Illusionary Night ~ Ghostly Eyes",
+        "jordanRating": 8.75,
+        "nickRating": 9.25
+      },
+      {
+        "songNumber": 3,
+        "songName": "Wriggling Autumn Moon ~ Mooned Insect",
+        "jordanRating": 8.75,
+        "nickRating": 8
+      },
+      {
+        "songNumber": 4,
+        "songName": "Song of the Night Sparrow ~ Night Bird",
+        "jordanRating": 8,
+        "nickRating": 8.25
+      },
+      {
+        "songNumber": 5,
+        "songName": "Deaf to All but the Song",
+        "jordanRating": 9.25,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 6,
+        "songName": "Nostalgic Blood of the East ~ Old World",
+        "jordanRating": 8,
+        "nickRating": 7.4
+      },
+      {
+        "songNumber": 7,
+        "songName": "Plain Asia",
+        "jordanRating": 8.25,
+        "nickRating": 7.5
+      },
+      {
+        "songNumber": 8,
+        "songName": "Retribution for the Eternal Night ~ Imperishable Night",
+        "jordanRating": 9.25,
+        "nickRating": 8.7
+      },
+      {
+        "songNumber": 9,
+        "songName": "Maiden's Capriccio ~ Dream Battle",
+        "jordanRating": 10,
+        "nickRating": 8.8
+      },
+      {
+        "songNumber": 10,
+        "songName": "Love-Colored Master Spark",
+        "jordanRating": 10,
+        "nickRating": 8.3
+      },
+      {
+        "songNumber": 11,
+        "songName": "Cinderella Cage ~ Kagome-Kagome",
+        "jordanRating": 9.25,
+        "nickRating": 8.9
+      },
+      {
+        "songNumber": 12,
+        "songName": "Lunatic Eyes ~ Invisible Full Moon",
+        "jordanRating": 9.375,
+        "nickRating": 9.8
+      },
+      {
+        "songNumber": 13,
+        "songName": "Voyage 1969",
+        "jordanRating": 9.5,
+        "nickRating": 9.6
+      },
+      {
+        "songNumber": 14,
+        "songName": "Gensokyo Millennium ~ History of the Moon",
+        "jordanRating": 11,
+        "nickRating": 9.9999
+      },
+      {
+        "songNumber": 15,
+        "songName": "Flight of the Bamboo Cutter ~ Lunatic Princess",
+        "jordanRating": 10,
+        "nickRating": 11
+      },
+      {
+        "songNumber": 16,
+        "songName": "Voyage 1970",
+        "jordanRating": 8.5,
+        "nickRating": 9
+      },
+      {
+        "songNumber": 17,
+        "songName": "Extend Ash ~ Hourai Victim",
+        "jordanRating": 9.25,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 18,
+        "songName": "Reach for the Moon, Immortal Smoke",
+        "jordanRating": 9.5,
+        "nickRating": 9.89
+      },
+      {
+        "songNumber": 19,
+        "songName": "Evening Primrose",
+        "jordanRating": "N/A",
+        "nickRating": "N/A"
+      },
+      {
+        "songNumber": 20,
+        "songName": "Eternal Dream ~ Mystical Maple",
+        "jordanRating": "N/A",
+        "nickRating": "N/A"
+      },
+      {
+        "songNumber": 21,
+        "songName": "Eastern Youkai Beauty",
+        "jordanRating": 9,
+        "nickRating": 8.9
+      }
+    ]
+  },
+  {
+    "albumTitle": "Act 1 Concerto \"Even the Blossoming Flowers Will Eventually Scatter\" SIDE A",
+    "circleName": "Yuuhei Shoujo Active NEETs",
+    "albumPhoto": "https://en.touhouwiki.net/images/thumb/e/ee/YHST-0070.jpg/1200px-YHST-0070.jpg",
+    "dateCompleted": "2021-05-31T06:21",
+    "subjectiveJordan": 9,
+    "subjectiveNick": 9.85,
+    "objectiveJordan": 8.9167,
+    "objectiveNick": 9.675,
+    "subjectiveCombined": "9.4250",
+    "objectiveCombined": "9.2959",
+    "songAmount": 6,
+    "ratings": [
+      {
+        "songNumber": 1,
+        "songName": "Even the Blossoming Flowers Will Eventually Scatter (Vocal Version)",
+        "jordanRating": 9.5,
+        "nickRating": 11
+      },
+      {
+        "songNumber": 2,
+        "songName": "Wandering Darkness (Orchestra Version)",
+        "jordanRating": 9,
+        "nickRating": 9.5
+      },
+      {
+        "songNumber": 3,
+        "songName": "Hidden Among These Leaves (Vocal Version)",
+        "jordanRating": 8.5,
+        "nickRating": 9.75
+      },
+      {
+        "songNumber": 4,
+        "songName": "The Universe (Orchestra Version)",
+        "jordanRating": 8.5,
+        "nickRating": 9.4
+      },
+      {
+        "songNumber": 5,
+        "songName": "The Tuning of a Saint (Vocal Version)",
+        "jordanRating": 8.5,
+        "nickRating": 8.6
+      },
+      {
+        "songNumber": 6,
+        "songName": "Opposite World (Orchestra Version)",
+        "jordanRating": 9.5,
+        "nickRating": 9.8
+      }
+    ]
   }
 ]
