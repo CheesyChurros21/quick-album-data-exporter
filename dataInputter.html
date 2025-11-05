@@ -16,6 +16,17 @@
 
     <body style="text-align: center;">
         <form>
+            <label for="isRerank">Is Rerank? </label>
+            <input type="checkbox" id="albumRerank" name="albumRerank">
+        </form>
+
+        <select id="albumDropdown" name="albumDropdown" style="visibility: hidden;">
+            <option value="None">None</option>
+        </select>
+
+        <br><br><br>
+
+        <form>
             <label for="albumTitle">Album Title - </label>
             <input type="text" id="albumTitle" name="albumTitle" >
             <br>
@@ -239,9 +250,28 @@
 
                 }
 
-                let objectiveJordan = songAmount > 0 ? (jordanTotal / (songAmount - jordanUnavailableSongTotal)).toFixed(4) : "N/A";
-                let objectiveNick = songAmount > 0 ? (nickTotal / (songAmount - nickUnavailableSongTotal)).toFixed(4) : "N/A";
+                let objectiveJordan = songAmount > 0 ? parseFloat((jordanTotal / (songAmount - jordanUnavailableSongTotal)).toFixed(4)) : "N/A";
+                let objectiveNick = songAmount > 0 ? parseFloat((nickTotal / (songAmount - nickUnavailableSongTotal)).toFixed(4)) : "N/A";
 
+
+                let objectiveCombined;
+                let subjectiveCombined;
+
+                if (objectiveJordan !== "N/A" && objectiveNick !== "N/A") {
+                    objectiveCombined = ((parseFloat(objectiveJordan) + parseFloat(objectiveNick)) / 2).toFixed(4);
+                } 
+                
+                else {
+                    objectiveCombined = "N/A";
+                }
+
+                if (subjectiveJordan !== "N/A" && subjectiveNick !== "N/A") {
+                    subjectiveCombined = ((parseFloat(subjectiveJordan) + parseFloat(subjectiveNick)) / 2).toFixed(4);
+                } 
+                
+                else {
+                    subjectiveCombined = "N/A";
+                }
 
                 const albumData = {
                     albumTitle,
@@ -250,9 +280,11 @@
                     dateCompleted,
                     subjectiveJordan,
                     subjectiveNick,
-                    songAmount,
                     objectiveJordan,
                     objectiveNick,
+                    subjectiveCombined,
+                    objectiveCombined,
+                    songAmount,
                     ratings
                 };
 
@@ -266,5 +298,67 @@
 
             } 
         })
+
+        const rerankCheckbox = document.getElementById("albumRerank");
+
+        let albums = [];
+        let albumDropdown = document.getElementById("albumDropdown");
+
+        fetch('all_albums.json')
+        .then(response => response.json())
+        .then(data => {
+            const uniqueMap = new Map();
+            data.forEach(entry => {
+                const lower = entry.albumTitle.toLowerCase();
+                if (!uniqueMap.has(lower)) {
+                    uniqueMap.set(lower, entry);
+                }
+            })
+
+            albums = Array.from(uniqueMap.values());
+
+            albums.sort((a, b) => a.albumTitle.localeCompare(b.albumTitle, "en", {"sensitivity" : "base"}))
+
+            for (let i = 0; i < albums.length; i = i + 1) {
+                let album = document.createElement("option");
+                album.value = albums[i].albumTitle;
+                album.textContent = albums[i].albumTitle;
+                albumDropdown.appendChild(album);
+            }
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+
+        rerankCheckbox.addEventListener("change", () => {
+            if (rerankCheckbox.checked) {
+                albumDropdown.style.visibility = "visible";
+            }
+
+            else {
+                albumDropdown.style.visibility = "hidden";
+            }
+        })
+
+    albumDropdown.addEventListener("change", () => {
+    const selectedTitle = albumDropdown.value.toLowerCase();
+    const selectedAlbum = albums.find(entry => entry.albumTitle.toLowerCase() === selectedTitle);
+
+    if (selectedAlbum) {
+        // Fill basic fields
+        document.getElementById("albumTitle").value = selectedAlbum.albumTitle;
+        document.getElementById("circleName").value = selectedAlbum.circleName;
+        document.getElementById("albumPhoto").value = selectedAlbum.albumPhoto;
+        document.getElementById("songAmount").value = selectedAlbum.songAmount;
+
+        // Trigger songAmount input event to generate rating fields
+        songAmount.dispatchEvent(new Event("input"));
+
+        // Wait a moment for fields to render, then populate them
+        setTimeout(() => {
+            selectedAlbum.ratings.forEach((rating, i) => {
+                document.querySelector(`input[name='songName${i + 1}']`).value = rating.songName;
+            });
+        }, 50); // Slight delay to ensure fields are rendered
+    }
+});
     </script>
 </html>
