@@ -203,8 +203,8 @@
             const circleName = document.getElementById("circleName").value.trim();
             const albumPhoto = document.getElementById("albumPhoto").value.trim();
             const dateCompleted = document.getElementById("dateCompleted").value;
-            const subjectiveJordan = parseFloat(document.getElementById("subjectiveJordan").value) || 0;
-            const subjectiveNick = parseFloat(document.getElementById("subjectiveNick").value) || 0;
+            let subjectiveJordan = parseFloat(document.getElementById("subjectiveJordan").value) || -1;
+            let subjectiveNick = parseFloat(document.getElementById("subjectiveNick").value) || -1;
             const songAmount = parseInt(document.getElementById("songAmount").value);
             const songNames = document.querySelectorAll("input[name^='songName']");
             const jordanRatings = document.querySelectorAll("input[name^='jordanRating']");
@@ -265,12 +265,20 @@
                     objectiveCombined = "N/A";
                 }
 
-                if (subjectiveJordan !== "N/A" && subjectiveNick !== "N/A") {
+                if (subjectiveJordan >= 0 && subjectiveNick >= 0) {
                     subjectiveCombined = ((parseFloat(subjectiveJordan) + parseFloat(subjectiveNick)) / 2).toFixed(4);
                 } 
                 
                 else {
-                    subjectiveCombined = "N/A";
+                    if (subjectiveJordan < 0) {
+                        subjectiveJordan = objectiveJordan;
+                    }
+
+                    if (subjectiveNick < 0) {
+                        subjectiveNick = objectiveNick;
+                    }
+
+                    subjectiveCombined = ((parseFloat(subjectiveJordan) + parseFloat(subjectiveNick)) / 2).toFixed(4);
                 }
 
                 const albumData = {
